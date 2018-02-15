@@ -178,6 +178,13 @@
     <Compile Include="ViewModels\AccountViewModels.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\548253140x140.png" />
+    <Content Include="Content\581167500x500.png" />
+    <Content Include="Content\abdur-razzak500x500.png" />
+    <Content Include="Content\gallery500x500.png" />
+    <Content Include="Content\resizedimage.php.png" />
+    <Content Include="Content\scholarship140x140.png" />
+    <Content Include="Content\university140x140.png" />
     <Content Include="css\bootstrap-theme.css" />
     <Content Include="css\bootstrap-theme.min.css" />
     <Content Include="css\bootstrap.css" />
