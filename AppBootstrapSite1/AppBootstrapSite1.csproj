@@ -185,6 +185,8 @@
     <Content Include="Content\bb900x500.jpg" />
     <Content Include="Content\dd900x500.jpg" />
     <Content Include="Content\gallery500x500.png" />
+    <Content Include="Content\picture140x140.png" />
+    <Content Include="Content\picture500x500.png" />
     <Content Include="Content\resizedimage.php.png" />
     <Content Include="Content\scholarship140x140.png" />
     <Content Include="Content\university140x140.png" />
