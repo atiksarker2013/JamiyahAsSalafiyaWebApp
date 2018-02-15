@@ -79,6 +79,24 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string GalleryDetails {
+            get {
+                return ResourceManager.GetString("GalleryDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Gallery.
+        /// </summary>
+        public static string GalleryHeading {
+            get {
+                return ResourceManager.GetString("GalleryHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Studying in the light of its own syllabus determined in the form of advanced syllabus of local and foreign institutions.
         ///Directed by a handful of skilled, experienced, hardworking and dedicated teachers from various universities and universities of the country and abroad.
         ///If you are resident then always supervised by the teachers.

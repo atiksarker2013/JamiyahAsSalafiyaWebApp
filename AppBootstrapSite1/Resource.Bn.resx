@@ -123,6 +123,12 @@
   <data name="AdmissionSubtitle" xml:space="preserve">
     <value />
   </data>
+  <data name="GalleryDetails" xml:space="preserve">
+    <value />
+  </data>
+  <data name="GalleryHeading" xml:space="preserve">
+    <value>গ্যালারী</value>
+  </data>
   <data name="JamiyahLifeDetails" xml:space="preserve">
     <value>দেশি-বিদেশি প্রতিষ্ঠান সমূহের উন্নত সিলেবাসের সমণ্বয়ে প্রণীত নির্ধারিত নিজস্ব সিলেবাসের আলোকে পাঠদান ।
 দেশ ও বিদেশের বিভিন্ন বিশ্ববিদ্যালয়ের ডিগ্রীপ্রাপ্ত একদল দক্ষ, অভিজ্ঞ, পরিশ্রমী ও নিবেদিত শিক্ষকমন্ডলী দ্বারা পরিচালিত ।

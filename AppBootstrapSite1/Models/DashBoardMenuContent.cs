@@ -104,5 +104,19 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "GalleryHeading", ResourceType = typeof(Resource))]
+        public string GalleryHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "GalleryDetails", ResourceType = typeof(Resource))]
+        public string GalleryDetails
+        {
+            get;
+            set;
+        }
+
     }
 }
