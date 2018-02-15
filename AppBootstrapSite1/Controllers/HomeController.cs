@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppBootstrapSite1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,10 +7,12 @@ using System.Web.Mvc;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public ActionResult Index()
         {
+            //DashBoardMenuContent model = new DashBoardMenuContent();
+            //model.OurMadrashaHeading = "";
             ViewBag.Title = "Jamiah As Salafiyah";
             return View();
         }
