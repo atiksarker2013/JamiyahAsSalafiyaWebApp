@@ -28,5 +28,66 @@ namespace AppBootstrapSite1.Models
             get;
             set;
         }
+
+
+        [Display(Name = "AdmissionHeading", ResourceType = typeof(Resource))]
+        public string AdmissionHeading
+        {
+            get;
+            set;
+        }
+
+
+        [Display(Name = "AdmissionSubtitle", ResourceType = typeof(Resource))]
+        public string AdmissionSubtitle
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionDetails", ResourceType = typeof(Resource))]
+        public string AdmissionDetails
+        {
+            get;
+            set;
+        }
+
+
+        [Display(Name = "NoticeHeading", ResourceType = typeof(Resource))]
+        public string NoticeHeading
+        {
+            get;
+            set;
+        }
+
+
+        [Display(Name = "NoticeSubtitle", ResourceType = typeof(Resource))]
+        public string NoticeSubtitle
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NoticeDetails", ResourceType = typeof(Resource))]
+        public string NoticeDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "WelcomeDetails", ResourceType = typeof(Resource))]
+        public string WelcomeDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "WelcomeHeading", ResourceType = typeof(Resource))]
+        public string WelcomeHeading
+        {
+            get;
+            set;
+        }
+
     }
 }

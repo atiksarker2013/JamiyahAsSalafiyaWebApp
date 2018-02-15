@@ -117,6 +117,21 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AdmissionHeading" xml:space="preserve">
+    <value>Admission</value>
+  </data>
+  <data name="AdmissionSubtitle" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoticeDetails" xml:space="preserve">
+    <value />
+  </data>
+  <data name="NoticeHeading" xml:space="preserve">
+    <value>Notice</value>
+  </data>
+  <data name="NoticeSubtitle" xml:space="preserve">
+    <value />
+  </data>
   <data name="OurMadrashaDetails" xml:space="preserve">
     <value />
   </data>
@@ -125,5 +140,24 @@
   </data>
   <data name="OurMadrashaSubtitle" xml:space="preserve">
     <value>'Shaykh Abdur Razzaq bin Yusuf' 'To spread the teachings of Quran and Saheeh hadeeth on the soil of Bangladesh on 24th August 2013, in the Rupganj, Narayanganj, and in February 2016, in Rajshahi,' Al-Jami'ah as-Salafiyah ', two simultaneous standard Islamic  'Shaykh Abdur Razzaq bin Yusuf' 'To spread the teachings of Quran and Saheeh hadeeth on the soil of Bangladesh on 24th August 2013, in the Rupganj, Narayanganj, and in February 2016, in Rajshahi,' Al-Jami'ah as-Salafiyah ', two simultaneous standard Islamic teachings The organization was established. Falilahil Hamd</value>
+  </data>
+  <data name="WelcomeDetails" xml:space="preserve">
+    <value>As Salamu Alaikum Praise be to Allah alone. Darud and Salam should be distributed to the Prophet (ﷺ). The first commandment of Allah is "read". Welcome to our official web site.
+
+Honorable readers!
+You are aware that since August 2013, Shaykh Abdur Razzaq bin Yusuf has managed to establish Al-Jami'ah as Salafiyyah for the purpose of preparing algebraic scholars in harmony with the Holy Quran and Chhih Hadeeth as well as modern education.
+Within a year of the establishment of Jami'ah Salafiyah, with the help of the great God, we have been able to construct residential buildings of three-storeyed students, which have 10 rooms with 18/20 feet below the floor. And 4 rooms of 15/20 feet brick walls have been built for the students. Falilahil Hamd At present, there are 118 students, 10 teachers, four employees and 31 students, 5 teachers and 1 staff in the department of students in this organization. In the first year of his establishment, Jami'ah Salafiah achieved the 100% A Plus success in the closing examination of the 5th grade in 2014. Presently Darshan Bukhari open to everyone in this organization is being held regularly for every month. Falilahil Hamd
+Current cost: For your reference, it is being informed that at present, the salary and salary of teachers and employees is Rs 1,468,000 per month. And the cost of eating some poor boys, including eight orphans, costs around 60,000 rupees per month.
+Future plan:
+It is very important to take some of our work steps for the organization's needs. That's why we want to put things in a hurry,
+A 1-5-storey residential residential building. The cost of construction of 1st floor is approximately 40 lakhs.
+2- Construction of residential building of a 5th floor building with two units.
+3- Construction of a 5-storey mosque with nine thousand square feet. The construction of the first floor will cost around one and a half million.
+4- Establishment of a quality libraries and laboratories.
+
+Expand your donation arm like this in the past to reach its target educational institution. InshaAllah Allah will give you a better reward.</value>
+  </data>
+  <data name="WelcomeHeading" xml:space="preserve">
+    <value>Welcome Message</value>
   </data>
 </root>

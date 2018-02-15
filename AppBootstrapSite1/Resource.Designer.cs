@@ -61,6 +61,51 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Admission.
+        /// </summary>
+        public static string AdmissionHeading {
+            get {
+                return ResourceManager.GetString("AdmissionHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string AdmissionSubtitle {
+            get {
+                return ResourceManager.GetString("AdmissionSubtitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string NoticeDetails {
+            get {
+                return ResourceManager.GetString("NoticeDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Notice.
+        /// </summary>
+        public static string NoticeHeading {
+            get {
+                return ResourceManager.GetString("NoticeHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string NoticeSubtitle {
+            get {
+                return ResourceManager.GetString("NoticeSubtitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string OurMadrashaDetails {
@@ -84,6 +129,28 @@ namespace AppBootstrapSite1 {
         public static string OurMadrashaSubtitle {
             get {
                 return ResourceManager.GetString("OurMadrashaSubtitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to As Salamu Alaikum Praise be to Allah alone. Darud and Salam should be distributed to the Prophet (ﷺ). The first commandment of Allah is &quot;read&quot;. Welcome to our official web site.
+        ///
+        ///Honorable readers!
+        ///You are aware that since August 2013, Shaykh Abdur Razzaq bin Yusuf has managed to establish Al-Jami&apos;ah as Salafiyyah for the purpose of preparing algebraic scholars in harmony with the Holy Quran and Chhih Hadeeth as well as modern education.
+        ///Within a year of the establishment of Jami&apos;ah Salafiyah, with the  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string WelcomeDetails {
+            get {
+                return ResourceManager.GetString("WelcomeDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Welcome Message.
+        /// </summary>
+        public static string WelcomeHeading {
+            get {
+                return ResourceManager.GetString("WelcomeHeading", resourceCulture);
             }
         }
     }
