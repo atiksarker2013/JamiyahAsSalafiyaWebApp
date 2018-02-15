@@ -11,10 +11,10 @@ namespace AppBootstrapSite1.Controllers
     {
         public ActionResult Index()
         {
-            //DashBoardMenuContent model = new DashBoardMenuContent();
+             DashBoardMenuContent model = new DashBoardMenuContent();
             //model.OurMadrashaHeading = "";
             ViewBag.Title = "Jamiah As Salafiyah";
-            return View();
+            return View(model);
         }
 
         public ActionResult ChangeLanguage(string lang)

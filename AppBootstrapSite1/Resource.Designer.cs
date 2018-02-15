@@ -68,5 +68,14 @@ namespace AppBootstrapSite1 {
                 return ResourceManager.GetString("OurMadrashaHeading", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &apos;Shaykh Abdur Razzaq bin Yusuf&apos; &apos;To spread the teachings of Quran and Saheeh hadeeth on the soil of Bangladesh on 24th August 2013, in the Rupganj, Narayanganj, and in February 2016, in Rajshahi,&apos; Al-Jami&apos;ah as-Salafiyah &apos;, two simultaneous standard Islamic  &apos;Shaykh Abdur Razzaq bin Yusuf&apos; &apos;To spread the teachings of Quran and Saheeh hadeeth on the soil of Bangladesh on 24th August 2013, in the Rupganj, Narayanganj, and in February 2016, in Rajshahi,&apos; Al-Jami&apos;ah as-Salafiyah &apos;, two simultaneous standard Isl [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string OurMadrashaSubtitle {
+            get {
+                return ResourceManager.GetString("OurMadrashaSubtitle", resourceCulture);
+            }
+        }
     }
 }
