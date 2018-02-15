@@ -89,5 +89,20 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+
+        [Display(Name = "JamiyahLifeHeading", ResourceType = typeof(Resource))]
+        public string JamiyahLifeHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "JamiyahLifeDetails", ResourceType = typeof(Resource))]
+        public string JamiyahLifeDetails
+        {
+            get;
+            set;
+        }
+
     }
 }

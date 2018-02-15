@@ -79,6 +79,28 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Studying in the light of its own syllabus determined in the form of advanced syllabus of local and foreign institutions.
+        ///Directed by a handful of skilled, experienced, hardworking and dedicated teachers from various universities and universities of the country and abroad.
+        ///If you are resident then always supervised by the teachers.
+        ///A daily meal of 3 &apos;daily&apos; food as well as vegetarian and vegetarian food.
+        ///Along with attaining full proficiency in Arabic and English language, there is also a chance to gain  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string JamiyahLifeDetails {
+            get {
+                return ResourceManager.GetString("JamiyahLifeDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Madrasa Characteristics.
+        /// </summary>
+        public static string JamiyahLifeHeading {
+            get {
+                return ResourceManager.GetString("JamiyahLifeHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string NoticeDetails {
