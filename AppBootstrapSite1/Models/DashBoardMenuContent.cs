@@ -21,5 +21,12 @@ namespace AppBootstrapSite1.Models
             get;
             set;
         }
+
+        [Display(Name = "OurMadrashaDetails", ResourceType = typeof(Resource))]
+        public string OurMadrashaDetails
+        {
+            get;
+            set;
+        }
     }
 }

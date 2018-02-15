@@ -61,6 +61,15 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string OurMadrashaDetails {
+            get {
+                return ResourceManager.GetString("OurMadrashaDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Our Madrasha.
         /// </summary>
         public static string OurMadrashaHeading {
