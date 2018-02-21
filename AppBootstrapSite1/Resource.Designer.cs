@@ -119,6 +119,28 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Studying in the light of its own syllabus determined in the form of advanced syllabus of local and foreign institutions.
+        ///Directed by a handful of skilled, experienced, hardworking and dedicated teachers from various universities and universities of the country and abroad.
+        ///If you are resident then always supervised by the teachers.
+        ///A daily meal of 3 &apos;daily&apos; food as well as vegetarian and vegetarian food.
+        ///Along with attaining full proficiency in Arabic and English language, there is also a chance to gain  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string MadrashaCharacteristics {
+            get {
+                return ResourceManager.GetString("MadrashaCharacteristics", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Madrasa Characteristics.
+        /// </summary>
+        public static string MadrashaCharacteristicsHeading {
+            get {
+                return ResourceManager.GetString("MadrashaCharacteristicsHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string NoticeDetails {
@@ -146,6 +168,15 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &apos;Shaykh Abdur Razzaq bin Yusuf&apos; &apos;To spread the teachings of Quran and Saheeh hadeeth on the soil of Bangladesh on 24th August 2013, in the Rupganj, Narayanganj, and in February 2016, in Rajshahi,&apos; Al-Jami&apos;ah as-Salafiyah &apos;, two simultaneous standard Islamic teachings The organization was established. Falilahil Hamd.
+        /// </summary>
+        public static string OurMadrasha {
+            get {
+                return ResourceManager.GetString("OurMadrasha", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string OurMadrashaDetails {
@@ -164,11 +195,40 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Our madrassa.
+        /// </summary>
+        public static string OurMadrashaModelHeading {
+            get {
+                return ResourceManager.GetString("OurMadrashaModelHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to &apos;Shaykh Abdur Razzaq bin Yusuf&apos; &apos;To spread the teachings of Quran and Saheeh hadeeth on the soil of Bangladesh on 24th August 2013, in the Rupganj, Narayanganj, and in February 2016, in Rajshahi,&apos; Al-Jami&apos;ah as-Salafiyah &apos;, two simultaneous standard Islamic  &apos;Shaykh Abdur Razzaq bin Yusuf&apos; &apos;To spread the teachings of Quran and Saheeh hadeeth on the soil of Bangladesh on 24th August 2013, in the Rupganj, Narayanganj, and in February 2016, in Rajshahi,&apos; Al-Jami&apos;ah as-Salafiyah &apos;, two simultaneous standard Isl [rest of string was truncated]&quot;;.
         /// </summary>
         public static string OurMadrashaSubtitle {
             get {
                 return ResourceManager.GetString("OurMadrashaSubtitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Within a year of the establishment of Jami&apos;ah Salafiyah, with the help of the great God, we have been able to construct residential buildings of three-storeyed students, which have 10 rooms with 18/20 feet below the floor. And 4 rooms of 15/20 feet brick walls have been built for the students. Falilahil Hamd
+        ///At present, there are 118 students, 10 teachers, four employees and 31 students, 5 teachers and 1 staff in the department of students in this organization.
+        ///In the first year of his establishment, Jami [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string OurSuccess {
+            get {
+                return ResourceManager.GetString("OurSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Our success.
+        /// </summary>
+        public static string OurSuccessHeading {
+            get {
+                return ResourceManager.GetString("OurSuccessHeading", resourceCulture);
             }
         }
         
