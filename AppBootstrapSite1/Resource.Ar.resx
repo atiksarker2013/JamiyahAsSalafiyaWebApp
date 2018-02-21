@@ -117,11 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AcademicCalender" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AcademicCalenderHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AcademicExam" xml:space="preserve">
+    <value>وسيجري امتحانان دوريان سنويا: (أ) الفترة الزمنية الأولى (ب) الدرجة الثانية.
+وستعقد الفحوص الأسبوعية والفحوصات الأخرى في قواعد "الجماعة" المقررة.
+يجب أن يكون هناك 80٪ وجود في الفحص.
+لا يمكن حضور الامتحان دون اختبار القبول.
+يجب أن يكون حاضرا في الفحص لمدة 10 دقائق قبل بدء الاختبار.
+ويمكن اتخاذ أي إجراء تأديبي بما في ذلك طرد المخالفات في الامتحان.
+ويعتبر إجراء الأذى في الفحص غير كاف.
+إذا لم يفشل أحد، ثم لن يتم تمرير الفئة التالية.
+إذا فشل الطالب في الاعتذار لعدم وجود الامتحان، سيتم طرد الطالب.</value>
+  </data>
+  <data name="AcademicExamHeading" xml:space="preserve">
+    <value>إرشادات الفحص</value>
+  </data>
   <data name="AdmissionHeading" xml:space="preserve">
     <value>قبول</value>
   </data>
   <data name="AdmissionSubtitle" xml:space="preserve">
     <value />
+  </data>
+  <data name="ClassRoutine" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ClassRoutineHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CoursesDetails" xml:space="preserve">
+    <value>وتنقسم دورة تعليم الجامعة إلى 4 مستويات
+  إبتيداي أو الابتدائي = 5 سنوات
+  موتواساسيتا أو الثانوية = 5 سنوات
+  تشانوبيا أو الثانوية العليا = 2 سنوات
+  فازلات (درة) أو أعلى = 3 سنوات</value>
+  </data>
+  <data name="CoursesDetailsHeading" xml:space="preserve">
+    <value>الدورات</value>
   </data>
   <data name="GalleryDetails" xml:space="preserve">
     <value />
@@ -181,6 +217,12 @@
   <data name="MadrashaCharacteristicsHeading" xml:space="preserve">
     <value>خصائص المدرسة</value>
   </data>
+  <data name="MonthlyExpenses" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MonthlyExpensesHeading" xml:space="preserve">
+    <value />
+  </data>
   <data name="NoticeDetails" xml:space="preserve">
     <value />
   </data>
@@ -212,6 +254,18 @@
   </data>
   <data name="OurSuccessHeading" xml:space="preserve">
     <value>نجاحنا</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ResultHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Syllabus" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SyllabusHeading" xml:space="preserve">
+    <value />
   </data>
   <data name="WelcomeDetails" xml:space="preserve">
     <value>كما سالامو أليكوم الحمد لله وحده. يجب توزيع دارود وسلام على النبي (ﷺ). الوصية الأولى من الله هو "قراءة". مرحبا بكم في موقعنا الرسمي.

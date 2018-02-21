@@ -117,14 +117,50 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AcademicCalender" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AcademicCalenderHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AcademicExam" xml:space="preserve">
+    <value>Two periodical exams will be held annually: (a) First temporal (b) Second temp.
+Weekly and other examinations will be held in 'Jami'ah' prescribed rules.
+There should be 80% presence in the examination.
+Can not attend the examination without the entrance test.
+Must be present at the examination for 10 minutes before the start of the test.
+Any disciplinary action may be taken including the expulsion for irregularities in the examination.
+Conducting mischief in the examination would be considered inadequate.
+If no one fails, then the next category will not be passed.
+If the student fails to apologize to the absence of the examination, the student will be expelled.</value>
+  </data>
+  <data name="AcademicExamHeading" xml:space="preserve">
+    <value>Examination Guidelines</value>
+  </data>
   <data name="AdmissionHeading" xml:space="preserve">
     <value>Admission</value>
   </data>
   <data name="AdmissionSubtitle" xml:space="preserve">
     <value />
   </data>
-  <data name="GalleryDetails" xml:space="preserve">
+  <data name="ClassRoutine" xml:space="preserve">
     <value />
+  </data>
+  <data name="ClassRoutineHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CoursesDetails" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CoursesDetailsHeading" xml:space="preserve">
+    <value>Courses</value>
+  </data>
+  <data name="GalleryDetails" xml:space="preserve">
+    <value>Jami'ah's education course is divided into 4 levels
+  Ibtaydayi or primary = 5 years
+  Mutwasasitah or secondary = 5 years
+  Chanubia or Higher Secondary = 2 years
+  Fazilat (dora) or higher = 3 years</value>
   </data>
   <data name="GalleryHeading" xml:space="preserve">
     <value>Gallery</value>
@@ -181,6 +217,12 @@ The primary treatment system for all students.</value>
   <data name="MadrashaCharacteristicsHeading" xml:space="preserve">
     <value>Madrasa Characteristics</value>
   </data>
+  <data name="MonthlyExpenses" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MonthlyExpensesHeading" xml:space="preserve">
+    <value />
+  </data>
   <data name="NoticeDetails" xml:space="preserve">
     <value />
   </data>
@@ -212,6 +254,18 @@ In the first year of his establishment, Jami'ah Salafiyya achieved 100% success 
   </data>
   <data name="OurSuccessHeading" xml:space="preserve">
     <value>Our success</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ResultHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Syllabus" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SyllabusHeading" xml:space="preserve">
+    <value />
   </data>
   <data name="WelcomeDetails" xml:space="preserve">
     <value>As Salamu Alaikum Praise be to Allah alone. Darud and Salam should be distributed to the Prophet (ﷺ). The first commandment of Allah is "read". Welcome to our official web site.

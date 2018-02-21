@@ -1,0 +1,18 @@
+﻿@model AppBootstrapSite1.Models.Academic
+@{
+    ViewBag.Title = "AcademicCalender";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container marketing">
+    <hr class="featurette-divider">
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2><span class="text-muted">@Html.LabelFor(model => model.AcademicCalenderHeading, new { style = "color:#ffffff" })</span></h2>
+            <p>@Html.LabelFor(model => model.AcademicCalender, new { style = "color:#ffffff" })</p>
+        </div>
+    </div>
+</div>
+
+

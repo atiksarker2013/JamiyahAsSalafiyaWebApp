@@ -160,6 +160,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Context\ApplicationDataContext.cs" />
     <Compile Include="Controllers\AboutMadrashaController.cs" />
+    <Compile Include="Controllers\AcademicController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
@@ -168,6 +169,7 @@
     </Compile>
     <Compile Include="LanguageMang.cs" />
     <Compile Include="Models\AboutMadrasha.cs" />
+    <Compile Include="Models\Academic.cs" />
     <Compile Include="Models\DashBoardMenuContent.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\SalafiyahMainMenu.cs" />
@@ -336,6 +338,13 @@
     <Content Include="Views\AboutMadrasha\OurMadrasha.cshtml" />
     <Content Include="Views\AboutMadrasha\OurSuccess.cshtml" />
     <Content Include="Views\AboutMadrasha\MadrashaCharacteristics.cshtml" />
+    <Content Include="Views\Academic\Courses.cshtml" />
+    <Content Include="Views\Academic\MonthlyExpenses.cshtml" />
+    <Content Include="Views\Academic\Syllabus.cshtml" />
+    <Content Include="Views\Academic\AcademicExam.cshtml" />
+    <Content Include="Views\Academic\ClassRoutine.cshtml" />
+    <Content Include="Views\Academic\AcademicCalender.cshtml" />
+    <Content Include="Views\Academic\Result.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

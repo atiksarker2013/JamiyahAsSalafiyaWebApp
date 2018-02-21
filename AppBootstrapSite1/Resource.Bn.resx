@@ -117,11 +117,47 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="AcademicCalender" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AcademicCalenderHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AcademicExam" xml:space="preserve">
+    <value>বছরে দুটি সাময়িক পরীক্ষা অনুষ্ঠিত হবেঃ (ক) প্রথম সাময়িক (খ) দ্বিতীয় সাময়িক ।
+‘জামি’আহ’ নির্ধারিত নিয়মে সাপ্তাহিক ও অন্যান্য পরীক্ষা অনুষ্ঠিত হবে ।
+পরীক্ষায় অংশগ্রহনের জন্য ৮০% উপস্থিতি থাকতে হবে ।
+প্রবেশপত্র ছাড়া পরীক্ষায় অংশগ্রহন করতে পারবে না ।
+পরীক্ষা শুরু হওয়ার ১০ মিনিট পূর্বে পরীক্ষার হলে উপস্থিত থাকতে হবে ।
+পরীক্ষায় অনিয়মের জন্য বহিষ্কারসহ  যেকোন শাস্তিমূলক ব্যবস্থা গ্রহন করা হতে পারে ।
+পরীক্ষায় অসদুপায় অবলম্বন করলে সংশ্লিষ্ট বিষয়ে অকৃতকার্য বলে গণ্য হবে ।
+কোন এক বিষয়ে অকৃতকার্য হলে পরবর্তী শ্রেণিতে উত্তীর্ণ করা হবে না ।
+পরীক্ষায় অনুপস্থিতির উপযুক্ত কৈফয়াত দিতে ব্যর্থ হলে সংশ্লিষ্ট শিক্ষার্থী বহিষ্কৃত হবে ।</value>
+  </data>
+  <data name="AcademicExamHeading" xml:space="preserve">
+    <value>পরীক্ষার নির্দেশিকা</value>
+  </data>
   <data name="AdmissionHeading" xml:space="preserve">
     <value>ভর্তি-প্রক্রিয়া</value>
   </data>
   <data name="AdmissionSubtitle" xml:space="preserve">
     <value />
+  </data>
+  <data name="ClassRoutine" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ClassRoutineHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CoursesDetails" xml:space="preserve">
+    <value>জামি’আহ এর শিক্ষা কোর্স মোট ৪ স্তরে বিভক্তঃ
+ ইবতেদায়ী বা প্রাথমিক                =   ৫ বছর
+ মুতাওয়াসসিতাহ  বা মাধ্যমিক    =  ৫ বছর
+ ছানুবিয়া বা উচ্চমাধ্যমিক           =  ২ বছর
+ ফাযিলিয়াত(দাওরা) বা উচ্চতর  = ৩ বছর</value>
+  </data>
+  <data name="CoursesDetailsHeading" xml:space="preserve">
+    <value>কোর্স সমূহ</value>
   </data>
   <data name="GalleryDetails" xml:space="preserve">
     <value />
@@ -181,6 +217,12 @@
   <data name="MadrashaCharacteristicsHeading" xml:space="preserve">
     <value>মাদ্রাসার বৈশিষ্ট্য</value>
   </data>
+  <data name="MonthlyExpenses" xml:space="preserve">
+    <value />
+  </data>
+  <data name="MonthlyExpensesHeading" xml:space="preserve">
+    <value />
+  </data>
   <data name="NoticeDetails" xml:space="preserve">
     <value />
   </data>
@@ -212,6 +254,18 @@
   </data>
   <data name="OurSuccessHeading" xml:space="preserve">
     <value>আমাদের সাফল্য</value>
+  </data>
+  <data name="Result" xml:space="preserve">
+    <value />
+  </data>
+  <data name="ResultHeading" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Syllabus" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SyllabusHeading" xml:space="preserve">
+    <value />
   </data>
   <data name="WelcomeDetails" xml:space="preserve">
     <value>আস সালামু আলাইকুম। প্রশংসা কেবল আল্লাহ্ তা’আলার জন্য। দরূদ ও সালাম বর্ষিত হোক রাসূল (ﷺ) এর প্রতি। আল্লাহর প্রথম নির্দেশ হলো “পড়”। আমাদের অফিসিয়াল ওয়েব সাইটে আপনাকে স্বাগতম ।

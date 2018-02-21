@@ -61,6 +61,48 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string AcademicCalender {
+            get {
+                return ResourceManager.GetString("AcademicCalender", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string AcademicCalenderHeading {
+            get {
+                return ResourceManager.GetString("AcademicCalenderHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Two periodical exams will be held annually: (a) First temporal (b) Second temp.
+        ///Weekly and other examinations will be held in &apos;Jami&apos;ah&apos; prescribed rules.
+        ///There should be 80% presence in the examination.
+        ///Can not attend the examination without the entrance test.
+        ///Must be present at the examination for 10 minutes before the start of the test.
+        ///Any disciplinary action may be taken including the expulsion for irregularities in the examination.
+        ///Conducting mischief in the examination would be considered inadeq [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string AcademicExam {
+            get {
+                return ResourceManager.GetString("AcademicExam", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Examination Guidelines.
+        /// </summary>
+        public static string AcademicExamHeading {
+            get {
+                return ResourceManager.GetString("AcademicExamHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Admission.
         /// </summary>
         public static string AdmissionHeading {
@@ -80,6 +122,46 @@ namespace AppBootstrapSite1 {
         
         /// <summary>
         ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ClassRoutine {
+            get {
+                return ResourceManager.GetString("ClassRoutine", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ClassRoutineHeading {
+            get {
+                return ResourceManager.GetString("ClassRoutineHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string CoursesDetails {
+            get {
+                return ResourceManager.GetString("CoursesDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Courses.
+        /// </summary>
+        public static string CoursesDetailsHeading {
+            get {
+                return ResourceManager.GetString("CoursesDetailsHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Jami&apos;ah&apos;s education course is divided into 4 levels
+        ///  Ibtaydayi or primary = 5 years
+        ///  Mutwasasitah or secondary = 5 years
+        ///  Chanubia or Higher Secondary = 2 years
+        ///  Fazilat (dora) or higher = 3 years.
         /// </summary>
         public static string GalleryDetails {
             get {
@@ -137,6 +219,24 @@ namespace AppBootstrapSite1 {
         public static string MadrashaCharacteristicsHeading {
             get {
                 return ResourceManager.GetString("MadrashaCharacteristicsHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string MonthlyExpenses {
+            get {
+                return ResourceManager.GetString("MonthlyExpenses", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string MonthlyExpensesHeading {
+            get {
+                return ResourceManager.GetString("MonthlyExpensesHeading", resourceCulture);
             }
         }
         
@@ -229,6 +329,42 @@ namespace AppBootstrapSite1 {
         public static string OurSuccessHeading {
             get {
                 return ResourceManager.GetString("OurSuccessHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Result {
+            get {
+                return ResourceManager.GetString("Result", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ResultHeading {
+            get {
+                return ResourceManager.GetString("ResultHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string Syllabus {
+            get {
+                return ResourceManager.GetString("Syllabus", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string SyllabusHeading {
+            get {
+                return ResourceManager.GetString("SyllabusHeading", resourceCulture);
             }
         }
         
