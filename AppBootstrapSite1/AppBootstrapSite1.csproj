@@ -234,7 +234,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="flags\" />
-    <Folder Include="Views\Administrative\" />
     <Folder Include="Views\Menu\" />
   </ItemGroup>
   <ItemGroup>
@@ -348,6 +347,11 @@
     <Content Include="Views\Academic\ClassRoutine.cshtml" />
     <Content Include="Views\Academic\AcademicCalender.cshtml" />
     <Content Include="Views\Academic\Result.cshtml" />
+    <Content Include="Views\Administrative\Chairman.cshtml" />
+    <Content Include="Views\Administrative\Principal.cshtml" />
+    <Content Include="Views\Administrative\VicePrincipal.cshtml" />
+    <Content Include="Views\Administrative\TeacherStudentComitte.cshtml" />
+    <Content Include="Views\Administrative\ParentalResponsiblity.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

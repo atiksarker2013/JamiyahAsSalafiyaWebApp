@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppBootstrapSite1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,32 +7,37 @@ using System.Web.Mvc;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class AdministrativeController : Controller
+    public class AdministrativeController : BaseController
     {
         // GET: Administrative
         public ActionResult Chairman()
         {
-            return View();
+            Administrative model = new Administrative();
+            return View(model);
         }
 
         public ActionResult Principal()
         {
-            return View();
+            Administrative model = new Administrative();
+            return View(model);
         }
 
         public ActionResult VicePrincipal()
         {
-            return View();
+            Administrative model = new Administrative();
+            return View(model);
         }
 
         public ActionResult TeacherStudentComitte()
         {
-            return View();
+            Administrative model = new Administrative();
+            return View(model);
         }
 
         public ActionResult ParentalResponsiblity()
         {
-            return View();
+            Administrative model = new Administrative();
+            return View(model);
         }
     }
 }

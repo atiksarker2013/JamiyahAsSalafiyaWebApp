@@ -123,6 +123,24 @@ namespace AppBootstrapSite1 {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string Chairman {
+            get {
+                return ResourceManager.GetString("Chairman", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string ChairmanHeading {
+            get {
+                return ResourceManager.GetString("ChairmanHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string ClassRoutine {
             get {
                 return ResourceManager.GetString("ClassRoutine", resourceCulture);
@@ -333,6 +351,49 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Parents should keep track of the child&apos;s education and pay monthly fees payable in due time.
+        ///Parents should inform any complaint to the office along with the complaint and their good advice will be accepted in the interest of the organization&apos;s development.
+        ///Parents will not be able to meet the child or contact the phone without the scheduled time.
+        ///Parents can not stay in the students room.
+        ///Encourage the students to comply with the rules of the organization.
+        ///After the quarterly and temporary examination [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string ParentalResponsiblity {
+            get {
+                return ResourceManager.GetString("ParentalResponsiblity", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Parents are responsible for the responsibility.
+        /// </summary>
+        public static string ParentalResponsiblityHeading {
+            get {
+                return ResourceManager.GetString("ParentalResponsiblityHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Born: Sheikh Abdur Razzak Bin Yusuf was born in a religious family of Hajirtala village under Maunga box under Devinagar upazila of Chapainawabganj district of northern Bangladesh.
+        ///
+        ///Studying: After studying Maktab in the field of education, he read from Nawabganj Nawabganj Madrasa, one of the books of Hadith, Mishkat Sharif. Then he went to India hoping for higher education and finished Daura Hadith from Darul Ulum Maunathwangan in Uttar Pradesh. He ended the two-day tradition of Dora. Then he returned to [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string Principal {
+            get {
+                return ResourceManager.GetString("Principal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Principal.
+        /// </summary>
+        public static string PrincipalHeading {
+            get {
+                return ResourceManager.GetString("PrincipalHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string Result {
@@ -365,6 +426,48 @@ namespace AppBootstrapSite1 {
         public static string SyllabusHeading {
             get {
                 return ResourceManager.GetString("SyllabusHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There will be a committee with al-Jami&apos;ah as-Salafiyah students. The responsible teachers will be in charge. Where students will be promoting talent development programs. For example, publication of newspapers and magazines, newspapers and so on.
+        ///Note that there will be two branches under &apos;Abana&apos;.
+        ///Composed of students studying in a Jami&apos;ah.
+        ///The other is made up of students coming out of Jami&apos;ah. Who are employed at their own work place in different parts of the country..
+        /// </summary>
+        public static string TeacherStudentComitte {
+            get {
+                return ResourceManager.GetString("TeacherStudentComitte", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teacher-student committee.
+        /// </summary>
+        public static string TeacherStudentComitteHeading {
+            get {
+                return ResourceManager.GetString("TeacherStudentComitteHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shaikh Muzaffar is Hadith Teacher, Al-Marqazul islami as-Salafi, and Member of Darul iftaa, Rajshahi. also SPEAKER at PEACE TV BANGLA [page run by student]
+        ///
+        ///Early life and Education:
+        ///Shaikh Muzaffar was born on 01.01.1985 in a respectablel family in the village Bawsha hedhatipara in the BAGHAA Thana of the RAJSHAHI District, Bangladesh. He passed the Dakhil (2000), Alim (2003) and Fazil (2007) public examinations from Madrasha Education Board. In 2008 he passed the Dawra Hadith from Aladipur Salafia Madr [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string VicePrincipal {
+            get {
+                return ResourceManager.GetString("VicePrincipal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vice Principal.
+        /// </summary>
+        public static string VicePrincipalHeading {
+            get {
+                return ResourceManager.GetString("VicePrincipalHeading", resourceCulture);
             }
         }
         
