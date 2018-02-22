@@ -161,6 +161,7 @@
     <Compile Include="Context\ApplicationDataContext.cs" />
     <Compile Include="Controllers\AboutMadrashaController.cs" />
     <Compile Include="Controllers\AcademicController.cs" />
+    <Compile Include="Controllers\AdministrativeController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
@@ -170,6 +171,7 @@
     <Compile Include="LanguageMang.cs" />
     <Compile Include="Models\AboutMadrasha.cs" />
     <Compile Include="Models\Academic.cs" />
+    <Compile Include="Models\Administrative.cs" />
     <Compile Include="Models\DashBoardMenuContent.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\SalafiyahMainMenu.cs" />
@@ -232,6 +234,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="flags\" />
+    <Folder Include="Views\Administrative\" />
     <Folder Include="Views\Menu\" />
   </ItemGroup>
   <ItemGroup>
