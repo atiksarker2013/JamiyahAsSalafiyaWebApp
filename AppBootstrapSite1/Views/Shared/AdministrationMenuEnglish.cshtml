@@ -3,10 +3,10 @@
 <li class="dropdown">
     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration<b class="caret"></b></a>
     <ul class="dropdown-menu">
-        <li><a href="#">Chairman</a></li>
-        <li><a href="#">Principal</a></li>
-        <li><a href="#">Vice Principal</a></li>
-        <li><a href="#">Teacher-student committee</a></li>
-        <li><a href="#">Parental responsibility</a></li>
+        @*<li><a href="@Url.Action("OurMadrasha", "AboutMadrasha")">Chairman</a></li>*@
+        <li><a href="@Url.Action("Principal", "Administrative")">Principal</a></li>
+        <li><a href="@Url.Action("VicePrincipal", "Administrative")">Vice Principal</a></li>
+        <li><a href="@Url.Action("TeacherStudentComitte", "Administrative")">Teacher-student committee</a></li>
+        <li><a href="@Url.Action("ParentalResponsiblity", "Administrative")">Parental responsibility</a></li>
     </ul>
 </li>
