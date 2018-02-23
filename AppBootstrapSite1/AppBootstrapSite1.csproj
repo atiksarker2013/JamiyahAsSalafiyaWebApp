@@ -163,6 +163,7 @@
     <Compile Include="Controllers\AcademicController.cs" />
     <Compile Include="Controllers\AdministrativeController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\CampusLifeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Global.asax.cs">
@@ -172,6 +173,7 @@
     <Compile Include="Models\AboutMadrasha.cs" />
     <Compile Include="Models\Academic.cs" />
     <Compile Include="Models\Administrative.cs" />
+    <Compile Include="Models\CampusLife.cs" />
     <Compile Include="Models\DashBoardMenuContent.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\SalafiyahMainMenu.cs" />
@@ -353,6 +355,12 @@
     <Content Include="Views\Administrative\VicePrincipal.cshtml" />
     <Content Include="Views\Administrative\TeacherStudentComitte.cshtml" />
     <Content Include="Views\Administrative\ParentalResponsiblity.cshtml" />
+    <Content Include="Views\CampusLife\DressCode.cshtml" />
+    <Content Include="Views\CampusLife\DailyMeal.cshtml" />
+    <Content Include="Views\CampusLife\StudentRegulation.cshtml" />
+    <Content Include="Views\CampusLife\StudentResidentialConvention.cshtml" />
+    <Content Include="Views\CampusLife\WeeklyPersonalTraining.cshtml" />
+    <Content Include="Views\CampusLife\StudentLists.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -175,6 +175,43 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string DailyMeal {
+            get {
+                return ResourceManager.GetString("DailyMeal", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Food list.
+        /// </summary>
+        public static string DailyMealHeading {
+            get {
+                return ResourceManager.GetString("DailyMealHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Classroom Clothing: Jami&apos;ah&apos;s Punjabi and Pajamas determined. White hat of yarn
+        ///Residential Hall Clothing: Any type of lungi and loosely dresses. Huff or flower shovel ginger. Ashlon is prohibited by any dress..
+        /// </summary>
+        public static string DressCode {
+            get {
+                return ResourceManager.GetString("DressCode", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Students&apos; clothing.
+        /// </summary>
+        public static string DressCodeHeading {
+            get {
+                return ResourceManager.GetString("DressCodeHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Jami&apos;ah&apos;s education course is divided into 4 levels
         ///  Ibtaydayi or primary = 5 years
         ///  Mutwasasitah or secondary = 5 years
@@ -414,6 +451,72 @@ namespace AppBootstrapSite1 {
         /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
+        public static string StudentLists {
+            get {
+                return ResourceManager.GetString("StudentLists", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Students List.
+        /// </summary>
+        public static string StudentListsHeading {
+            get {
+                return ResourceManager.GetString("StudentListsHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to All students will adhere to the rules of Jami&apos;ah.
+        /// All students of Jama&apos;a&apos;ah will perform Salat in Jama-&apos;at.
+        /// If there is evidence to take intoxicant or unlawful food, then he will be expelled from Jami&apos;ah.
+        /// No one can participate in any type of program without the responsibility of the responsible person.
+        /// No student can be involved in political parties or any other organization. If proven, the authorities will take action according to the law.
+        /// No student can go to the market without much need. From  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string StudentRegulation {
+            get {
+                return ResourceManager.GetString("StudentRegulation", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Student Code of Conduct.
+        /// </summary>
+        public static string StudentRegulationHeading {
+            get {
+                return ResourceManager.GetString("StudentRegulationHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Keep your room, bed, clothes and clothes clean and tidy.
+        /// Without permission, they will not be in each other&apos;s room.
+        /// Do not disturb another student during reading, sleep, eating etc.
+        /// After 11pm the room lights will be closed.
+        /// If there is any problem, the hostel will inform the super / class teacher.
+        /// No student will be able to use or hold mobile phone in Jami&apos;ah. Otherwise necessary action will be taken.
+        /// With permission from the salam, the office and the teacher will enter the hall.
+        /// At the appoi [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string StudentResidentialConvention {
+            get {
+                return ResourceManager.GetString("StudentResidentialConvention", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Student Residential Conventions.
+        /// </summary>
+        public static string StudentResidentialConventionHeading {
+            get {
+                return ResourceManager.GetString("StudentResidentialConventionHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
         public static string Syllabus {
             get {
                 return ResourceManager.GetString("Syllabus", resourceCulture);
@@ -468,6 +571,25 @@ namespace AppBootstrapSite1 {
         public static string VicePrincipalHeading {
             get {
                 return ResourceManager.GetString("VicePrincipalHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Students will be given personal amendment ceremony after 4th grade every Thursday. There will be an opportunity to give lectures on Bangla, English, Arabic at least twice a month on each subject and accordingly according to this &apos;Islahul Baiyan&apos; will be formed. Which is mandatory for all students. The subject matter of each language will be determined.
+        ///&apos;Islaahul Baiyan&apos; will be arranged &apos;Abanaye Jami&apos;ah as-Salafiyah&apos; and there will be certain teachers in the review..
+        /// </summary>
+        public static string WeeklyPersonalTraining {
+            get {
+                return ResourceManager.GetString("WeeklyPersonalTraining", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Weekly speeches training.
+        /// </summary>
+        public static string WeeklyPersonalTrainingHeading {
+            get {
+                return ResourceManager.GetString("WeeklyPersonalTrainingHeading", resourceCulture);
             }
         }
         
