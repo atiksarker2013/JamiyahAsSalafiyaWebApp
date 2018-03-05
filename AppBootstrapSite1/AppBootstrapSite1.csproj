@@ -159,6 +159,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Context\ApplicationDataContext.cs" />
+    <Compile Include="Controllers\AademicInformationController.cs" />
     <Compile Include="Controllers\AboutMadrashaController.cs" />
     <Compile Include="Controllers\AcademicController.cs" />
     <Compile Include="Controllers\AdministrativeController.cs" />
@@ -377,6 +378,16 @@
     <Content Include="Views\OurStory\TeacherOfPrimaryLabel.cshtml" />
     <Content Include="Views\OurStory\TeacherOfHifzBranch.cshtml" />
     <Content Include="Views\OurStory\Employee.cshtml" />
+    <Content Include="Views\Shared\AademicInformationBangla.cshtml" />
+    <Content Include="Views\Shared\AademicInformationArabic.cshtml" />
+    <Content Include="Views\Shared\AademicInformationEnglish.cshtml" />
+    <Content Include="Views\AademicInformation\Curriculum.cshtml" />
+    <Content Include="Views\AademicInformation\ClassRoutine.cshtml" />
+    <Content Include="Views\AademicInformation\ExaminationSchedule.cshtml" />
+    <Content Include="Views\AademicInformation\Primary.cshtml" />
+    <Content Include="Views\AademicInformation\Secondary.cshtml" />
+    <Content Include="Views\AademicInformation\HigherSecondary.cshtml" />
+    <Content Include="Views\AademicInformation\HigherEducation.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
