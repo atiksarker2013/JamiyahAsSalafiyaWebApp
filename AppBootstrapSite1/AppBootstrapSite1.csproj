@@ -166,6 +166,7 @@
     <Compile Include="Controllers\CampusLifeController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\OurStoryController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -364,6 +365,18 @@
     <Content Include="Views\Shared\OurStoryArabic.cshtml" />
     <Content Include="Views\Shared\OurStoryBangla.cshtml" />
     <Content Include="Views\Shared\OurStoryEnglish.cshtml" />
+    <Content Include="Views\OurStory\HistoryOfInstitution.cshtml" />
+    <Content Include="Views\OurStory\AtAGlance.cshtml" />
+    <Content Include="Views\OurStory\BordOfGovernor.cshtml" />
+    <Content Include="Views\OurStory\Location.cshtml" />
+    <Content Include="Views\OurStory\ListOfTeacherAndEmployee.cshtml" />
+    <Content Include="Views\OurStory\Principal.cshtml" />
+    <Content Include="Views\OurStory\VicePrincipal.cshtml" />
+    <Content Include="Views\OurStory\TeacherOfHigherEducation.cshtml" />
+    <Content Include="Views\OurStory\TeacherOfSecondaryLabel.cshtml" />
+    <Content Include="Views\OurStory\TeacherOfPrimaryLabel.cshtml" />
+    <Content Include="Views\OurStory\TeacherOfHifzBranch.cshtml" />
+    <Content Include="Views\OurStory\Employee.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
