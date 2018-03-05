@@ -361,6 +361,9 @@
     <Content Include="Views\CampusLife\StudentResidentialConvention.cshtml" />
     <Content Include="Views\CampusLife\WeeklyPersonalTraining.cshtml" />
     <Content Include="Views\CampusLife\StudentLists.cshtml" />
+    <Content Include="Views\Shared\OurStoryArabic.cshtml" />
+    <Content Include="Views\Shared\OurStoryBangla.cshtml" />
+    <Content Include="Views\Shared\OurStoryEnglish.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
