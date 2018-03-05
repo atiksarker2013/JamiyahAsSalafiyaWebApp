@@ -163,6 +163,7 @@
     <Compile Include="Controllers\AboutMadrashaController.cs" />
     <Compile Include="Controllers\AcademicController.cs" />
     <Compile Include="Controllers\AdministrativeController.cs" />
+    <Compile Include="Controllers\AdmissionProcessController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CampusLifeController.cs" />
     <Compile Include="Controllers\DirectorCornerController.cs" />
@@ -240,6 +241,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="flags\" />
+    <Folder Include="Views\AdmissionProcess\" />
     <Folder Include="Views\Menu\" />
   </ItemGroup>
   <ItemGroup>
@@ -394,6 +396,9 @@
     <Content Include="Views\Shared\DirectorsCornerEnglish.cshtml" />
     <Content Include="Views\DirectorCorner\DirectorIdentity.cshtml" />
     <Content Include="Views\DirectorCorner\DirectorMessage.cshtml" />
+    <Content Include="Views\Shared\AdmissionProcessBangla.cshtml" />
+    <Content Include="Views\Shared\AdmissionProcessEnglish.cshtml" />
+    <Content Include="Views\Shared\AdmissionProcessArabic.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
