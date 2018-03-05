@@ -165,6 +165,7 @@
     <Compile Include="Controllers\AdministrativeController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CampusLifeController.cs" />
+    <Compile Include="Controllers\DirectorCornerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
@@ -388,6 +389,11 @@
     <Content Include="Views\AademicInformation\Secondary.cshtml" />
     <Content Include="Views\AademicInformation\HigherSecondary.cshtml" />
     <Content Include="Views\AademicInformation\HigherEducation.cshtml" />
+    <Content Include="Views\Shared\DirectorsCornerArabic.cshtml" />
+    <Content Include="Views\Shared\DirectorsCornerBangla.cshtml" />
+    <Content Include="Views\Shared\DirectorsCornerEnglish.cshtml" />
+    <Content Include="Views\DirectorCorner\DirectorIdentity.cshtml" />
+    <Content Include="Views\DirectorCorner\DirectorMessage.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
