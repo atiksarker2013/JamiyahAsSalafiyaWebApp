@@ -173,6 +173,7 @@
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\NoticeBoardController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
+    <Compile Include="Controllers\PrizesAndAchievementsController.cs" />
     <Compile Include="Controllers\RulesAndRegulationController.cs" />
     <Compile Include="Controllers\SpecialEventsController.cs" />
     <Compile Include="Controllers\StudentsIdentityController.cs" />
@@ -445,6 +446,15 @@
     <Content Include="Views\Facilities\DailyPaperAndMonthlyJournal.cshtml" />
     <Content Include="Views\Facilities\InternetBrowsing.cshtml" />
     <Content Include="Views\Facilities\Library.cshtml" />
+    <Content Include="Views\Shared\PrizesAndAchievementsBangla.cshtml" />
+    <Content Include="Views\Shared\PrizesAndAchievementsArabic.cshtml" />
+    <Content Include="Views\Shared\PrizesAndAchievementsEnglish.cshtml" />
+    <Content Include="Views\PrizesAndAchievements\Primary.cshtml" />
+    <Content Include="Views\PrizesAndAchievements\JuniourDakhil.cshtml" />
+    <Content Include="Views\PrizesAndAchievements\Dakhil.cshtml" />
+    <Content Include="Views\PrizesAndAchievements\Alim.cshtml" />
+    <Content Include="Views\PrizesAndAchievements\Hounors.cshtml" />
+    <Content Include="Views\PrizesAndAchievements\Masters.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
