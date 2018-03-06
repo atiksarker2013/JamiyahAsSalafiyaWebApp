@@ -170,6 +170,7 @@
     <Compile Include="Controllers\DirectorCornerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\NoticeBoardController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
     <Compile Include="Controllers\RulesAndRegulationController.cs" />
     <Compile Include="Controllers\SpecialEventsController.cs" />
@@ -430,6 +431,12 @@
     <Content Include="Views\SpecialEvents\Farewell.cshtml" />
     <Content Include="Views\SpecialEvents\FestivalReception.cshtml" />
     <Content Include="Views\SpecialEvents\QuranMahfil.cshtml" />
+    <Content Include="Views\Shared\NoticeBoardBangla.cshtml" />
+    <Content Include="Views\Shared\NoticeBoardArabic.cshtml" />
+    <Content Include="Views\Shared\NoticeBoardEnglish.cshtml" />
+    <Content Include="Views\NoticeBoard\NoticeForStudent.cshtml" />
+    <Content Include="Views\NoticeBoard\AdvertisementForAppointment.cshtml" />
+    <Content Include="Views\NoticeBoard\TenderNotice.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
