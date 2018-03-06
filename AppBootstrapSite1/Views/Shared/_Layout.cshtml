@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>@ViewBag.Title</title>
+    @*<title>@ViewBag.Title</title>*@
     <!-- Bootstrap core CSS -->
     <link href="@Url.Content("~/css/bootstrap.css")" rel="stylesheet">
     <link href="@Url.Content("~/css/carousel.css")" rel="stylesheet">
@@ -34,7 +34,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        @Html.Action("RenderMainMenu","Menu")
+                        @*@Html.Action("RenderMainMenu","Menu")*@
                         
                         
                     </div>
@@ -44,15 +44,25 @@
                             <li><a href="#about">About</a></li>
                             <li><a href="#contact">Contact</a></li>*@
 
-                            @Html.Action("AboutMadrashaMenu", "Menu")
-                            @Html.Action("AcademicMenu", "Menu")
-                            @Html.Action("AdministrationMenu", "Menu")
-                            @Html.Action("FacultiesMenu", "Menu")
-                            @Html.Action("AboutStudentMenu", "Menu")
-                            @Html.Action("NoticeMenu", "Menu")
-                            @Html.Action("ContactMenu", "Menu")
+                            @*@Html.Action("AboutMadrashaMenu", "Menu")*@
 
-                            
+                            @Html.Action("OurStory", "Menu")
+                            @Html.Action("AademicInformation", "Menu")
+                            @Html.Action("DirectorCorner", "Menu")
+
+                            @Html.Action("AdmissionProcess", "Menu")
+
+                            @Html.Action("RulesAndRegulation", "Menu")
+                            @Html.Action("StudentsIdentity", "Menu")
+                            @Html.Action("CoCurricularActivities", "Menu")
+                           
+                            @Html.Action("SpecialEvents", "Menu")
+                            @Html.Action("NoticeBoard", "Menu")
+                            @Html.Action("Facilities", "Menu")
+
+                            @Html.Action("PrizesAndAchievements", "Menu")
+                            @Html.Action("MonthlyAlEtisam", "Menu")
+                           
                         </ul>
                     </div>
                 </div>
