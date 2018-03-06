@@ -597,6 +597,36 @@ namespace AppBootstrapSite1.Controllers
 
         }
 
+        public ActionResult NibrasIslamicResearchFoundation(string name)
+        {
+            string lang = null;
+            HttpCookie langCookie = Request.Cookies["culture"];
+            if (langCookie != null)
+            {
+                lang = langCookie.Value;
+            }
+            if (lang == "En")
+            {
+                return PartialView("NibrasIslamicResearchFoundationEnglish", null);
+            }
+            if (lang == "Ar")
+            {
+                return PartialView("NibrasIslamicResearchFoundationArabic", null);
+            }
+
+            if (lang == "Bn")
+            {
+                return PartialView("NibrasIslamicResearchFoundationBangla", null);
+            }
+
+            else
+            {
+                return PartialView("NibrasIslamicResearchFoundationEnglish", null);
+            }
+
+        }
+        
+
 
     }
 }

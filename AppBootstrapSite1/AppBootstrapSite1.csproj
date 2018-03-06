@@ -172,6 +172,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\MonthlyAlEtisamController.cs" />
+    <Compile Include="Controllers\NibrasIslamicResearchFoundationController.cs" />
     <Compile Include="Controllers\NoticeBoardController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
     <Compile Include="Controllers\PrizesAndAchievementsController.cs" />
@@ -461,6 +462,12 @@
     <Content Include="Views\Shared\MonthlyAlEtisamEnglish.cshtml" />
     <Content Include="Views\MonthlyAlEtisam\Introduction.cshtml" />
     <Content Include="Views\MonthlyAlEtisam\Characteristics.cshtml" />
+    <Content Include="Views\Shared\NibrasIslamicResearchFoundationBangla.cshtml" />
+    <Content Include="Views\Shared\NibrasIslamicResearchFoundationEnglish.cshtml" />
+    <Content Include="Views\Shared\NibrasIslamicResearchFoundationArabic.cshtml" />
+    <Content Include="Views\NibrasIslamicResearchFoundation\Introduction.cshtml" />
+    <Content Include="Views\NibrasIslamicResearchFoundation\Activities.cshtml" />
+    <Content Include="Views\NibrasIslamicResearchFoundation\SourceofIncome.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
