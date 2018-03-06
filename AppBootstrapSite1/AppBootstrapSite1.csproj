@@ -171,6 +171,7 @@
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
     <Compile Include="Controllers\RulesAndRegulationController.cs" />
+    <Compile Include="Controllers\StudentsIdentityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -245,6 +246,7 @@
     <Folder Include="Views\AdmissionProcess\" />
     <Folder Include="Views\Menu\" />
     <Folder Include="Views\RulesAndRegulation\" />
+    <Folder Include="Views\StudentsIdentity\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -404,6 +406,9 @@
     <Content Include="Views\Shared\RulesAndRegulationBangla.cshtml" />
     <Content Include="Views\Shared\RulesAndRegulationEnglish.cshtml" />
     <Content Include="Views\Shared\RulesAndRegulationArabic.cshtml" />
+    <Content Include="Views\Shared\StudentsIdentityBangla.cshtml" />
+    <Content Include="Views\Shared\StudentsIdentityEnglish.cshtml" />
+    <Content Include="Views\Shared\StudentsIdentityArabic.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
