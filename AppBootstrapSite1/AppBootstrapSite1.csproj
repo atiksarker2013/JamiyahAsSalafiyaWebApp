@@ -172,6 +172,7 @@
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
     <Compile Include="Controllers\RulesAndRegulationController.cs" />
+    <Compile Include="Controllers\SpecialEventsController.cs" />
     <Compile Include="Controllers\StudentsIdentityController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -420,6 +421,15 @@
     <Content Include="Views\CoCurricularActivities\IslamicQuizClub.cshtml" />
     <Content Include="Views\CoCurricularActivities\GeneralQuizClub.cshtml" />
     <Content Include="Views\CoCurricularActivities\IslamicSongClub.cshtml" />
+    <Content Include="Views\Shared\SpecialEventsBangla.cshtml" />
+    <Content Include="Views\Shared\SpecialEventsArabic.cshtml" />
+    <Content Include="Views\Shared\SpecialEventsEnglish.cshtml" />
+    <Content Include="Views\SpecialEvents\TrainingAndSeminar.cshtml" />
+    <Content Include="Views\SpecialEvents\GamesAndSports.cshtml" />
+    <Content Include="Views\SpecialEvents\Picnic.cshtml" />
+    <Content Include="Views\SpecialEvents\Farewell.cshtml" />
+    <Content Include="Views\SpecialEvents\FestivalReception.cshtml" />
+    <Content Include="Views\SpecialEvents\QuranMahfil.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
