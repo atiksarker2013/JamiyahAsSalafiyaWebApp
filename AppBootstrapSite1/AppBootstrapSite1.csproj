@@ -171,6 +171,7 @@
     <Compile Include="Controllers\FacilitiesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\MonthlyAlEtisamController.cs" />
     <Compile Include="Controllers\NoticeBoardController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
     <Compile Include="Controllers\PrizesAndAchievementsController.cs" />
@@ -455,6 +456,11 @@
     <Content Include="Views\PrizesAndAchievements\Alim.cshtml" />
     <Content Include="Views\PrizesAndAchievements\Hounors.cshtml" />
     <Content Include="Views\PrizesAndAchievements\Masters.cshtml" />
+    <Content Include="Views\Shared\MonthlyAlEtisamBangla.cshtml" />
+    <Content Include="Views\Shared\MonthlyAlEtisamArabic.cshtml" />
+    <Content Include="Views\Shared\MonthlyAlEtisamEnglish.cshtml" />
+    <Content Include="Views\MonthlyAlEtisam\Introduction.cshtml" />
+    <Content Include="Views\MonthlyAlEtisam\Characteristics.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
