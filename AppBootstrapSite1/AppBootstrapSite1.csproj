@@ -166,6 +166,7 @@
     <Compile Include="Controllers\AdmissionProcessController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
     <Compile Include="Controllers\CampusLifeController.cs" />
+    <Compile Include="Controllers\CoCurricularActivitiesController.cs" />
     <Compile Include="Controllers\DirectorCornerController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
@@ -409,6 +410,16 @@
     <Content Include="Views\Shared\StudentsIdentityBangla.cshtml" />
     <Content Include="Views\Shared\StudentsIdentityEnglish.cshtml" />
     <Content Include="Views\Shared\StudentsIdentityArabic.cshtml" />
+    <Content Include="Views\Shared\CoCurricularActivitiesBangla.cshtml" />
+    <Content Include="Views\Shared\CoCurricularActivitiesEnglish.cshtml" />
+    <Content Include="Views\Shared\CoCurricularActivitiesArabic.cshtml" />
+    <Content Include="Views\CoCurricularActivities\TrainingForDeliveringSpeech.cshtml" />
+    <Content Include="Views\CoCurricularActivities\QuranStudyAndResearchFourm.cshtml" />
+    <Content Include="Views\CoCurricularActivities\HadithStudyAndResearchFourm.cshtml" />
+    <Content Include="Views\CoCurricularActivities\DebatingClub.cshtml" />
+    <Content Include="Views\CoCurricularActivities\IslamicQuizClub.cshtml" />
+    <Content Include="Views\CoCurricularActivities\GeneralQuizClub.cshtml" />
+    <Content Include="Views\CoCurricularActivities\IslamicSongClub.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
