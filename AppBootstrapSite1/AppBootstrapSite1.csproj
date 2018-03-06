@@ -168,6 +168,7 @@
     <Compile Include="Controllers\CampusLifeController.cs" />
     <Compile Include="Controllers\CoCurricularActivitiesController.cs" />
     <Compile Include="Controllers\DirectorCornerController.cs" />
+    <Compile Include="Controllers\FacilitiesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\NoticeBoardController.cs" />
@@ -437,6 +438,13 @@
     <Content Include="Views\NoticeBoard\NoticeForStudent.cshtml" />
     <Content Include="Views\NoticeBoard\AdvertisementForAppointment.cshtml" />
     <Content Include="Views\NoticeBoard\TenderNotice.cshtml" />
+    <Content Include="Views\Shared\FacilitiesBangla.cshtml" />
+    <Content Include="Views\Shared\FacilitiesArabic.cshtml" />
+    <Content Include="Views\Shared\FacilitiesEnglish.cshtml" />
+    <Content Include="Views\Facilities\PrimaryTreatment.cshtml" />
+    <Content Include="Views\Facilities\DailyPaperAndMonthlyJournal.cshtml" />
+    <Content Include="Views\Facilities\InternetBrowsing.cshtml" />
+    <Content Include="Views\Facilities\Library.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
