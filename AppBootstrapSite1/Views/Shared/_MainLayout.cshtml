@@ -13,7 +13,7 @@
 
 <body>
     @RenderSection("scripts", required: false)
-    @*@using NasgledSys.Models*@
+    @using AppBootstrapSite1.Models
 
     <!-- Main navbar -->
     <div class="navbar navbar-inverse bg-indigo">
@@ -34,7 +34,7 @@
                     <a class="dropdown-toggle" data-toggle="dropdown">
 
                         <img src="~/Content/assets/images/placeholder.jpg" alt="" />
-                        @*<span>@Html.DisplayFor(m => GlobalClass.LoginUser.PName)</span>*@
+                        <span>@Html.DisplayFor(m => GlobalClass.LoginUser.PName)</span>
                         <i class="caret"></i>
                     </a>
                     <ul class="dropdown-menu dropdown-menu-right">
@@ -63,7 +63,7 @@
                     <div class="dropdown-menu dropdown-content">
                         <div class="dropdown-content-body">
                             <div class="row">
-                                @*@{
+                                @{
                                     foreach (var item in GlobalClass.ModuleList)
                                     {
 
@@ -80,7 +80,7 @@
                                             </ul>
                                         </div>
                                                     }
-                                }*@
+                                }
                             </div>
                             @*88888888888888888888888888888888888888888888888*@
 
@@ -108,7 +108,7 @@
                     <h4>
                         <i class="icon-arrow-left52 position-left"></i>
                         <span class="text-semibold">Home</span> - Dashboard
-                        @*<small class="display-block">Good morning, @Html.DisplayFor(m => GlobalClass.LoginUser.PName)</small>*@
+                        <small class="display-block">Good morning, @Html.DisplayFor(m => GlobalClass.LoginUser.PName)</small>
                     </h4>
                 }
             </div>

@@ -9,6 +9,7 @@ namespace AppBootstrapSite1.Controllers
 {
     public class HomeController : BaseController
     {
+        private JamiyahDBEntities db = new JamiyahDBEntities();
         public ActionResult Index()
         {
              DashBoardMenuContent model = new DashBoardMenuContent();
@@ -57,13 +58,13 @@ namespace AppBootstrapSite1.Controllers
 
             try
             {
-              //  StaffList obj = db.StaffList.SingleOrDefault(m => m.Username == model.Username && m.Password == model.Password && m.IsDelete == false && m.IsUser == true);
-                //if (obj == null)
-                //{
-                //    Exception e = new Exception("Incorrect user access. Unauthorized Access.");
-                //    return View("Error", new HandleErrorInfo(e, "Home", "Login"));
-                //}
-                //else
+               StaffList obj = db.StaffList.SingleOrDefault(m => m.Username == model.Username && m.Password == model.Password && m.IsDelete == false && m.IsUser == true);
+                if (obj == null)
+                {
+                    Exception e = new Exception("Incorrect user access. Unauthorized Access.");
+                    return View("Error", new HandleErrorInfo(e, "Home", "Login"));
+                }
+                else
                 {
                     if (model.RememberMe)
                     {
@@ -74,10 +75,10 @@ namespace AppBootstrapSite1.Controllers
                         Response.Cookies.Add(cookie);
 
                     }
-                    //GlobalClass.MasterSession = true;
-                    //GlobalClass.LoginUser = obj;
-                    //EM.EM_AdminAccess.SetUserAccess((Guid)obj.Usergr);
-                    //GlobalClass.Company = db.Company.SingleOrDefault(m => m.CompanyKey == obj.CompanyKey);
+                    GlobalClass.MasterSession = true;
+                    GlobalClass.LoginUser = obj;
+                    EM.EM_AdminAccess.SetUserAccess((Guid)obj.Usergr);
+                   // GlobalClass.Company = db.Company.SingleOrDefault(m => m.CompanyKey == obj.CompanyKey);
                     return RedirectToAction("MainDashBoard", "Home");
                 }
 
@@ -86,6 +87,15 @@ namespace AppBootstrapSite1.Controllers
             {
                 return View("Error", new HandleErrorInfo(e, "Home", "Login"));
             }
+        }
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing)
+            {
+                db.Dispose();
+            }
+            base.Dispose(disposing);
         }
     }
 
