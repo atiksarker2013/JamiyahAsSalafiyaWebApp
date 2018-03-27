@@ -625,7 +625,36 @@ namespace AppBootstrapSite1.Controllers
             }
 
         }
-        
+
+        public ActionResult LoginApp(string name)
+        {
+            string lang = null;
+            HttpCookie langCookie = Request.Cookies["culture"];
+            if (langCookie != null)
+            {
+                lang = langCookie.Value;
+            }
+            if (lang == "En")
+            {
+                return PartialView("LoginEnglish", null);
+            }
+            if (lang == "Ar")
+            {
+                return PartialView("LoginArabic", null);
+            }
+
+            if (lang == "Bn")
+            {
+                return PartialView("LoginBangla", null);
+            }
+
+            else
+            {
+                return PartialView("LoginEnglish", null);
+            }
+
+        }
+
 
 
     }

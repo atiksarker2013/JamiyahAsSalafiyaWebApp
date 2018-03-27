@@ -572,6 +572,9 @@
     <Content Include="Views\Home\Login.cshtml" />
     <Content Include="Views\Shared\_MainLayout.cshtml" />
     <Content Include="Views\Home\MainDashBoard.cshtml" />
+    <Content Include="Views\Shared\LoginBangla.cshtml" />
+    <Content Include="Views\Shared\LoginArabic.cshtml" />
+    <Content Include="Views\Shared\LoginEnglish.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

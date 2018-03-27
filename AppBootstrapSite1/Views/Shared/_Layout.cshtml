@@ -66,6 +66,8 @@
                             @Html.Action("MonthlyAlEtisam", "Menu")
 
                             @Html.Action("NibrasIslamicResearchFoundation", "Menu")
+
+                           
                            
                         </ul>
                     </div>
@@ -86,6 +88,14 @@
                 <div class="col-md-1 col-sm-2 col-xs-3"><div class="flag-wrapper"><div class="img-thumbnail flag flag-icon-background flag-icon-bd" title="bd" id="bd">
                     @Html.ActionLink("Bn", "ChangeLanguage", "Home", new { lang = "Bn" }, null)
                     </div></div></div>
+
+                <div class="col-md-1 col-sm-2 col-xs-3">
+                    <div >
+                        <div class="img-thumbnail ">
+                            @Html.ActionLink("Admin Login", "Login", "Home", new { lang = "Bn" }, null)
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
