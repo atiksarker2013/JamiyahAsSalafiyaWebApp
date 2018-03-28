@@ -21,6 +21,7 @@
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupForm_Usergroup" ManuallyRouted="false" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupModule_Usergroup" ManuallyRouted="false" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserProfile_UserRole" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="JamiyahDBModel.Company" Width="1.5" PointX="0.75" PointY="7.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

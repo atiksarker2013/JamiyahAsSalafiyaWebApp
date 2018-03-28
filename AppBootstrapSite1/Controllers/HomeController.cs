@@ -78,7 +78,7 @@ namespace AppBootstrapSite1.Controllers
                     GlobalClass.MasterSession = true;
                     GlobalClass.LoginUser = obj;
                     EM.EM_AdminAccess.SetUserAccess((Guid)obj.Usergr);
-                   // GlobalClass.Company = db.Company.SingleOrDefault(m => m.CompanyKey == obj.CompanyKey);
+                    GlobalClass.Company = db.Company.SingleOrDefault(m => m.CompanyKey == obj.CompanyKey);
                     return RedirectToAction("MainDashBoard", "Home");
                 }
 

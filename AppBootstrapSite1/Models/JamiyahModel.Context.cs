@@ -33,5 +33,6 @@ namespace AppBootstrapSite1.Models
         public virtual DbSet<UserGroupModule> UserGroupModule { get; set; }
         public virtual DbSet<UserProfile> UserProfile { get; set; }
         public virtual DbSet<UserRole> UserRole { get; set; }
+        public virtual DbSet<Company> Company { get; set; }
     }
 }

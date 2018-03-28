@@ -223,5 +223,25 @@ namespace AppBootstrapSite1.Models
                 HttpContext.Current.Session[GlobalClass._ProposalGuid] = value;
             }
         }
+
+        static private string _Company = "Company";
+        public static Company Company
+        {
+            get
+            {
+                if (HttpContext.Current.Session[GlobalClass._Company] == null)
+                {
+                    return null;
+                }
+                else
+                {
+                    return (Company)(HttpContext.Current.Session[GlobalClass._Company]);
+                }
+            }
+            set
+            {
+                HttpContext.Current.Session[GlobalClass._Company] = value;
+            }
+        }
     }
 }

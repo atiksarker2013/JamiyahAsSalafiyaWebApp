@@ -198,6 +198,7 @@
     <Compile Include="Controllers\FacilitiesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
+    <Compile Include="Controllers\MgtStaffController.cs" />
     <Compile Include="Controllers\MonthlyAlEtisamController.cs" />
     <Compile Include="Controllers\NibrasIslamicResearchFoundationController.cs" />
     <Compile Include="Controllers\NoticeBoardController.cs" />
@@ -215,6 +216,10 @@
     <Compile Include="Models\Academic.cs" />
     <Compile Include="Models\Administrative.cs" />
     <Compile Include="Models\CampusLife.cs" />
+    <Compile Include="Models\Company.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CompanyClass.cs" />
     <Compile Include="Models\DashBoardMenuContent.cs" />
     <Compile Include="Models\Forms.cs">
       <DependentUpon>JamiyahModel.tt</DependentUpon>
@@ -237,13 +242,16 @@
       <DependentUpon>JamiyahModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\LoginViewModel.cs" />
+    <Compile Include="Models\MgtInstituteInfo.cs" />
     <Compile Include="Models\Modules.cs">
       <DependentUpon>JamiyahModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\SalafiyahMainMenu.cs" />
+    <Compile Include="Models\StaffClass.cs" />
     <Compile Include="Models\StaffList.cs">
       <DependentUpon>JamiyahModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\UniqueIDCreator.cs" />
     <Compile Include="Models\UserFormClass.cs" />
     <Compile Include="Models\Usergroup.cs">
       <DependentUpon>JamiyahModel.tt</DependentUpon>
@@ -575,6 +583,17 @@
     <Content Include="Views\Shared\LoginBangla.cshtml" />
     <Content Include="Views\Shared\LoginArabic.cshtml" />
     <Content Include="Views\Shared\LoginEnglish.cshtml" />
+    <Content Include="Views\MgtStaff\ChangePassword.cshtml" />
+    <Content Include="Views\MgtStaff\Create.cshtml" />
+    <Content Include="Views\MgtStaff\DCreate.cshtml" />
+    <Content Include="Views\MgtStaff\DEdit.cshtml" />
+    <Content Include="Views\MgtStaff\Details.cshtml" />
+    <Content Include="Views\MgtStaff\DIndex.cshtml" />
+    <Content Include="Views\MgtStaff\Edit.cshtml" />
+    <Content Include="Views\MgtStaff\EditMyProfile.cshtml" />
+    <Content Include="Views\MgtStaff\Index.cshtml" />
+    <Content Include="Views\MgtStaff\MyProfile.cshtml" />
+    <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
