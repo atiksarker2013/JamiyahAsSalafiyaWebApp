@@ -50,11 +50,11 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
-      <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -192,21 +192,31 @@
     <Compile Include="Controllers\AdministrativeController.cs" />
     <Compile Include="Controllers\AdmissionProcessController.cs" />
     <Compile Include="Controllers\BaseController.cs" />
+    <Compile Include="Controllers\BoardExaminationsController.cs" />
     <Compile Include="Controllers\CampusLifeController.cs" />
+    <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\CoCurricularActivitiesController.cs" />
+    <Compile Include="Controllers\DepartmentsController.cs" />
     <Compile Include="Controllers\DirectorCornerController.cs" />
     <Compile Include="Controllers\FacilitiesController.cs" />
+    <Compile Include="Controllers\GendersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MenuController.cs" />
     <Compile Include="Controllers\MgtStaffController.cs" />
     <Compile Include="Controllers\MonthlyAlEtisamController.cs" />
+    <Compile Include="Controllers\MonthlyTutionFeesController.cs" />
     <Compile Include="Controllers\NibrasIslamicResearchFoundationController.cs" />
     <Compile Include="Controllers\NoticeBoardController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
     <Compile Include="Controllers\PrizesAndAchievementsController.cs" />
+    <Compile Include="Controllers\ResidentTypesController.cs" />
     <Compile Include="Controllers\RulesAndRegulationController.cs" />
+    <Compile Include="Controllers\SessionMonthsController.cs" />
+    <Compile Include="Controllers\SessionYearsController.cs" />
     <Compile Include="Controllers\SpecialEventsController.cs" />
     <Compile Include="Controllers\StudentsIdentityController.cs" />
+    <Compile Include="Controllers\SubjectsController.cs" />
+    <Compile Include="Controllers\TutionFeeTypesController.cs" />
     <Compile Include="EM\EM_AdminAccess.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -215,17 +225,38 @@
     <Compile Include="Models\AboutMadrasha.cs" />
     <Compile Include="Models\Academic.cs" />
     <Compile Include="Models\Administrative.cs" />
+    <Compile Include="Models\BoardExamination.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\CampusLife.cs" />
+    <Compile Include="Models\Category.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Company.cs">
       <DependentUpon>JamiyahModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CompanyClass.cs" />
+    <Compile Include="Models\CompanyForm.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\CompanyModule.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\DashBoardMenuContent.cs" />
+    <Compile Include="Models\Department.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\Forms.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Gender.cs">
       <DependentUpon>JamiyahModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\GlobalClass.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ImageFile.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\JamiyahModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -246,9 +277,39 @@
     <Compile Include="Models\Modules.cs">
       <DependentUpon>JamiyahModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\MonthlyTutionFee.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\ResidentType.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\SalafiyahMainMenu.cs" />
+    <Compile Include="Models\SessionMonth.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\SessionYear.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\StaffClass.cs" />
     <Compile Include="Models\StaffList.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StudentAssigned.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StudentAttachFile.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StudentInfo.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\StudentInfoPreviousInstitution.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\Subject.cs">
+      <DependentUpon>JamiyahModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\TutionFeeType.cs">
       <DependentUpon>JamiyahModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\UniqueIDCreator.cs" />
@@ -594,6 +655,56 @@
     <Content Include="Views\MgtStaff\Index.cshtml" />
     <Content Include="Views\MgtStaff\MyProfile.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Views\Categories\Create.cshtml" />
+    <Content Include="Views\Categories\Delete.cshtml" />
+    <Content Include="Views\Categories\Details.cshtml" />
+    <Content Include="Views\Categories\Edit.cshtml" />
+    <Content Include="Views\Categories\Index.cshtml" />
+    <Content Include="Views\Departments\Create.cshtml" />
+    <Content Include="Views\Departments\Delete.cshtml" />
+    <Content Include="Views\Departments\Details.cshtml" />
+    <Content Include="Views\Departments\Edit.cshtml" />
+    <Content Include="Views\Departments\Index.cshtml" />
+    <Content Include="Views\SessionYears\Create.cshtml" />
+    <Content Include="Views\SessionYears\Delete.cshtml" />
+    <Content Include="Views\SessionYears\Details.cshtml" />
+    <Content Include="Views\SessionYears\Edit.cshtml" />
+    <Content Include="Views\SessionYears\Index.cshtml" />
+    <Content Include="Views\SessionMonths\Create.cshtml" />
+    <Content Include="Views\SessionMonths\Delete.cshtml" />
+    <Content Include="Views\SessionMonths\Details.cshtml" />
+    <Content Include="Views\SessionMonths\Edit.cshtml" />
+    <Content Include="Views\SessionMonths\Index.cshtml" />
+    <Content Include="Views\Subjects\Create.cshtml" />
+    <Content Include="Views\Subjects\Delete.cshtml" />
+    <Content Include="Views\Subjects\Details.cshtml" />
+    <Content Include="Views\Subjects\Edit.cshtml" />
+    <Content Include="Views\Subjects\Index.cshtml" />
+    <Content Include="Views\ResidentTypes\Create.cshtml" />
+    <Content Include="Views\ResidentTypes\Delete.cshtml" />
+    <Content Include="Views\ResidentTypes\Details.cshtml" />
+    <Content Include="Views\ResidentTypes\Edit.cshtml" />
+    <Content Include="Views\ResidentTypes\Index.cshtml" />
+    <Content Include="Views\Genders\Create.cshtml" />
+    <Content Include="Views\Genders\Delete.cshtml" />
+    <Content Include="Views\Genders\Details.cshtml" />
+    <Content Include="Views\Genders\Edit.cshtml" />
+    <Content Include="Views\Genders\Index.cshtml" />
+    <Content Include="Views\TutionFeeTypes\Create.cshtml" />
+    <Content Include="Views\TutionFeeTypes\Delete.cshtml" />
+    <Content Include="Views\TutionFeeTypes\Details.cshtml" />
+    <Content Include="Views\TutionFeeTypes\Edit.cshtml" />
+    <Content Include="Views\TutionFeeTypes\Index.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Create.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Delete.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Details.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Edit.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Index.cshtml" />
+    <Content Include="Views\BoardExaminations\Create.cshtml" />
+    <Content Include="Views\BoardExaminations\Delete.cshtml" />
+    <Content Include="Views\BoardExaminations\Details.cshtml" />
+    <Content Include="Views\BoardExaminations\Edit.cshtml" />
+    <Content Include="Views\BoardExaminations\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

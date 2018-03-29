@@ -12,28 +12,21 @@ namespace AppBootstrapSite1.Models
     using System;
     using System.Collections.Generic;
     
-    public partial class Forms
+    public partial class ResidentType
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Forms()
+        public ResidentType()
         {
-            this.UserGroupForm = new HashSet<UserGroupForm>();
-            this.CompanyForm = new HashSet<CompanyForm>();
+            this.MonthlyTutionFee = new HashSet<MonthlyTutionFee>();
+            this.StudentAssigned = new HashSet<StudentAssigned>();
         }
     
-        public System.Guid FormID { get; set; }
-        public System.Guid ModuleID { get; set; }
-        public string FormName { get; set; }
-        public Nullable<int> FormLevel { get; set; }
-        public string FormController { get; set; }
-        public string FormView { get; set; }
-        public Nullable<bool> IsDelete { get; set; }
-        public string FormCss { get; set; }
+        public int Id { get; set; }
+        public string ResidentType1 { get; set; }
     
-        public virtual Modules Modules { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<UserGroupForm> UserGroupForm { get; set; }
+        public virtual ICollection<MonthlyTutionFee> MonthlyTutionFee { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CompanyForm> CompanyForm { get; set; }
+        public virtual ICollection<StudentAssigned> StudentAssigned { get; set; }
     }
 }
