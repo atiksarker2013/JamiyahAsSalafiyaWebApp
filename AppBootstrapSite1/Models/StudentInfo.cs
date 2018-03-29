@@ -60,6 +60,7 @@ namespace AppBootstrapSite1.Models
         public string PreviousInstitutionClearanceNo { get; set; }
         public Nullable<System.DateTime> PreviousInstitutionClearanceDate { get; set; }
         public Nullable<int> AdmittedDepartmentId { get; set; }
+        public Nullable<bool> IsAssign { get; set; }
     
         public virtual Department Department { get; set; }
         public virtual Gender Gender { get; set; }

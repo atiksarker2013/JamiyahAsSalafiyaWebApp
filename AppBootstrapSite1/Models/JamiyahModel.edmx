@@ -223,6 +223,7 @@
           <Property Name="PreviousInstitutionClearanceNo" Type="nvarchar(max)" />
           <Property Name="PreviousInstitutionClearanceDate" Type="datetime" />
           <Property Name="AdmittedDepartmentId" Type="int" />
+          <Property Name="IsAssign" Type="bit" />
         </EntityType>
         <EntityType Name="StudentInfoPreviousInstitution">
           <Key>
@@ -798,7 +799,6 @@
           <EntitySet Name="StaffList" EntityType="JamiyahDBModel.StaffList" />
           <EntitySet Name="StudentAssigned" EntityType="JamiyahDBModel.StudentAssigned" />
           <EntitySet Name="StudentAttachFile" EntityType="JamiyahDBModel.StudentAttachFile" />
-          <EntitySet Name="StudentInfo" EntityType="JamiyahDBModel.StudentInfo" />
           <EntitySet Name="StudentInfoPreviousInstitution" EntityType="JamiyahDBModel.StudentInfoPreviousInstitution" />
           <EntitySet Name="Subject" EntityType="JamiyahDBModel.Subject" />
           <EntitySet Name="TutionFeeType" EntityType="JamiyahDBModel.TutionFeeType" />
@@ -839,10 +839,6 @@
             <End Role="Department" EntitySet="Department" />
             <End Role="StudentAssigned" EntitySet="StudentAssigned" />
           </AssociationSet>
-          <AssociationSet Name="FK_StudentInfo_Department" Association="JamiyahDBModel.FK_StudentInfo_Department">
-            <End Role="Department" EntitySet="Department" />
-            <End Role="StudentInfo" EntitySet="StudentInfo" />
-          </AssociationSet>
           <AssociationSet Name="FK_Subject_Department" Association="JamiyahDBModel.FK_Subject_Department">
             <End Role="Department" EntitySet="Department" />
             <End Role="Subject" EntitySet="Subject" />
@@ -854,10 +850,6 @@
           <AssociationSet Name="FK_UserGroupForm_Forms" Association="JamiyahDBModel.FK_UserGroupForm_Forms">
             <End Role="Forms" EntitySet="Forms" />
             <End Role="UserGroupForm" EntitySet="UserGroupForm" />
-          </AssociationSet>
-          <AssociationSet Name="FK_StudentInfo_Gender" Association="JamiyahDBModel.FK_StudentInfo_Gender">
-            <End Role="Gender" EntitySet="Gender" />
-            <End Role="StudentInfo" EntitySet="StudentInfo" />
           </AssociationSet>
           <AssociationSet Name="FK_UserGroupForm_Modules" Association="JamiyahDBModel.FK_UserGroupForm_Modules">
             <End Role="Modules" EntitySet="Modules" />
@@ -891,18 +883,6 @@
             <End Role="Usergroup" EntitySet="Usergroup" />
             <End Role="StaffList" EntitySet="StaffList" />
           </AssociationSet>
-          <AssociationSet Name="FK_StudentAssigned_StudentInfo" Association="JamiyahDBModel.FK_StudentAssigned_StudentInfo">
-            <End Role="StudentInfo" EntitySet="StudentInfo" />
-            <End Role="StudentAssigned" EntitySet="StudentAssigned" />
-          </AssociationSet>
-          <AssociationSet Name="FK_StudentAttachFile_StudentInfo" Association="JamiyahDBModel.FK_StudentAttachFile_StudentInfo">
-            <End Role="StudentInfo" EntitySet="StudentInfo" />
-            <End Role="StudentAttachFile" EntitySet="StudentAttachFile" />
-          </AssociationSet>
-          <AssociationSet Name="FK_StudentInfoPreviousInstitution_StudentInfo" Association="JamiyahDBModel.FK_StudentInfoPreviousInstitution_StudentInfo">
-            <End Role="StudentInfo" EntitySet="StudentInfo" />
-            <End Role="StudentInfoPreviousInstitution" EntitySet="StudentInfoPreviousInstitution" />
-          </AssociationSet>
           <AssociationSet Name="FK_UserGroupForm_Usergroup" Association="JamiyahDBModel.FK_UserGroupForm_Usergroup">
             <End Role="Usergroup" EntitySet="Usergroup" />
             <End Role="UserGroupForm" EntitySet="UserGroupForm" />
@@ -914,6 +894,27 @@
           <AssociationSet Name="FK_UserProfile_UserRole" Association="JamiyahDBModel.FK_UserProfile_UserRole">
             <End Role="UserRole" EntitySet="UserRole" />
             <End Role="UserProfile" EntitySet="UserProfile" />
+          </AssociationSet>
+          <EntitySet Name="StudentInfo" EntityType="JamiyahDBModel.StudentInfo" />
+          <AssociationSet Name="FK_StudentInfo_Department" Association="JamiyahDBModel.FK_StudentInfo_Department">
+            <End Role="Department" EntitySet="Department" />
+            <End Role="StudentInfo" EntitySet="StudentInfo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentInfo_Gender" Association="JamiyahDBModel.FK_StudentInfo_Gender">
+            <End Role="Gender" EntitySet="Gender" />
+            <End Role="StudentInfo" EntitySet="StudentInfo" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentAssigned_StudentInfo" Association="JamiyahDBModel.FK_StudentAssigned_StudentInfo">
+            <End Role="StudentInfo" EntitySet="StudentInfo" />
+            <End Role="StudentAssigned" EntitySet="StudentAssigned" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentAttachFile_StudentInfo" Association="JamiyahDBModel.FK_StudentAttachFile_StudentInfo">
+            <End Role="StudentInfo" EntitySet="StudentInfo" />
+            <End Role="StudentAttachFile" EntitySet="StudentAttachFile" />
+          </AssociationSet>
+          <AssociationSet Name="FK_StudentInfoPreviousInstitution_StudentInfo" Association="JamiyahDBModel.FK_StudentInfoPreviousInstitution_StudentInfo">
+            <End Role="StudentInfo" EntitySet="StudentInfo" />
+            <End Role="StudentInfoPreviousInstitution" EntitySet="StudentInfoPreviousInstitution" />
           </AssociationSet>
         </EntityContainer>
         <EntityType Name="BoardExamination">
@@ -989,8 +990,8 @@
           <NavigationProperty Name="Category" Relationship="JamiyahDBModel.FK_Department_Category" FromRole="Department" ToRole="Category" />
           <NavigationProperty Name="MonthlyTutionFee" Relationship="JamiyahDBModel.FK_MonthlyTutionFee_Department" FromRole="Department" ToRole="MonthlyTutionFee" />
           <NavigationProperty Name="StudentAssigned" Relationship="JamiyahDBModel.FK_StudentAssigned_Department" FromRole="Department" ToRole="StudentAssigned" />
-          <NavigationProperty Name="StudentInfo" Relationship="JamiyahDBModel.FK_StudentInfo_Department" FromRole="Department" ToRole="StudentInfo" />
           <NavigationProperty Name="Subject" Relationship="JamiyahDBModel.FK_Subject_Department" FromRole="Department" ToRole="Subject" />
+          <NavigationProperty Name="StudentInfo" Relationship="JamiyahDBModel.FK_StudentInfo_Department" FromRole="Department" ToRole="StudentInfo" />
         </EntityType>
         <EntityType Name="Forms">
           <Key>
@@ -1127,54 +1128,6 @@
           <Property Name="FileName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="StudentInfo" Relationship="JamiyahDBModel.FK_StudentAttachFile_StudentInfo" FromRole="StudentAttachFile" ToRole="StudentInfo" />
-        </EntityType>
-        <EntityType Name="StudentInfo">
-          <Key>
-            <PropertyRef Name="Id" />
-          </Key>
-          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="StudentPhoto" Type="Binary" MaxLength="Max" FixedLength="false" />
-          <Property Name="StudentNameBangla" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="StudentNameEnglish" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="StudentNameArabic" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="StudentDateOfBirth" Type="DateTime" Precision="3" />
-          <Property Name="GenderId" Type="Int32" />
-          <Property Name="Nationality" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="FatherNameBangla" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="FatherNameEnglish" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="FatherIsAlive" Type="Boolean" />
-          <Property Name="FatherOccupation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="FatherMobile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="MotherNameBangla" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="MotherNameEnglish" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="MotherIsAlive" Type="Boolean" />
-          <Property Name="MotherMobile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="GuardianName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="GuardianOccupation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="GuardianHouseNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="GuardianVillage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="GuardianPostOffice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="GuardianThana" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="GuardianDistrict" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="RelationWithGuardian" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="YearlyIncomeGuardian" Type="Int32" />
-          <Property Name="PermanentAddressHouse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PermanentAddressVillage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PermanentAddressPostOffice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PermanentAddressThana" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PermanentAddressDistrict" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="HonarablePersonNameInArea" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PreviousInstitutionName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PreviousInstitutionAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PreviousInstitutionClass" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PreviousInstitutionClearanceNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="PreviousInstitutionClearanceDate" Type="DateTime" Precision="3" />
-          <Property Name="AdmittedDepartmentId" Type="Int32" />
-          <NavigationProperty Name="Department" Relationship="JamiyahDBModel.FK_StudentInfo_Department" FromRole="StudentInfo" ToRole="Department" />
-          <NavigationProperty Name="Gender" Relationship="JamiyahDBModel.FK_StudentInfo_Gender" FromRole="StudentInfo" ToRole="Gender" />
-          <NavigationProperty Name="StudentAssigned" Relationship="JamiyahDBModel.FK_StudentAssigned_StudentInfo" FromRole="StudentInfo" ToRole="StudentAssigned" />
-          <NavigationProperty Name="StudentAttachFile" Relationship="JamiyahDBModel.FK_StudentAttachFile_StudentInfo" FromRole="StudentInfo" ToRole="StudentAttachFile" />
-          <NavigationProperty Name="StudentInfoPreviousInstitution" Relationship="JamiyahDBModel.FK_StudentInfoPreviousInstitution_StudentInfo" FromRole="StudentInfo" ToRole="StudentInfoPreviousInstitution" />
         </EntityType>
         <EntityType Name="StudentInfoPreviousInstitution">
           <Key>
@@ -1377,18 +1330,6 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_StudentInfo_Department">
-          <End Type="JamiyahDBModel.Department" Role="Department" Multiplicity="0..1" />
-          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Department">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="StudentInfo">
-              <PropertyRef Name="AdmittedDepartmentId" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="FK_Subject_Department">
           <End Type="JamiyahDBModel.Department" Role="Department" Multiplicity="0..1" />
           <End Type="JamiyahDBModel.Subject" Role="Subject" Multiplicity="*" />
@@ -1422,18 +1363,6 @@
             </Principal>
             <Dependent Role="UserGroupForm">
               <PropertyRef Name="FormKey" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_StudentInfo_Gender">
-          <End Type="JamiyahDBModel.Gender" Role="Gender" Multiplicity="0..1" />
-          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="Gender">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="StudentInfo">
-              <PropertyRef Name="GenderId" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -1533,42 +1462,6 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
-        <Association Name="FK_StudentAssigned_StudentInfo">
-          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="0..1" />
-          <End Type="JamiyahDBModel.StudentAssigned" Role="StudentAssigned" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="StudentInfo">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="StudentAssigned">
-              <PropertyRef Name="StudentInfo_FK" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_StudentAttachFile_StudentInfo">
-          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="0..1" />
-          <End Type="JamiyahDBModel.StudentAttachFile" Role="StudentAttachFile" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="StudentInfo">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="StudentAttachFile">
-              <PropertyRef Name="Student_FK" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
-        <Association Name="FK_StudentInfoPreviousInstitution_StudentInfo">
-          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="0..1" />
-          <End Type="JamiyahDBModel.StudentInfoPreviousInstitution" Role="StudentInfoPreviousInstitution" Multiplicity="*" />
-          <ReferentialConstraint>
-            <Principal Role="StudentInfo">
-              <PropertyRef Name="Id" />
-            </Principal>
-            <Dependent Role="StudentInfoPreviousInstitution">
-              <PropertyRef Name="StudentInfo_FK" />
-            </Dependent>
-          </ReferentialConstraint>
-        </Association>
         <Association Name="FK_UserGroupForm_Usergroup">
           <End Type="JamiyahDBModel.Usergroup" Role="Usergroup" Multiplicity="0..1" />
           <End Type="JamiyahDBModel.UserGroupForm" Role="UserGroupForm" Multiplicity="*" />
@@ -1602,6 +1495,115 @@
             </Principal>
             <Dependent Role="UserProfile">
               <PropertyRef Name="RoleKey" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="StudentInfo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="StudentPhoto" Type="Binary" MaxLength="Max" FixedLength="false" />
+          <Property Name="StudentNameBangla" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="StudentNameEnglish" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="StudentNameArabic" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="StudentDateOfBirth" Type="DateTime" Precision="3" />
+          <Property Name="GenderId" Type="Int32" />
+          <Property Name="Nationality" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FatherNameBangla" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FatherNameEnglish" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FatherIsAlive" Type="Boolean" />
+          <Property Name="FatherOccupation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="FatherMobile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MotherNameBangla" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MotherNameEnglish" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="MotherIsAlive" Type="Boolean" />
+          <Property Name="MotherMobile" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="GuardianName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="GuardianOccupation" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="GuardianHouseNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="GuardianVillage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="GuardianPostOffice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="GuardianThana" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="GuardianDistrict" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="RelationWithGuardian" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="YearlyIncomeGuardian" Type="Int32" />
+          <Property Name="PermanentAddressHouse" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PermanentAddressVillage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PermanentAddressPostOffice" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PermanentAddressThana" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PermanentAddressDistrict" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="HonarablePersonNameInArea" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PreviousInstitutionName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PreviousInstitutionAddress" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PreviousInstitutionClass" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PreviousInstitutionClearanceNo" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="PreviousInstitutionClearanceDate" Type="DateTime" Precision="3" />
+          <Property Name="AdmittedDepartmentId" Type="Int32" />
+          <Property Name="IsAssign" Type="Boolean" />
+          <NavigationProperty Name="Department" Relationship="JamiyahDBModel.FK_StudentInfo_Department" FromRole="StudentInfo" ToRole="Department" />
+          <NavigationProperty Name="Gender" Relationship="JamiyahDBModel.FK_StudentInfo_Gender" FromRole="StudentInfo" ToRole="Gender" />
+          <NavigationProperty Name="StudentAssigned" Relationship="JamiyahDBModel.FK_StudentAssigned_StudentInfo" FromRole="StudentInfo" ToRole="StudentAssigned" />
+          <NavigationProperty Name="StudentAttachFile" Relationship="JamiyahDBModel.FK_StudentAttachFile_StudentInfo" FromRole="StudentInfo" ToRole="StudentAttachFile" />
+          <NavigationProperty Name="StudentInfoPreviousInstitution" Relationship="JamiyahDBModel.FK_StudentInfoPreviousInstitution_StudentInfo" FromRole="StudentInfo" ToRole="StudentInfoPreviousInstitution" />
+        </EntityType>
+        <Association Name="FK_StudentInfo_Department">
+          <End Type="JamiyahDBModel.Department" Role="Department" Multiplicity="0..1" />
+          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Department">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentInfo">
+              <PropertyRef Name="AdmittedDepartmentId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentInfo_Gender">
+          <End Type="JamiyahDBModel.Gender" Role="Gender" Multiplicity="0..1" />
+          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Gender">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentInfo">
+              <PropertyRef Name="GenderId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentAssigned_StudentInfo">
+          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="0..1" />
+          <End Type="JamiyahDBModel.StudentAssigned" Role="StudentAssigned" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentInfo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentAssigned">
+              <PropertyRef Name="StudentInfo_FK" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentAttachFile_StudentInfo">
+          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="0..1" />
+          <End Type="JamiyahDBModel.StudentAttachFile" Role="StudentAttachFile" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentInfo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentAttachFile">
+              <PropertyRef Name="Student_FK" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_StudentInfoPreviousInstitution_StudentInfo">
+          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="0..1" />
+          <End Type="JamiyahDBModel.StudentInfoPreviousInstitution" Role="StudentInfoPreviousInstitution" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="StudentInfo">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="StudentInfoPreviousInstitution">
+              <PropertyRef Name="StudentInfo_FK" />
             </Dependent>
           </ReferentialConstraint>
         </Association>
@@ -1804,50 +1806,6 @@
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
-          <EntitySetMapping Name="StudentInfo">
-            <EntityTypeMapping TypeName="JamiyahDBModel.StudentInfo">
-              <MappingFragment StoreEntitySet="StudentInfo">
-                <ScalarProperty Name="AdmittedDepartmentId" ColumnName="AdmittedDepartmentId" />
-                <ScalarProperty Name="PreviousInstitutionClearanceDate" ColumnName="PreviousInstitutionClearanceDate" />
-                <ScalarProperty Name="PreviousInstitutionClearanceNo" ColumnName="PreviousInstitutionClearanceNo" />
-                <ScalarProperty Name="PreviousInstitutionClass" ColumnName="PreviousInstitutionClass" />
-                <ScalarProperty Name="PreviousInstitutionAddress" ColumnName="PreviousInstitutionAddress" />
-                <ScalarProperty Name="PreviousInstitutionName" ColumnName="PreviousInstitutionName" />
-                <ScalarProperty Name="HonarablePersonNameInArea" ColumnName="HonarablePersonNameInArea" />
-                <ScalarProperty Name="PermanentAddressDistrict" ColumnName="PermanentAddressDistrict" />
-                <ScalarProperty Name="PermanentAddressThana" ColumnName="PermanentAddressThana" />
-                <ScalarProperty Name="PermanentAddressPostOffice" ColumnName="PermanentAddressPostOffice" />
-                <ScalarProperty Name="PermanentAddressVillage" ColumnName="PermanentAddressVillage" />
-                <ScalarProperty Name="PermanentAddressHouse" ColumnName="PermanentAddressHouse" />
-                <ScalarProperty Name="YearlyIncomeGuardian" ColumnName="YearlyIncomeGuardian" />
-                <ScalarProperty Name="RelationWithGuardian" ColumnName="RelationWithGuardian" />
-                <ScalarProperty Name="GuardianDistrict" ColumnName="GuardianDistrict" />
-                <ScalarProperty Name="GuardianThana" ColumnName="GuardianThana" />
-                <ScalarProperty Name="GuardianPostOffice" ColumnName="GuardianPostOffice" />
-                <ScalarProperty Name="GuardianVillage" ColumnName="GuardianVillage" />
-                <ScalarProperty Name="GuardianHouseNo" ColumnName="GuardianHouseNo" />
-                <ScalarProperty Name="GuardianOccupation" ColumnName="GuardianOccupation" />
-                <ScalarProperty Name="GuardianName" ColumnName="GuardianName" />
-                <ScalarProperty Name="MotherMobile" ColumnName="MotherMobile" />
-                <ScalarProperty Name="MotherIsAlive" ColumnName="MotherIsAlive" />
-                <ScalarProperty Name="MotherNameEnglish" ColumnName="MotherNameEnglish" />
-                <ScalarProperty Name="MotherNameBangla" ColumnName="MotherNameBangla" />
-                <ScalarProperty Name="FatherMobile" ColumnName="FatherMobile" />
-                <ScalarProperty Name="FatherOccupation" ColumnName="FatherOccupation" />
-                <ScalarProperty Name="FatherIsAlive" ColumnName="FatherIsAlive" />
-                <ScalarProperty Name="FatherNameEnglish" ColumnName="FatherNameEnglish" />
-                <ScalarProperty Name="FatherNameBangla" ColumnName="FatherNameBangla" />
-                <ScalarProperty Name="Nationality" ColumnName="Nationality" />
-                <ScalarProperty Name="GenderId" ColumnName="GenderId" />
-                <ScalarProperty Name="StudentDateOfBirth" ColumnName="StudentDateOfBirth" />
-                <ScalarProperty Name="StudentNameArabic" ColumnName="StudentNameArabic" />
-                <ScalarProperty Name="StudentNameEnglish" ColumnName="StudentNameEnglish" />
-                <ScalarProperty Name="StudentNameBangla" ColumnName="StudentNameBangla" />
-                <ScalarProperty Name="StudentPhoto" ColumnName="StudentPhoto" />
-                <ScalarProperty Name="Id" ColumnName="Id" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
           <EntitySetMapping Name="StudentInfoPreviousInstitution">
             <EntityTypeMapping TypeName="JamiyahDBModel.StudentInfoPreviousInstitution">
               <MappingFragment StoreEntitySet="StudentInfoPreviousInstitution">
@@ -1945,6 +1903,51 @@
                 <ScalarProperty Name="Rlevel" ColumnName="Rlevel" />
                 <ScalarProperty Name="RoleName" ColumnName="RoleName" />
                 <ScalarProperty Name="RoleKey" ColumnName="RoleKey" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="StudentInfo">
+            <EntityTypeMapping TypeName="JamiyahDBModel.StudentInfo">
+              <MappingFragment StoreEntitySet="StudentInfo">
+                <ScalarProperty Name="IsAssign" ColumnName="IsAssign" />
+                <ScalarProperty Name="AdmittedDepartmentId" ColumnName="AdmittedDepartmentId" />
+                <ScalarProperty Name="PreviousInstitutionClearanceDate" ColumnName="PreviousInstitutionClearanceDate" />
+                <ScalarProperty Name="PreviousInstitutionClearanceNo" ColumnName="PreviousInstitutionClearanceNo" />
+                <ScalarProperty Name="PreviousInstitutionClass" ColumnName="PreviousInstitutionClass" />
+                <ScalarProperty Name="PreviousInstitutionAddress" ColumnName="PreviousInstitutionAddress" />
+                <ScalarProperty Name="PreviousInstitutionName" ColumnName="PreviousInstitutionName" />
+                <ScalarProperty Name="HonarablePersonNameInArea" ColumnName="HonarablePersonNameInArea" />
+                <ScalarProperty Name="PermanentAddressDistrict" ColumnName="PermanentAddressDistrict" />
+                <ScalarProperty Name="PermanentAddressThana" ColumnName="PermanentAddressThana" />
+                <ScalarProperty Name="PermanentAddressPostOffice" ColumnName="PermanentAddressPostOffice" />
+                <ScalarProperty Name="PermanentAddressVillage" ColumnName="PermanentAddressVillage" />
+                <ScalarProperty Name="PermanentAddressHouse" ColumnName="PermanentAddressHouse" />
+                <ScalarProperty Name="YearlyIncomeGuardian" ColumnName="YearlyIncomeGuardian" />
+                <ScalarProperty Name="RelationWithGuardian" ColumnName="RelationWithGuardian" />
+                <ScalarProperty Name="GuardianDistrict" ColumnName="GuardianDistrict" />
+                <ScalarProperty Name="GuardianThana" ColumnName="GuardianThana" />
+                <ScalarProperty Name="GuardianPostOffice" ColumnName="GuardianPostOffice" />
+                <ScalarProperty Name="GuardianVillage" ColumnName="GuardianVillage" />
+                <ScalarProperty Name="GuardianHouseNo" ColumnName="GuardianHouseNo" />
+                <ScalarProperty Name="GuardianOccupation" ColumnName="GuardianOccupation" />
+                <ScalarProperty Name="GuardianName" ColumnName="GuardianName" />
+                <ScalarProperty Name="MotherMobile" ColumnName="MotherMobile" />
+                <ScalarProperty Name="MotherIsAlive" ColumnName="MotherIsAlive" />
+                <ScalarProperty Name="MotherNameEnglish" ColumnName="MotherNameEnglish" />
+                <ScalarProperty Name="MotherNameBangla" ColumnName="MotherNameBangla" />
+                <ScalarProperty Name="FatherMobile" ColumnName="FatherMobile" />
+                <ScalarProperty Name="FatherOccupation" ColumnName="FatherOccupation" />
+                <ScalarProperty Name="FatherIsAlive" ColumnName="FatherIsAlive" />
+                <ScalarProperty Name="FatherNameEnglish" ColumnName="FatherNameEnglish" />
+                <ScalarProperty Name="FatherNameBangla" ColumnName="FatherNameBangla" />
+                <ScalarProperty Name="Nationality" ColumnName="Nationality" />
+                <ScalarProperty Name="GenderId" ColumnName="GenderId" />
+                <ScalarProperty Name="StudentDateOfBirth" ColumnName="StudentDateOfBirth" />
+                <ScalarProperty Name="StudentNameArabic" ColumnName="StudentNameArabic" />
+                <ScalarProperty Name="StudentNameEnglish" ColumnName="StudentNameEnglish" />
+                <ScalarProperty Name="StudentNameBangla" ColumnName="StudentNameBangla" />
+                <ScalarProperty Name="StudentPhoto" ColumnName="StudentPhoto" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

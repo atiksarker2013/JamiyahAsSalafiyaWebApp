@@ -22,7 +22,6 @@
         <EntityTypeShape EntityType="JamiyahDBModel.StaffList" Width="1.5" PointX="15" PointY="10.25" />
         <EntityTypeShape EntityType="JamiyahDBModel.StudentAssigned" Width="1.5" PointX="10.5" PointY="11.125" />
         <EntityTypeShape EntityType="JamiyahDBModel.StudentAttachFile" Width="1.5" PointX="7.5" PointY="7.125" />
-        <EntityTypeShape EntityType="JamiyahDBModel.StudentInfo" Width="1.5" PointX="5.25" PointY="7.625" />
         <EntityTypeShape EntityType="JamiyahDBModel.StudentInfoPreviousInstitution" Width="1.5" PointX="7.5" PointY="15.25" />
         <EntityTypeShape EntityType="JamiyahDBModel.Subject" Width="1.5" PointX="5.25" PointY="28.625" />
         <EntityTypeShape EntityType="JamiyahDBModel.TutionFeeType" Width="1.5" PointX="6" PointY="19.75" />
@@ -39,11 +38,9 @@
         <AssociationConnector Association="JamiyahDBModel.FK_CompanyModule_Modules" />
         <AssociationConnector Association="JamiyahDBModel.FK_MonthlyTutionFee_Department" />
         <AssociationConnector Association="JamiyahDBModel.FK_StudentAssigned_Department" />
-        <AssociationConnector Association="JamiyahDBModel.FK_StudentInfo_Department" />
         <AssociationConnector Association="JamiyahDBModel.FK_Subject_Department" />
         <AssociationConnector Association="JamiyahDBModel.FK_Forms_Modules" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupForm_Forms" />
-        <AssociationConnector Association="JamiyahDBModel.FK_StudentInfo_Gender" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupForm_Modules" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupModule_Modules" />
         <AssociationConnector Association="JamiyahDBModel.FK_MonthlyTutionFee_ResidentType" />
@@ -52,12 +49,15 @@
         <AssociationConnector Association="JamiyahDBModel.FK_MonthlyTutionFee_TutionFeeType" />
         <AssociationConnector Association="JamiyahDBModel.FK_StudentAssigned_ResidentType" />
         <AssociationConnector Association="JamiyahDBModel.FK_StaffList_Usergroup" />
-        <AssociationConnector Association="JamiyahDBModel.FK_StudentAssigned_StudentInfo" />
-        <AssociationConnector Association="JamiyahDBModel.FK_StudentAttachFile_StudentInfo" />
-        <AssociationConnector Association="JamiyahDBModel.FK_StudentInfoPreviousInstitution_StudentInfo" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupForm_Usergroup" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupModule_Usergroup" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserProfile_UserRole" />
+        <EntityTypeShape EntityType="JamiyahDBModel.StudentInfo" Width="1.5" PointX="5.25" PointY="6.25" />
+        <AssociationConnector Association="JamiyahDBModel.FK_StudentInfo_Department" />
+        <AssociationConnector Association="JamiyahDBModel.FK_StudentInfo_Gender" />
+        <AssociationConnector Association="JamiyahDBModel.FK_StudentAssigned_StudentInfo" />
+        <AssociationConnector Association="JamiyahDBModel.FK_StudentAttachFile_StudentInfo" />
+        <AssociationConnector Association="JamiyahDBModel.FK_StudentInfoPreviousInstitution_StudentInfo" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

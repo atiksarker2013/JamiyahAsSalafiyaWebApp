@@ -196,6 +196,7 @@
     <Compile Include="Controllers\CampusLifeController.cs" />
     <Compile Include="Controllers\CategoriesController.cs" />
     <Compile Include="Controllers\CoCurricularActivitiesController.cs" />
+    <Compile Include="Controllers\CompaniesController.cs" />
     <Compile Include="Controllers\DepartmentsController.cs" />
     <Compile Include="Controllers\DirectorCornerController.cs" />
     <Compile Include="Controllers\FacilitiesController.cs" />
@@ -719,6 +720,11 @@
     <Content Include="Views\StudentInfo\Edit.cshtml" />
     <Content Include="Views\StudentInfo\Index.cshtml" />
     <Content Include="Views\StudentInfo\PreviousBoardExam.cshtml" />
+    <Content Include="Views\Companies\Create.cshtml" />
+    <Content Include="Views\Companies\Delete.cshtml" />
+    <Content Include="Views\Companies\Details.cshtml" />
+    <Content Include="Views\Companies\Edit.cshtml" />
+    <Content Include="Views\Companies\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

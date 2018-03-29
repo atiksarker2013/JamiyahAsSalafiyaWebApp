@@ -170,6 +170,8 @@ namespace AppBootstrapSite1.Controllers
                 entity.PreviousInstitutionClearanceDate = model.PreviousInstitutionClearanceDate;
                 entity.AdmittedDepartmentId = model.AdmittedDepartmentId;
 
+                entity.IsAssign = false;
+
                 db.StudentInfo.Add(entity);
                 db.SaveChanges();
 

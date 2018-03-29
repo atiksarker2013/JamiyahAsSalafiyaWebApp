@@ -19,8 +19,8 @@ namespace AppBootstrapSite1.Models
         {
             this.MonthlyTutionFee = new HashSet<MonthlyTutionFee>();
             this.StudentAssigned = new HashSet<StudentAssigned>();
-            this.StudentInfo = new HashSet<StudentInfo>();
             this.Subject = new HashSet<Subject>();
+            this.StudentInfo = new HashSet<StudentInfo>();
         }
     
         public int Id { get; set; }
@@ -33,8 +33,8 @@ namespace AppBootstrapSite1.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<StudentAssigned> StudentAssigned { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<StudentInfo> StudentInfo { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Subject> Subject { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<StudentInfo> StudentInfo { get; set; }
     }
 }

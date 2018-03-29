@@ -42,7 +42,6 @@ namespace AppBootstrapSite1.Models
         public virtual DbSet<StaffList> StaffList { get; set; }
         public virtual DbSet<StudentAssigned> StudentAssigned { get; set; }
         public virtual DbSet<StudentAttachFile> StudentAttachFile { get; set; }
-        public virtual DbSet<StudentInfo> StudentInfo { get; set; }
         public virtual DbSet<StudentInfoPreviousInstitution> StudentInfoPreviousInstitution { get; set; }
         public virtual DbSet<Subject> Subject { get; set; }
         public virtual DbSet<TutionFeeType> TutionFeeType { get; set; }
@@ -51,5 +50,6 @@ namespace AppBootstrapSite1.Models
         public virtual DbSet<UserGroupModule> UserGroupModule { get; set; }
         public virtual DbSet<UserProfile> UserProfile { get; set; }
         public virtual DbSet<UserRole> UserRole { get; set; }
+        public virtual DbSet<StudentInfo> StudentInfo { get; set; }
     }
 }
