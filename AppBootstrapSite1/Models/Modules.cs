@@ -17,11 +17,11 @@ namespace AppBootstrapSite1.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Modules()
         {
+            this.CompanyForm = new HashSet<CompanyForm>();
+            this.CompanyModule = new HashSet<CompanyModule>();
             this.Forms = new HashSet<Forms>();
             this.UserGroupForm = new HashSet<UserGroupForm>();
             this.UserGroupModule = new HashSet<UserGroupModule>();
-            this.CompanyForm = new HashSet<CompanyForm>();
-            this.CompanyModule = new HashSet<CompanyModule>();
         }
     
         public System.Guid ModuleID { get; set; }
@@ -32,14 +32,14 @@ namespace AppBootstrapSite1.Models
         public Nullable<System.Guid> ParentModuleID { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<CompanyForm> CompanyForm { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<CompanyModule> CompanyModule { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Forms> Forms { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<UserGroupForm> UserGroupForm { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<UserGroupModule> UserGroupModule { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CompanyForm> CompanyForm { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CompanyModule> CompanyModule { get; set; }
     }
 }

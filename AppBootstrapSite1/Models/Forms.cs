@@ -17,8 +17,8 @@ namespace AppBootstrapSite1.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Forms()
         {
-            this.UserGroupForm = new HashSet<UserGroupForm>();
             this.CompanyForm = new HashSet<CompanyForm>();
+            this.UserGroupForm = new HashSet<UserGroupForm>();
         }
     
         public System.Guid FormID { get; set; }
@@ -30,10 +30,10 @@ namespace AppBootstrapSite1.Models
         public Nullable<bool> IsDelete { get; set; }
         public string FormCss { get; set; }
     
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<CompanyForm> CompanyForm { get; set; }
         public virtual Modules Modules { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<UserGroupForm> UserGroupForm { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<CompanyForm> CompanyForm { get; set; }
     }
 }

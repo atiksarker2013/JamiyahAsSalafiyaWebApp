@@ -25,31 +25,31 @@ namespace AppBootstrapSite1.Models
             throw new UnintentionalCodeFirstException();
         }
     
-        public virtual DbSet<Forms> Forms { get; set; }
-        public virtual DbSet<Modules> Modules { get; set; }
-        public virtual DbSet<StaffList> StaffList { get; set; }
-        public virtual DbSet<Usergroup> Usergroup { get; set; }
-        public virtual DbSet<UserGroupForm> UserGroupForm { get; set; }
-        public virtual DbSet<UserGroupModule> UserGroupModule { get; set; }
-        public virtual DbSet<UserProfile> UserProfile { get; set; }
-        public virtual DbSet<UserRole> UserRole { get; set; }
-        public virtual DbSet<Company> Company { get; set; }
         public virtual DbSet<BoardExamination> BoardExamination { get; set; }
         public virtual DbSet<Category> Category { get; set; }
+        public virtual DbSet<Company> Company { get; set; }
         public virtual DbSet<CompanyForm> CompanyForm { get; set; }
         public virtual DbSet<CompanyModule> CompanyModule { get; set; }
         public virtual DbSet<Department> Department { get; set; }
+        public virtual DbSet<Forms> Forms { get; set; }
         public virtual DbSet<Gender> Gender { get; set; }
         public virtual DbSet<ImageFile> ImageFile { get; set; }
+        public virtual DbSet<Modules> Modules { get; set; }
         public virtual DbSet<MonthlyTutionFee> MonthlyTutionFee { get; set; }
         public virtual DbSet<ResidentType> ResidentType { get; set; }
         public virtual DbSet<SessionMonth> SessionMonth { get; set; }
         public virtual DbSet<SessionYear> SessionYear { get; set; }
+        public virtual DbSet<StaffList> StaffList { get; set; }
         public virtual DbSet<StudentAssigned> StudentAssigned { get; set; }
         public virtual DbSet<StudentAttachFile> StudentAttachFile { get; set; }
         public virtual DbSet<StudentInfo> StudentInfo { get; set; }
         public virtual DbSet<StudentInfoPreviousInstitution> StudentInfoPreviousInstitution { get; set; }
         public virtual DbSet<Subject> Subject { get; set; }
         public virtual DbSet<TutionFeeType> TutionFeeType { get; set; }
+        public virtual DbSet<Usergroup> Usergroup { get; set; }
+        public virtual DbSet<UserGroupForm> UserGroupForm { get; set; }
+        public virtual DbSet<UserGroupModule> UserGroupModule { get; set; }
+        public virtual DbSet<UserProfile> UserProfile { get; set; }
+        public virtual DbSet<UserRole> UserRole { get; set; }
     }
 }

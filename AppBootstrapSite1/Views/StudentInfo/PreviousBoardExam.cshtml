@@ -1,0 +1,201 @@
+﻿@model AppBootstrapSite1.Models.StudentInfoViewModel
+@using AppBootstrapSite1.Models
+@{
+    ViewBag.Title = "PreviousBoardExam";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<link href="~/Content/datetimepicker-master/jquery-ui-timepicker-addon.css" rel="stylesheet" />
+<script src="~/Content/datetimepicker-master/jquery-ui-timepicker-addon.js"></script>
+
+
+<script type="text/javascript">
+    $(function () {
+        $('#StudentDateOfBirth').datetimepicker({
+            timeFormat: "hh:mm tt"
+        });
+    });
+    $(function () {
+        $('#PreviousInstitutionClearanceDate').datetimepicker({
+            timeFormat: "hh:mm tt"
+        });
+    });
+    $(function () {
+        $('#CompletionDate').datetimepicker({
+            timeFormat: "hh:mm tt"
+        });
+    });
+
+
+
+
+
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode;
+        if (charCode != 46 && charCode > 31
+            && (charCode < 48 || charCode > 57))
+            return false;
+
+        return true;
+    }
+
+    $(function () {
+        $(".datepicker").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            enabled: true,
+            yearRange: 'c-80:c+900'
+        });
+    });
+
+
+
+
+</script>
+
+
+@using (Html.BeginForm("PreviousBoardExam", "StudentInfo", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    @Html.AntiForgeryToken()
+    <h3>@ViewBag.mess</h3>
+
+    <div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                <ul class="nav nav-pills">
+                    <li >
+                        <a href="@Url.Action("Edit", "StudentInfo", new { id = Model.Id })">Admission</a>
+                    </li>
+                    <li class="active">
+                        <a href="#2a" data-toggle="pill">Previous Board Exam</a>
+                    </li>
+                    <li>
+                        <a href="@Url.Action("AttachDocument", "StudentInfo", new { id = Model.Id })">Attach Document</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="tab-content">
+
+        <div class="tab-pane fade in active" id="2a">
+
+            <div class="row">
+                <div class="panel panel-default ">
+                    <div class="panel-heading">Previous Board Exam Information</div>
+                    <div class="panel-body">
+                        <div class="form-group">
+                            <table>
+
+                                <thead>
+                                    <tr>
+                                        <th>Exam Name</th>
+                                        <th>Year</th>
+                                        <th>Institution Name</th>
+                                        <th>Institution Code</th>
+                                        <th>District</th>
+                                        <th>Registration no</th>
+                                        <th>Roll No</th>
+                                        <th>Grade</th>
+
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+
+                                    @for (int i = 0; i < Model.PreviousInstitutionList.Count(); i++)
+                                    {
+
+                                        @Html.HiddenFor(m => Model.PreviousInstitutionList[i].Id)
+                                        @Html.HiddenFor(m => Model.PreviousInstitutionList[i].StudentInfo_FK)
+                                        <tr>
+
+                                            <td>
+                                                <div class="form-group">
+                                                    @Html.TextBoxFor(model => model.PreviousInstitutionList[i].ExamName, new { placeholder = "description area", id = "ExamName" + i, @class = "form-control" })
+                                                </div>
+                                            </td>
+
+                                            <td>
+
+                                                <div class="form-group">
+                                                    @Html.TextBoxFor(model => model.PreviousInstitutionList[i].ExamYear, new { placeholder = "Exam Year", id = "ExamYear" + i, @class = "form-control" })
+                                                </div>
+                                              
+                                            </td>
+
+                                            <td>
+
+                                                <div class="form-group">
+                                                    @Html.TextBoxFor(model => model.PreviousInstitutionList[i].InstitutionName, new { placeholder = "Institution Name", id = "InstitutionName" + i, @class = "form-control" })
+                                                </div>
+
+                                            </td>
+
+                                            <td>
+
+                                                <div class="form-group">
+                                                    @Html.TextBoxFor(model => model.PreviousInstitutionList[i].InstitutionCode, new { placeholder = "Institution Code", id = "InstitutionCode" + i, @class = "form-control" })
+                                                </div>
+
+                                            </td>
+
+                                            <td>
+
+                                                <div class="form-group">
+                                                    @Html.TextBoxFor(model => model.PreviousInstitutionList[i].InstitutionDistrict, new { placeholder = "District", id = "InstitutionDistrict" + i, @class = "form-control" })
+                                                </div>
+
+                                            </td>
+
+                                            <td>
+
+                                                <div class="form-group">
+                                                    @Html.TextBoxFor(model => model.PreviousInstitutionList[i].RegiNo, new { placeholder = "Regi No", id = "RegiNo" + i, @class = "form-control" })
+                                                </div>
+
+                                            </td>
+
+                                            <td>
+
+                                                <div class="form-group">
+                                                    @Html.TextBoxFor(model => model.PreviousInstitutionList[i].RollNo, new { placeholder = "RollNo", id = "RollNo" + i, @class = "form-control" })
+                                                </div>
+
+                                            </td>
+
+                                            <td>
+
+                                                <div class="form-group">
+                                                    @Html.TextBoxFor(model => model.PreviousInstitutionList[i].Grade, new { placeholder = "Grade", id = "Grade" + i, @class = "form-control" })
+                                                </div>
+
+                                            </td>
+                                        </tr>
+                                                    }
+
+                                </tbody>
+                            </table>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+}
+
+
+
+
