@@ -52,13 +52,14 @@
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupForm_Usergroup" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserGroupModule_Usergroup" />
         <AssociationConnector Association="JamiyahDBModel.FK_UserProfile_UserRole" />
-        <EntityTypeShape EntityType="JamiyahDBModel.StudentInfo" Width="1.5" PointX="5.25" PointY="6.25" />
+        <EntityTypeShape EntityType="JamiyahDBModel.StudentInfo" Width="1.5" PointX="23" PointY="2.25" />
+        <AssociationConnector Association="JamiyahDBModel.FK_StudentInfo_Company" />
         <AssociationConnector Association="JamiyahDBModel.FK_StudentInfo_Department" />
         <AssociationConnector Association="JamiyahDBModel.FK_StudentInfo_Gender" />
         <AssociationConnector Association="JamiyahDBModel.FK_StudentAssigned_StudentInfo" />
         <AssociationConnector Association="JamiyahDBModel.FK_StudentAttachFile_StudentInfo" />
         <AssociationConnector Association="JamiyahDBModel.FK_StudentInfoPreviousInstitution_StudentInfo" />
-      </Diagram>
+        </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
 </edmx:Edmx>

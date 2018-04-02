@@ -224,6 +224,7 @@
           <Property Name="PreviousInstitutionClearanceDate" Type="datetime" />
           <Property Name="AdmittedDepartmentId" Type="int" />
           <Property Name="IsAssign" Type="bit" />
+          <Property Name="Brach" Type="uniqueidentifier" />
         </EntityType>
         <EntityType Name="StudentInfoPreviousInstitution">
           <Key>
@@ -521,6 +522,18 @@
             </Dependent>
           </ReferentialConstraint>
         </Association>
+        <Association Name="FK_StudentInfo_Company">
+          <End Role="Company" Type="Self.Company" Multiplicity="0..1" />
+          <End Role="StudentInfo" Type="Self.StudentInfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Company">
+              <PropertyRef Name="CompanyKey" />
+            </Principal>
+            <Dependent Role="StudentInfo">
+              <PropertyRef Name="Brach" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_StudentInfo_Department">
           <End Role="Department" Type="Self.Department" Multiplicity="0..1" />
           <End Role="StudentInfo" Type="Self.StudentInfo" Multiplicity="*" />
@@ -736,6 +749,10 @@
             <End Role="StudentInfo" EntitySet="StudentInfo" />
             <End Role="StudentAttachFile" EntitySet="StudentAttachFile" />
           </AssociationSet>
+          <AssociationSet Name="FK_StudentInfo_Company" Association="Self.FK_StudentInfo_Company">
+            <End Role="Company" EntitySet="Company" />
+            <End Role="StudentInfo" EntitySet="StudentInfo" />
+          </AssociationSet>
           <AssociationSet Name="FK_StudentInfo_Department" Association="Self.FK_StudentInfo_Department">
             <End Role="Department" EntitySet="Department" />
             <End Role="StudentInfo" EntitySet="StudentInfo" />
@@ -896,6 +913,10 @@
             <End Role="UserProfile" EntitySet="UserProfile" />
           </AssociationSet>
           <EntitySet Name="StudentInfo" EntityType="JamiyahDBModel.StudentInfo" />
+          <AssociationSet Name="FK_StudentInfo_Company" Association="JamiyahDBModel.FK_StudentInfo_Company">
+            <End Role="Company" EntitySet="Company" />
+            <End Role="StudentInfo" EntitySet="StudentInfo" />
+          </AssociationSet>
           <AssociationSet Name="FK_StudentInfo_Department" Association="JamiyahDBModel.FK_StudentInfo_Department">
             <End Role="Department" EntitySet="Department" />
             <End Role="StudentInfo" EntitySet="StudentInfo" />
@@ -916,7 +937,7 @@
             <End Role="StudentInfo" EntitySet="StudentInfo" />
             <End Role="StudentInfoPreviousInstitution" EntitySet="StudentInfoPreviousInstitution" />
           </AssociationSet>
-        </EntityContainer>
+          </EntityContainer>
         <EntityType Name="BoardExamination">
           <Key>
             <PropertyRef Name="Id" />
@@ -957,6 +978,7 @@
           <Property Name="ContactEmail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
           <NavigationProperty Name="CompanyForm" Relationship="JamiyahDBModel.FK_CompanyForm_Company" FromRole="Company" ToRole="CompanyForm" />
           <NavigationProperty Name="CompanyModule" Relationship="JamiyahDBModel.FK_CompanyModule_Company" FromRole="Company" ToRole="CompanyModule" />
+          <NavigationProperty Name="StudentInfo" Relationship="JamiyahDBModel.FK_StudentInfo_Company" FromRole="Company" ToRole="StudentInfo" />
         </EntityType>
         <EntityType Name="CompanyForm">
           <Key>
@@ -1541,12 +1563,26 @@
           <Property Name="PreviousInstitutionClearanceDate" Type="DateTime" Precision="3" />
           <Property Name="AdmittedDepartmentId" Type="Int32" />
           <Property Name="IsAssign" Type="Boolean" />
+          <Property Name="Brach" Type="Guid" />
+          <NavigationProperty Name="Company" Relationship="JamiyahDBModel.FK_StudentInfo_Company" FromRole="StudentInfo" ToRole="Company" />
           <NavigationProperty Name="Department" Relationship="JamiyahDBModel.FK_StudentInfo_Department" FromRole="StudentInfo" ToRole="Department" />
           <NavigationProperty Name="Gender" Relationship="JamiyahDBModel.FK_StudentInfo_Gender" FromRole="StudentInfo" ToRole="Gender" />
           <NavigationProperty Name="StudentAssigned" Relationship="JamiyahDBModel.FK_StudentAssigned_StudentInfo" FromRole="StudentInfo" ToRole="StudentAssigned" />
           <NavigationProperty Name="StudentAttachFile" Relationship="JamiyahDBModel.FK_StudentAttachFile_StudentInfo" FromRole="StudentInfo" ToRole="StudentAttachFile" />
           <NavigationProperty Name="StudentInfoPreviousInstitution" Relationship="JamiyahDBModel.FK_StudentInfoPreviousInstitution_StudentInfo" FromRole="StudentInfo" ToRole="StudentInfoPreviousInstitution" />
         </EntityType>
+        <Association Name="FK_StudentInfo_Company">
+          <End Type="JamiyahDBModel.Company" Role="Company" Multiplicity="0..1" />
+          <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Company">
+              <PropertyRef Name="CompanyKey" />
+            </Principal>
+            <Dependent Role="StudentInfo">
+              <PropertyRef Name="Brach" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
         <Association Name="FK_StudentInfo_Department">
           <End Type="JamiyahDBModel.Department" Role="Department" Multiplicity="0..1" />
           <End Type="JamiyahDBModel.StudentInfo" Role="StudentInfo" Multiplicity="*" />
@@ -1909,6 +1945,7 @@
           <EntitySetMapping Name="StudentInfo">
             <EntityTypeMapping TypeName="JamiyahDBModel.StudentInfo">
               <MappingFragment StoreEntitySet="StudentInfo">
+                <ScalarProperty Name="Brach" ColumnName="Brach" />
                 <ScalarProperty Name="IsAssign" ColumnName="IsAssign" />
                 <ScalarProperty Name="AdmittedDepartmentId" ColumnName="AdmittedDepartmentId" />
                 <ScalarProperty Name="PreviousInstitutionClearanceDate" ColumnName="PreviousInstitutionClearanceDate" />

@@ -113,6 +113,7 @@ namespace AppBootstrapSite1.Controllers
 
             ViewBag.GenderId = new SelectList(db.Gender.OrderBy(m => m.GenderName), "Id", "GenderName");
             ViewBag.AdmittedDepartmentId = new SelectList(db.Department.OrderBy(m => m.Name), "Id", "Name");
+            ViewBag.BranchId = new SelectList(db.Company.OrderBy(m => m.CompanyName), "CompanyKey", "CompanyName");
 
             return View(model);
         }
@@ -169,6 +170,7 @@ namespace AppBootstrapSite1.Controllers
                 entity.PreviousInstitutionClearanceNo = model.PreviousInstitutionClearanceNo;
                 entity.PreviousInstitutionClearanceDate = model.PreviousInstitutionClearanceDate;
                 entity.AdmittedDepartmentId = model.AdmittedDepartmentId;
+                entity.Brach = model.AdmittedBranchId;
 
                 entity.IsAssign = false;
 
@@ -212,6 +214,7 @@ namespace AppBootstrapSite1.Controllers
 
             ViewBag.GenderId = new SelectList(db.Gender.OrderBy(m => m.GenderName), "Id", "GenderName");
             ViewBag.AdmittedDepartmentId = new SelectList(db.Department.OrderBy(m => m.Name), "Id", "Name");
+            ViewBag.BranchId = new SelectList(db.Company.OrderBy(m => m.CompanyName), "CompanyKey", "CompanyName");
 
             return View(model);
         }
@@ -266,6 +269,7 @@ namespace AppBootstrapSite1.Controllers
 
             ViewBag.GenderId = new SelectList(db.Gender.OrderBy(m => m.GenderName), "Id", "GenderName");
             ViewBag.AdmittedDepartmentId = new SelectList(db.Department.OrderBy(m => m.Name), "Id", "Name");
+            ViewBag.BranchId = new SelectList(db.Company.OrderBy(m => m.CompanyName), "CompanyKey", "CompanyName");
 
             return View(model);
         }
@@ -333,6 +337,7 @@ namespace AppBootstrapSite1.Controllers
 
             ViewBag.GenderId = new SelectList(db.Gender.OrderBy(m => m.GenderName), "Id", "GenderName");
             ViewBag.AdmittedDepartmentId = new SelectList(db.Department.OrderBy(m => m.Name), "Id", "Name");
+            ViewBag.BranchId = new SelectList(db.Company.OrderBy(m => m.CompanyName), "CompanyKey", "CompanyName");
 
             return View(model);
         }

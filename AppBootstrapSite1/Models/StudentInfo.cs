@@ -61,7 +61,9 @@ namespace AppBootstrapSite1.Models
         public Nullable<System.DateTime> PreviousInstitutionClearanceDate { get; set; }
         public Nullable<int> AdmittedDepartmentId { get; set; }
         public Nullable<bool> IsAssign { get; set; }
+        public Nullable<System.Guid> Brach { get; set; }
     
+        public virtual Company Company { get; set; }
         public virtual Department Department { get; set; }
         public virtual Gender Gender { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

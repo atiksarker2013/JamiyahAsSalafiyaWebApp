@@ -19,6 +19,7 @@ namespace AppBootstrapSite1.Models
         {
             this.CompanyForm = new HashSet<CompanyForm>();
             this.CompanyModule = new HashSet<CompanyModule>();
+            this.StudentInfo = new HashSet<StudentInfo>();
         }
     
         public System.Guid CompanyKey { get; set; }
@@ -45,5 +46,7 @@ namespace AppBootstrapSite1.Models
         public virtual ICollection<CompanyForm> CompanyForm { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CompanyModule> CompanyModule { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<StudentInfo> StudentInfo { get; set; }
     }
 }
