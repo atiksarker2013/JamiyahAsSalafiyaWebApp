@@ -509,7 +509,7 @@ namespace AppBootstrapSite1.Controllers
                 entity.FileType = _photoobj.FileType;
                 entity.FileContent = _photoobj.FileContent;
                 entity.FileName = _photoobj.FileName;
-                entity.Description = _photoobj.Description;
+                entity.Description = model.ImageDescription;
 
                 db.StudentAttachFile.Add(entity);
                 db.SaveChanges();
@@ -534,7 +534,7 @@ namespace AppBootstrapSite1.Controllers
                     entity.FileType = item.FileType;
                     entity.FileContent = item.FileContent;
                     entity.FileName = item.FileName;
-                    entity.Description = item.Description;
+                    entity.Description = model.ImageDescription;
 
                     db.StudentAttachFile.Add(entity);
                     db.SaveChanges();

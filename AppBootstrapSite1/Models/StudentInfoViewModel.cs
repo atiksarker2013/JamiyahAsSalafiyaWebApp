@@ -124,6 +124,9 @@ namespace AppBootstrapSite1.Models
         [Display(Name = "Branch")]
         public Nullable<Guid> AdmittedBranchId { get; set; }
 
+        [Display(Name = "Description")]
+        public string ImageDescription { get; set; }
+
 
 
         public List<StudentInfoPreviousInstitutionViewModel> _previousInstitutionList = new List<StudentInfoPreviousInstitutionViewModel>();

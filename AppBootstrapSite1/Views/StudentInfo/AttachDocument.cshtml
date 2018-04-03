@@ -54,18 +54,29 @@
                          </div>*@
                          <div class="col-md-6">
 
-                             <div class="form-group">
-                                 <label class="display-block">Upload Student Document Photo:</label>
-                                 <input type="file" name="PostedLogo" class="file-styled">
-                                 <span class="help-block">Accepted formats: gif, png, jpg. Max file size 2Mb</span>
-                             </div>
 
                              <div class="form-group">
-                                 <button type="submit" class="btn btn-primary btn-xlg " id="btnAdd">Add</button>
+                                 @Html.LabelFor(model => model.ImageDescription)
+                                 @Html.TextBoxFor(model => model.ImageDescription, new { placeholder = "Description of uploaded file", @class = "form-control", @required = "required" })
+                                 @Html.ValidationMessageFor(model => model.ImageDescription, "", new { @class = "text-danger" })
                              </div>
+                          </div>
 
-                             
-                         </div>
+                             <div class="col-md-6">
+
+
+                                 <div class="form-group">
+                                     <label class="display-block">Upload Student Document Photo:</label>
+                                     <input type="file" name="PostedLogo" class="file-styled">
+                                     <span class="help-block">Accepted formats: gif, png, jpg. Max file size 2Mb</span>
+                                 </div>
+
+                                 <div class="form-group">
+                                     <button type="submit" class="btn btn-primary btn-xlg " id="btnAdd">Add</button>
+                                 </div>
+
+
+                             </div>
                      </div>
                  </div>
              </div>
