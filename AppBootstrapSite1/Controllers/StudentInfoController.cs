@@ -394,6 +394,73 @@ namespace AppBootstrapSite1.Controllers
             return View(model);
         }
 
+        [HttpPost]
+        public ActionResult PreviousBoardExam(StudentInfoViewModel model)
+        {
+            //var entity = db.StudentInfoPreviousInstitution.Where(m=>m.StudentInfo_FK == id);
+            var p = db.StudentInfoPreviousInstitution.Any(m => m.StudentInfo_FK == model.Id);
+
+            if (p == false)
+            {
+                using (var _sdb = new JamiyahDBEntities())
+                {
+
+                    foreach (var item in _sdb.BoardExamination)
+                    {
+                        StudentInfoPreviousInstitutionViewModel _institutionObj = new StudentInfoPreviousInstitutionViewModel();
+                        _institutionObj.ExamName = item.ExminationName;
+
+                        StudentInfoPreviousInstitution _studentInfoPreviousInstitutionEntity = new StudentInfoPreviousInstitution();
+                        _studentInfoPreviousInstitutionEntity.ExamName = _institutionObj.ExamName;
+                        _studentInfoPreviousInstitutionEntity.StudentInfo_FK = model.Id;
+                        _sdb.StudentInfoPreviousInstitution.Add(_studentInfoPreviousInstitutionEntity);
+                        // db.SaveChanges();
+                    }
+                    //save at the end
+                    _sdb.SaveChanges();
+                }
+            }
+
+            using (var _sdb = new JamiyahDBEntities())
+            {
+                foreach (var item in model.PreviousInstitutionList)
+                {
+                    StudentInfoPreviousInstitution c = (from x in _sdb.StudentInfoPreviousInstitution
+                                                        where x.StudentInfo_FK == item.StudentInfo_FK && x.ExamName.Contains(item.ExamName)
+                                                        select x).First();
+                    c.ExamName = item.ExamName;
+                    c.InstitutionName = item.InstitutionName;
+                    c.InstitutionCode = item.InstitutionCode;
+                    c.InstitutionDistrict = item.InstitutionDistrict;
+                    c.RegiNo = item.RegiNo;
+                    c.Grade = item.Grade;
+                    c.ExamYear = item.ExamYear;
+                    c.RollNo = item.RollNo;
+                }
+                _sdb.SaveChanges();
+            }
+
+            IQueryable<StudentInfoPreviousInstitution> query = db.StudentInfoPreviousInstitution.Where(m => m.StudentInfo_FK == model.Id);
+
+            var data = query.Select(asset => new StudentInfoPreviousInstitutionViewModel()
+            {
+                Id = asset.Id,
+                StudentInfo_FK = asset.StudentInfo_FK,
+                ExamName = asset.ExamName,
+                ExamYear = asset.ExamYear,
+                InstitutionName = asset.InstitutionName,
+                InstitutionCode = asset.InstitutionCode,
+                InstitutionDistrict = asset.InstitutionDistrict,
+                RegiNo = asset.RegiNo,
+                RollNo = asset.RollNo,
+                Grade = asset.Grade
+            }).ToList();
+
+            model.PreviousInstitutionList = data;
+
+            return View(model);
+        }
+
         public ActionResult AttachDocument(int id)
         {
             StudentInfoViewModel model = new StudentInfoViewModel();

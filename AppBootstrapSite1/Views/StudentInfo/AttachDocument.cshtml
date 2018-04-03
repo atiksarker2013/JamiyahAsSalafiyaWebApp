@@ -40,7 +40,7 @@
 
                      <div class="panel-heading">Upload New Document</div>
                      <div class="panel-body">
-                         <input id="PostedLogo" name="PostedLogo" style="visibility:hidden;" type="file">
+                         @*<input id="PostedLogo" name="PostedLogo" style="visibility:hidden;" type="file">
                          <div class="form-group">
 
                              <label for="PostedLogo" class="btn btn-primary btn-xlg col-md-4 col-md-offset-2">Select Document</label>
@@ -51,6 +51,20 @@
 
                          <div class="form-group">
                              <button type="submit" class="btn btn-primary btn-xlg col-md-4 col-md-offset-2" id="btnAdd">Add</button>
+                         </div>*@
+                         <div class="col-md-6">
+
+                             <div class="form-group">
+                                 <label class="display-block">Upload Student Document Photo:</label>
+                                 <input type="file" name="PostedLogo" class="file-styled">
+                                 <span class="help-block">Accepted formats: gif, png, jpg. Max file size 2Mb</span>
+                             </div>
+
+                             <div class="form-group">
+                                 <button type="submit" class="btn btn-primary btn-xlg " id="btnAdd">Add</button>
+                             </div>
+
+                             
                          </div>
                      </div>
                  </div>
