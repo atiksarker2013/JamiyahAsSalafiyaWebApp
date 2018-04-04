@@ -1,0 +1,158 @@
+﻿@model IEnumerable<AppBootstrapSite1.Models.StudentInfo>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<h2>Pending student list</h2>
+
+@*<p>
+    @Html.ActionLink("Create New", "Create")
+</p>*@
+<table class="table">
+    <tr>
+        <th>
+            Photo
+        </th>
+        <th>
+            Student Information 
+        </th>
+        
+         
+        <th>
+            Father Information 
+        </th>
+        
+        <th>
+            Mother Information
+        </th>
+        
+        <th>
+            Guardian Name and Occupation
+        </th>
+        
+        <th>
+            Guardian Address
+        </th>
+         
+        <th>
+            Relation With Guardian
+        </th>
+        <th>
+            Yearly Income Guardian
+        </th>
+        <th>
+            Permanent Address
+        </th>
+        
+         
+        <th>
+            Previous Institution Information
+        </th>
+        
+        
+        <th>
+           Branch
+        </th>
+        <th>
+            Department
+        </th>
+        
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+
+            @*@Html.DisplayFor(modelItem => item.StudentPhoto)*@
+            @{
+                if (item.StudentPhoto != null)
+                {
+                    var base64 = Convert.ToBase64String(item.StudentPhoto);
+                    var imgSrc = String.Format("data:image/jpg;base64,{0}", base64);
+                    <img src='@imgSrc' style="max-height:50px;border-radius: 10px;" />
+
+                }
+
+            }
+            
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StudentNameBangla)
+            @Html.DisplayFor(modelItem => item.StudentNameEnglish)
+            @Html.DisplayFor(modelItem => item.StudentNameArabic)
+            @Html.DisplayFor(modelItem => item.StudentDateOfBirth)
+            @Html.DisplayFor(modelItem => item.Gender.GenderName)
+
+        </td>
+      
+         
+        <td>
+            @Html.DisplayFor(modelItem => item.FatherNameBangla)
+            @Html.DisplayFor(modelItem => item.FatherNameEnglish)
+            @Html.DisplayFor(modelItem => item.FatherOccupation)
+            @Html.DisplayFor(modelItem => item.FatherMobile)
+        </td>
+         
+        <td>
+            @Html.DisplayFor(modelItem => item.MotherNameBangla)
+            @Html.DisplayFor(modelItem => item.MotherNameEnglish)
+            @Html.DisplayFor(modelItem => item.MotherMobile)
+        </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.GuardianName)
+            @Html.DisplayFor(modelItem => item.GuardianOccupation)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.GuardianHouseNo)
+            @Html.DisplayFor(modelItem => item.GuardianVillage)
+            @Html.DisplayFor(modelItem => item.GuardianPostOffice)
+            @Html.DisplayFor(modelItem => item.GuardianThana)
+            @Html.DisplayFor(modelItem => item.GuardianDistrict)
+        </td>
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.RelationWithGuardian)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.YearlyIncomeGuardian)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PermanentAddressHouse)
+            @Html.DisplayFor(modelItem => item.PermanentAddressVillage)
+            @Html.DisplayFor(modelItem => item.PermanentAddressPostOffice)
+            @Html.DisplayFor(modelItem => item.PermanentAddressThana)
+            @Html.DisplayFor(modelItem => item.PermanentAddressDistrict)
+
+        </td>
+       
+        
+        <td>
+            @Html.DisplayFor(modelItem => item.PreviousInstitutionName)
+            @Html.DisplayFor(modelItem => item.PreviousInstitutionAddress)
+            @Html.DisplayFor(modelItem => item.PreviousInstitutionClass)
+            @Html.DisplayFor(modelItem => item.PreviousInstitutionClearanceNo)
+            @Html.DisplayFor(modelItem => item.PreviousInstitutionClearanceDate)
+        </td>
+       
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Company.CompanyID)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Department.Name)
+        </td>
+         
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
+            @Html.ActionLink("Details", "Details", new { id=item.Id }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.Id })
+        </td>
+    </tr>
+}
+
+</table>

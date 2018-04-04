@@ -209,6 +209,7 @@
     <Compile Include="Controllers\NibrasIslamicResearchFoundationController.cs" />
     <Compile Include="Controllers\NoticeBoardController.cs" />
     <Compile Include="Controllers\OurStoryController.cs" />
+    <Compile Include="Controllers\PendingAssignStudentController.cs" />
     <Compile Include="Controllers\PrizesAndAchievementsController.cs" />
     <Compile Include="Controllers\ResidentTypesController.cs" />
     <Compile Include="Controllers\RulesAndRegulationController.cs" />
@@ -725,6 +726,11 @@
     <Content Include="Views\Companies\Details.cshtml" />
     <Content Include="Views\Companies\Edit.cshtml" />
     <Content Include="Views\Companies\Index.cshtml" />
+    <Content Include="Views\PendingAssignStudent\Create.cshtml" />
+    <Content Include="Views\PendingAssignStudent\Delete.cshtml" />
+    <Content Include="Views\PendingAssignStudent\Details.cshtml" />
+    <Content Include="Views\PendingAssignStudent\Edit.cshtml" />
+    <Content Include="Views\PendingAssignStudent\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
