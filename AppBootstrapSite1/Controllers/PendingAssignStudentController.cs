@@ -17,7 +17,7 @@ namespace AppBootstrapSite1.Controllers
         // GET: PendingAssignStudent
         public ActionResult Index()
         {
-            var studentInfo = db.StudentInfo.Include(s => s.Company).Include(s => s.Department).Include(s => s.Gender);
+            var studentInfo = db.StudentInfo.Where(m=>m.IsAssign==false).Include(s => s.Company).Include(s => s.Department).Include(s => s.Gender);
             return View(studentInfo.ToList());
         }
 

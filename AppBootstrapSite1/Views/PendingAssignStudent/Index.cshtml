@@ -53,11 +53,12 @@
         
         
         <th>
-           Branch
+            Admitted Department
         </th>
         <th>
-            Department
+           Branch
         </th>
+        
         
         <th></th>
     </tr>
@@ -139,13 +140,14 @@
             @Html.DisplayFor(modelItem => item.PreviousInstitutionClearanceDate)
         </td>
        
-       
-        <td>
-            @Html.DisplayFor(modelItem => item.Company.CompanyID)
-        </td>
         <td>
             @Html.DisplayFor(modelItem => item.Department.Name)
         </td>
+       
+        <td>
+            @Html.DisplayFor(modelItem => item.Company.CompanyName)
+        </td>
+        
          
         <td>
             @Html.ActionLink("Edit", "Edit", new { id=item.Id }) |
