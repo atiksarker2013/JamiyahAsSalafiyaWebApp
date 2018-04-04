@@ -17,16 +17,16 @@ namespace AppBootstrapSite1.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public ResidentType()
         {
-            this.MonthlyTutionFee = new HashSet<MonthlyTutionFee>();
             this.StudentAssigned = new HashSet<StudentAssigned>();
+            this.MonthlyTutionFee = new HashSet<MonthlyTutionFee>();
         }
     
         public int Id { get; set; }
         public string ResidentType1 { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MonthlyTutionFee> MonthlyTutionFee { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<StudentAssigned> StudentAssigned { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<MonthlyTutionFee> MonthlyTutionFee { get; set; }
     }
 }

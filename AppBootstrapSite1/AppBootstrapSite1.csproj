@@ -216,6 +216,7 @@
     <Compile Include="Controllers\SessionMonthsController.cs" />
     <Compile Include="Controllers\SessionYearsController.cs" />
     <Compile Include="Controllers\SpecialEventsController.cs" />
+    <Compile Include="Controllers\StudentAssignedsController.cs" />
     <Compile Include="Controllers\StudentInfoController.cs" />
     <Compile Include="Controllers\StudentsIdentityController.cs" />
     <Compile Include="Controllers\SubjectsController.cs" />
@@ -706,11 +707,6 @@
     <Content Include="Views\TutionFeeTypes\Details.cshtml" />
     <Content Include="Views\TutionFeeTypes\Edit.cshtml" />
     <Content Include="Views\TutionFeeTypes\Index.cshtml" />
-    <Content Include="Views\MonthlyTutionFees\Create.cshtml" />
-    <Content Include="Views\MonthlyTutionFees\Delete.cshtml" />
-    <Content Include="Views\MonthlyTutionFees\Details.cshtml" />
-    <Content Include="Views\MonthlyTutionFees\Edit.cshtml" />
-    <Content Include="Views\MonthlyTutionFees\Index.cshtml" />
     <Content Include="Views\BoardExaminations\Create.cshtml" />
     <Content Include="Views\BoardExaminations\Delete.cshtml" />
     <Content Include="Views\BoardExaminations\Details.cshtml" />
@@ -731,6 +727,16 @@
     <Content Include="Views\PendingAssignStudent\Details.cshtml" />
     <Content Include="Views\PendingAssignStudent\Edit.cshtml" />
     <Content Include="Views\PendingAssignStudent\Index.cshtml" />
+    <Content Include="Views\StudentAssigneds\Create.cshtml" />
+    <Content Include="Views\StudentAssigneds\Delete.cshtml" />
+    <Content Include="Views\StudentAssigneds\Details.cshtml" />
+    <Content Include="Views\StudentAssigneds\Edit.cshtml" />
+    <Content Include="Views\StudentAssigneds\Index.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Create.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Delete.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Details.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Edit.cshtml" />
+    <Content Include="Views\MonthlyTutionFees\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

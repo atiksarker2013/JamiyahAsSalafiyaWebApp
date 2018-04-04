@@ -35,7 +35,6 @@ namespace AppBootstrapSite1.Models
         public virtual DbSet<Gender> Gender { get; set; }
         public virtual DbSet<ImageFile> ImageFile { get; set; }
         public virtual DbSet<Modules> Modules { get; set; }
-        public virtual DbSet<MonthlyTutionFee> MonthlyTutionFee { get; set; }
         public virtual DbSet<ResidentType> ResidentType { get; set; }
         public virtual DbSet<SessionMonth> SessionMonth { get; set; }
         public virtual DbSet<SessionYear> SessionYear { get; set; }
@@ -51,5 +50,6 @@ namespace AppBootstrapSite1.Models
         public virtual DbSet<UserProfile> UserProfile { get; set; }
         public virtual DbSet<UserRole> UserRole { get; set; }
         public virtual DbSet<StudentInfo> StudentInfo { get; set; }
+        public virtual DbSet<MonthlyTutionFee> MonthlyTutionFee { get; set; }
     }
 }

@@ -17,10 +17,10 @@ namespace AppBootstrapSite1.Models
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Department()
         {
-            this.MonthlyTutionFee = new HashSet<MonthlyTutionFee>();
             this.StudentAssigned = new HashSet<StudentAssigned>();
             this.Subject = new HashSet<Subject>();
             this.StudentInfo = new HashSet<StudentInfo>();
+            this.MonthlyTutionFee = new HashSet<MonthlyTutionFee>();
         }
     
         public int Id { get; set; }
@@ -29,12 +29,12 @@ namespace AppBootstrapSite1.Models
     
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<MonthlyTutionFee> MonthlyTutionFee { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<StudentAssigned> StudentAssigned { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Subject> Subject { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<StudentInfo> StudentInfo { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<MonthlyTutionFee> MonthlyTutionFee { get; set; }
     }
 }

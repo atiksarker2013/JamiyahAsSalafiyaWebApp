@@ -34,14 +34,6 @@
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.SessionMonthId, "SessionMonthId", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
-                @Html.DropDownList("SessionMonthId", String.Empty)
-                @Html.ValidationMessageFor(model => model.SessionMonthId)
-            </div>
-        </div>
-
-        <div class="form-group">
             @Html.LabelFor(model => model.ResidentTypeId, "ResidentTypeId", htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
                 @Html.DropDownList("ResidentTypeId", String.Empty)
