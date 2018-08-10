@@ -121,6 +121,59 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to (a) Al Jamiah As Salafiah, Narayanganj:
+        ///
+        ///(i) Boys section: Total land area for boys section is 450 decimals. In the boys section, the educational program is going on from class 1 to class XI. With the mercy of Allah, a five-storied residential building has been established, with 10 rooms having 18/20 feet below the floor. A tin-shaded building with 4 rooms is situated on the south-west side of this building. There is a generator room, an employee&apos;s residential room and two other storerooms. There is a six [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string AtAGlanceJamiyahDetails {
+            get {
+                return ResourceManager.GetString("AtAGlanceJamiyahDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al Jamiah As Salafiah At a Glance.
+        /// </summary>
+        public static string AtAGlanceJamiyahHeading {
+            get {
+                return ResourceManager.GetString("AtAGlanceJamiyahHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (a) Al Jamiah As Salafiah, Narayanganj:
+        ///President: Mr. Shaykh Abdur Razzak Bin Yusuf.
+        ///Vice President: Mr. Shahadat Hossain.
+        ///Secretary: Janab Marfat Ali.
+        ///Convener: Mr. Salah Uddin.
+        ///Founding Member: Mr. Abdus Subhan.
+        ///Member: Mr. Nayan.
+        ///Member: Mr. Hashem Ali.
+        ///(b) Al Jamiah As Salafiah, Rajshahi:
+        ///President: Mr. Shaykh Abdur Razzaq bin Yusuf
+        ///Vice President: Mr. Imran Ali Molla
+        ///Secretary: Ziaur Rahman
+        ///Treasury: Mr. Obaidullah
+        ///Member: Mr. Yamin Ali Molla
+        ///Member: Mr. Golam Mortaza
+        ///Member: Mr. Abdul  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string BoardOfDirectorDetails {
+            get {
+                return ResourceManager.GetString("BoardOfDirectorDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Board of Directors:.
+        /// </summary>
+        public static string BoardOfDirectorHeading {
+            get {
+                return ResourceManager.GetString("BoardOfDirectorHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string Chairman {
@@ -230,6 +283,24 @@ namespace AppBootstrapSite1 {
         public static string GalleryHeading {
             get {
                 return ResourceManager.GetString("GalleryHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (a) The history of Al Jamiah As Salafiah, Narayanganj: A Furkania Madrasha (Religious School) was established in 1954 by the effort of the famous physician Doctor Abdus Subhan in association of some Islam loving brothers because there were no institutions for learning the Holy Quran in that area of Birhatabo, Rupganj, Narayanganj. Afterwards the institution’s name was changed as  Amdia Krishak-Sramik Hafizia Madrasha. Due to financial crisis, the institution was closed in 1996. After five long years, in 200 [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string HistoryOfInstitutionDetails {
+            get {
+                return ResourceManager.GetString("HistoryOfInstitutionDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to History Of Institution Heading.
+        /// </summary>
+        public static string HistoryOfInstitutionHeading {
+            get {
+                return ResourceManager.GetString("HistoryOfInstitutionHeading", resourceCulture);
             }
         }
         
@@ -594,11 +665,8 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to As Salamu Alaikum Praise be to Allah alone. Darud and Salam should be distributed to the Prophet (ﷺ). The first commandment of Allah is &quot;read&quot;. Welcome to our official web site.
-        ///
-        ///Honorable readers!
-        ///You are aware that since August 2013, Shaykh Abdur Razzaq bin Yusuf has managed to establish Al-Jami&apos;ah as Salafiyyah for the purpose of preparing algebraic scholars in harmony with the Holy Quran and Chhih Hadeeth as well as modern education.
-        ///Within a year of the establishment of Jami&apos;ah Salafiyah, with the  [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to Assalamu Alaikum. (May Peace be upon you). All praise is due to Almighty Allah Ta-Ala. May Darud and Salaam be poured upon our latest and greatest Rasul Muhammad (Sm.) You are cordially welcome to our official website of Al Jamiah As Salafiah.
+        ///Al Jamiah As Salafia is a modern and standard Islamic institution founded and directed by Shaykh Abdur Razzak Bin Yusuf Hafizahullah, one of the greatest Islamic scholars of the country, an active worker of Quran and Hadeeth, dear personality of pious brothers and th [rest of string was truncated]&quot;;.
         /// </summary>
         public static string WelcomeDetails {
             get {

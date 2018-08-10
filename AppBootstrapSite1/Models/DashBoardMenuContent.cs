@@ -118,5 +118,47 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "HistoryOfInstitutionHeading", ResourceType = typeof(Resource))]
+        public string HistoryOfInstitutionHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "HistoryOfInstitutionDetails", ResourceType = typeof(Resource))]
+        public string HistoryOfInstitutionDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AtAGlanceJamiyahHeading", ResourceType = typeof(Resource))]
+        public string AtAGlanceJamiyahHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AtAGlanceJamiyahDetails", ResourceType = typeof(Resource))]
+        public string AtAGlanceJamiyahDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "BoardOfDirectorHeading", ResourceType = typeof(Resource))]
+        public string BoardOfDirectorHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "BoardOfDirectorDetails", ResourceType = typeof(Resource))]
+        public string BoardOfDirectorDetails
+        {
+            get;
+            set;
+        }
+
     }
 }
