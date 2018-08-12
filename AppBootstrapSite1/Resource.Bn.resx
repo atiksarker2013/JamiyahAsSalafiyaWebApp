@@ -204,6 +204,18 @@
   <data name="CoursesDetailsHeading" xml:space="preserve">
     <value>কোর্স সমূহ</value>
   </data>
+  <data name="CurriculumSyllabusDetails" xml:space="preserve">
+    <value>পাঠ্যসূচি হচ্ছে স্তরভিত্তিক নির্ধারিত পাঠ্য বিষয় যা অধ্যয়ন করে একজন শিক্ষার্থী চূড়ান্ত লক্ষ্যে পৌঁছাতে পারে আর পাঠ্যক্রম হল একজন শিক্ষার্থী কর্তৃক সম্পদিত সকল সক্রিয় কার্যক্রম এবং সমস্ত লব্ধ অভিজ্ঞতা যা সে একটি প্রতিষ্ঠানের তত্ত্বাবধানে ও দিকনির্দেশনায় অর্জন করে এবং নির্দিষ্ট লক্ষ্যে পৌছার জন্য যার সূচনা হয় এবং সেই লক্ষ্য বাস্তবায়নের মাধ্যমে যার পরিসমাপ্তি ঘটে। আল-জামি’আহ্ আস-সালাফিয়্যাহ্ এর নির্দিষ্ট পাঠ্যক্রম আছে যার বিস্তারিত বিবরণ নিম্নরূপ:
+আল-জামি’আহ্ আস্-সালাফিয়্যাহ্ -এর শিক্ষার স্তর ৪টি:
+১. ইবতেদায়ী বা প্রাথমিক = ৫ বছর
+২. মুতাওয়াসসিত্বাহ্ বা মাধ্যমিক = ৫ বছর
+৩. ছানাবিয়া বা উচ্চ মাধ্যমিক = ২ বছর
+৪. ফাযিলিয়্যাত/দাওরা বা উচ্চতর = ২ বছর
+সর্বমোট = ১৪ বছর</value>
+  </data>
+  <data name="CurriculumSyllabusHeading" xml:space="preserve">
+    <value>পাঠ্যসূচি/সিলেবাস</value>
+  </data>
   <data name="DailyMeal" xml:space="preserve">
     <value />
   </data>
@@ -216,6 +228,20 @@
   </data>
   <data name="DressCodeHeading" xml:space="preserve">
     <value>শিক্ষার্থীদের পোশাক</value>
+  </data>
+  <data name="ExamScheduleAndRuleOfReadingDetails" xml:space="preserve">
+    <value>"(ক) বছরে দুটি সাময়িক পরীক্ষা হবে: (i) প্রথম সাময়িক (ii) দ্বিতীয় সাময়িক।
+(খ) ‘জামি’আহ্’- এর নির্ধারিত নিয়মে সাপ্তাহিক ও অন্যান্য পরীক্ষা হবে।
+(গ) পরীক্ষায় অংশগ্রহণের জন্য ৮০% উপস্থিতি থাকতে হবে।
+(ঘ) প্রবেশপত্র ছাড়া পরীক্ষায় অংশগ্রহণ করতে পারবে না।
+(ঙ) পরীক্ষা শুরু হওয়ার ১০ মিনিট পূর্বে পরীক্ষার হলে উপস্থিত থাকতে হবে।
+(চ) পরীক্ষায় অনিয়মের জন্য বহিষ্কারসহ যে কোন ধরণের শাস্তিমূলক ব্যবস্থা গ্রহণ করা হতে পারে।
+(ছ) পরীক্ষায় অসদুপায় অবলম্বন করলে সংশ্লিষ্ট বিষয়ে অকৃতকার্য বলে গণ্য হবে।
+(জ) কোন এক বিষয়ে অকৃতকার্য হলে পরবর্তী শ্রেণিতে উত্তীর্ণ হতে পরবে না।
+(ঝ) পরীক্ষায় অনুপস্থিতির উপযুক্ত কৈফিয়ত দিতে ব্যর্থ হলে প্রয়োজনীয় শাস্তিমূলক পদক্ষেপ/ব্যবস্থা গ্রহণ করা হবে।"</value>
+  </data>
+  <data name="ExamScheduleAndRuleOfReadingHeading" xml:space="preserve">
+    <value>পরীক্ষার সময়সূচী ও এ সংক্রান্ত নিয়মাবলী</value>
   </data>
   <data name="GalleryDetails" xml:space="preserve">
     <value />
@@ -230,6 +256,14 @@
   </data>
   <data name="HistoryOfInstitutionHeading" xml:space="preserve">
     <value>ইনস্টিটিউশন শিরোনাম ইতিহাস</value>
+  </data>
+  <data name="JamiyahClassRoutineDetails" xml:space="preserve">
+    <value>(ক) আল-জামি’আহ্ আস-সালাফিয়্যাহ্, নারায়ণগঞ্জ এর রুটিন:
+
+(খ) আল-জামি’আহ্ আস-সালাফিয়্যাহ্, রাজশাহী এর রুটিন:</value>
+  </data>
+  <data name="JamiyahClassRoutineHeading" xml:space="preserve">
+    <value>ক্লাস রুটিন</value>
   </data>
   <data name="JamiyahLifeDetails" xml:space="preserve">
     <value>দেশি-বিদেশি প্রতিষ্ঠান সমূহের উন্নত সিলেবাসের সমণ্বয়ে প্রণীত নির্ধারিত নিজস্ব সিলেবাসের আলোকে পাঠদান ।
@@ -256,6 +290,15 @@
   </data>
   <data name="JamiyahLifeHeading" xml:space="preserve">
     <value>মাদ্রাসার বৈশিষ্ট্য</value>
+  </data>
+  <data name="LocationDetails" xml:space="preserve">
+    <value>(ক) আল-জামি’আহ্ আস-সালাফিয়্যাহ, নারায়নগঞ্জ:
+পূর্বাচল আদর্শ সিটি থেকে ২.৫ কিমি উত্তরে নারায়ণগঞ্জ যেলার রূপগঞ্জ থানার বিরাব পোস্ট অফিসের অন্তর্গত স্থানীয় বেলদী বাজারের প্রায় ১ কিলোমিার পশ্চিমে বীরহাটাব-হাটাব গ্রামদ্বয়ের মধ্যস্থলে এক মনোরম পরিবেশে অবস্থিত। 
+(খ) আল্-জামি’আহ্ আস্-সালাফিয়্যাহ্, রাজশাহী:
+রাজশাহী-নওগাঁ মহাসড়কের কাছে রাজশাহী মহানগরীর অদূরে বিমানবন্দরের সন্নিকটে পবা উপজেলার ডাঙ্গীপাড়া গ্রামে প্রকৃতিক সৌন্দর্যমণ্ডিত এক মনোরম পরিবেশে অবস্থিত।</value>
+  </data>
+  <data name="LocationHeading" xml:space="preserve">
+    <value>অবস্থান</value>
   </data>
   <data name="MadrashaCharacteristics" xml:space="preserve">
     <value>দেশি-বিদেশি প্রতিষ্ঠান সমূহের উন্নত সিলেবাসের সমণ্বয়ে প্রণীত নির্ধারিত নিজস্ব সিলেবাসের আলোকে পাঠদান ।
@@ -413,6 +456,83 @@
   <data name="SyllabusHeading" xml:space="preserve">
     <value />
   </data>
+  <data name="TeacherAndEmployeeListDetails" xml:space="preserve">
+    <value>"(ক) আল-জামি’আহ্ আস-সালাফিয়্যাহ, নারায়নগঞ্জ এর তালিকা:
+"
+অধ্যক্ষ: জনাব হাশেম আলী
+উপাধ্যক্ষ: প্রক্রিয়াধীন
+(i) উচ্চতর স্তরের শিক্ষক: 
+(১) জনাব আব্দুল মতিন
+(২) জনাব আব্দুল আলীম
+(৩) জনাব আব্দুল গণি 
+(৪) জনাব ইংরেজির শিক্ষক
+(ii) উচ্চ মাধ্যমিক ও মাধ্যমিক স্তরের শিক্ষক:
+(১) জনাব ইমরান হোসেন
+(২) জনাব মাহবুবুর রহমান
+(৩) জনাব শাহ আলম
+(৪) জনাব আব্দুল বাসীর
+(৫) জনাব আব্দুল কাহির
+(৬) জনাব ক
+(৭) জনাব খ
+(৮) জনাব গ
+(৯) জনাব ঘ
+(iii) প্রাথমিক স্তরের শিক্ষক:
+(১) জনাব জিয়াউল হক
+(২) জনাব শফিকুল ইসলাম
+(৩) জনাব নুরুল ইসলাম
+(৪) জনাব ক
+(iv) হিফয বিভাগের শিক্ষক:
+(১) জনাব মোশাররফ হোসেন
+(২) জনাব ইসমাইল</value>
+  </data>
+  <data name="TeacherAndEmployeeListHeading" xml:space="preserve">
+    <value>শিক্ষক-কর্মচারীর তালিকা</value>
+  </data>
+  <data name="TeacherHeafzLabelDetails" xml:space="preserve">
+    <value>(১) জনাব মোশাররফ হোসেন
+(২) জনাব ইসমাইল</value>
+  </data>
+  <data name="TeacherHeafzLabelHeading" xml:space="preserve">
+    <value>হিফয বিভাগের শিক্ষক</value>
+  </data>
+  <data name="TeacherHigherLabelDetails" xml:space="preserve">
+    <value>(১) জনাব আব্দুল মতিন
+(২) জনাব আব্দুল আলীম
+(৩) জনাব আব্দুল গণি 
+(৪) জনাব ইংরেজির শিক্ষক</value>
+  </data>
+  <data name="TeacherHigherLabelHeading" xml:space="preserve">
+    <value>উচ্চতর স্তরের শিক্ষক</value>
+  </data>
+  <data name="TeacherPrimaryLabelDetails" xml:space="preserve">
+    <value>(১) জনাব জিয়াউল হক
+(২) জনাব শফিকুল ইসলাম
+(৩) জনাব নুরুল ইসলাম
+(৪) জনাব ক</value>
+  </data>
+  <data name="TeacherPrimaryLabelHeading" xml:space="preserve">
+    <value>প্রাথমিক স্তরের শিক্ষক</value>
+  </data>
+  <data name="TeacherPrincipalDetails" xml:space="preserve">
+    <value>জনাব হাশেম আলী</value>
+  </data>
+  <data name="TeacherPrincipalHeading" xml:space="preserve">
+    <value>অধ্যক্ষ</value>
+  </data>
+  <data name="TeacherSecondaryLabelDetails" xml:space="preserve">
+    <value>(১) জনাব ইমরান হোসেন
+(২) জনাব মাহবুবুর রহমান
+(৩) জনাব শাহ আলম
+(৪) জনাব আব্দুল বাসীর
+(৫) জনাব আব্দুল কাহির
+(৬) জনাব ক
+(৭) জনাব খ
+(৮) জনাব গ
+(৯) জনাব ঘ</value>
+  </data>
+  <data name="TeacherSecondaryLabelHeading" xml:space="preserve">
+    <value>উচ্চ মাধ্যমিক ও মাধ্যমিক স্তরের শিক্ষক</value>
+  </data>
   <data name="TeacherStudentComitte" xml:space="preserve">
     <value>‘আল-জামি’আহ আস-সালাফিয়্যাহ’-এর ছাত্রদের নিয়ে একটি কমিটি থাকবে । যার পরিচালনায় থাকবেন দায়িত্বশীল শিক্ষকমন্ডলী । যেখানে শিক্ষার্থীদের প্রতিভা বিকাশমূলক বিভিন্ন কার্যক্রম আয়োজন করা হবে । যেমন- দাওয়াতি প্রোগ্রাম, পত্রিকা ও দেয়ালিকা প্রকাশ, উপস্থাপনাসহ  প্রভৃতি ।
 উল্লেখ্য উক্ত ‘আবনা’ অধীনে  দু’টি শাখা থাকবে ।
@@ -421,6 +541,12 @@
   </data>
   <data name="TeacherStudentComitteHeading" xml:space="preserve">
     <value>শিক্ষক-শিক্ষার্থীদের কমিটি</value>
+  </data>
+  <data name="TeacherVicePrincipalDetails" xml:space="preserve">
+    <value>প্রক্রিয়াধীন</value>
+  </data>
+  <data name="TeacherVicePrincipalHeading" xml:space="preserve">
+    <value>উপাধ্যক্ষ</value>
   </data>
   <data name="VicePrincipal" xml:space="preserve">
     <value>শেখ মুজাফফর হাদীস শিক্ষক, আল-মারকাযুল ইসলামি আস-সালাফী এবং দারুল ইফতা, রাজশাহীর সদস্য। এছাড়াও PEACE টিভি ব্যাঙ্গালোর বক্তা [ছাত্র দ্বারা চালানো পৃষ্ঠা]

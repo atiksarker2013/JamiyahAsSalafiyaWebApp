@@ -425,6 +425,7 @@
     <Folder Include="Content\datatables\" />
     <Folder Include="Content\starters\" />
     <Folder Include="flags\" />
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Views\AdmissionProcess\" />
     <Folder Include="Views\Menu\" />
     <Folder Include="Views\RulesAndRegulation\" />
@@ -537,7 +538,6 @@
     <Content Include="Models\JamiyahModel.edmx.diagram">
       <DependentUpon>JamiyahModel.edmx</DependentUpon>
     </Content>
-    <None Include="Properties\PublishProfiles\AA.pubxml" />
     <Content Include="Views\AboutMadrasha\OurMadrasha.cshtml" />
     <Content Include="Views\AboutMadrasha\OurSuccess.cshtml" />
     <Content Include="Views\AboutMadrasha\MadrashaCharacteristics.cshtml" />

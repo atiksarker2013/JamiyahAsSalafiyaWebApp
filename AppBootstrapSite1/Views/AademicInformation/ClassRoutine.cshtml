@@ -1,8 +1,27 @@
-﻿
+﻿@model AppBootstrapSite1.Models.DashBoardMenuContent 
 @{
     ViewBag.Title = "ClassRoutine";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<div class="container marketing">
 
-<h2>ClassRoutine</h2>
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.JamiyahClassRoutineHeading)</span></h2>
+            <p>@Html.LabelFor(model => model.JamiyahClassRoutineDetails, new { style = "color:#ffffff" })</p>
+        </div>
+        @*<div class="col-md-5">
+                <img class="featurette-image img-responsive" src="/Content/abdur-razzak500x500.png" alt="Generic placeholder image">
+            </div>*@
+    </div>
+
+
+</div>
+
+
 

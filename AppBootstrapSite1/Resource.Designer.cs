@@ -228,6 +228,26 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Syllabus refers to an outline or summery of the specific subject or courses that help a student reach his final destination and Curriculum means all the active activities that a student performs and all the experiences that he gathers under the supervision and instructions of an institution. It starts with goals and ends with achievement. Al Jamiah As Salafiyah has its exclusive Syllabus and curriculum whose details are given below:
+        ///The levels of education of Al Jamiah As Salafiah are 4:
+        ///&quot;1. Ibtaydayi or  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string CurriculumSyllabusDetails {
+            get {
+                return ResourceManager.GetString("CurriculumSyllabusDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Curriculum / Syllabus.
+        /// </summary>
+        public static string CurriculumSyllabusHeading {
+            get {
+                return ResourceManager.GetString("CurriculumSyllabusHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string DailyMeal {
@@ -261,6 +281,30 @@ namespace AppBootstrapSite1 {
         public static string DressCodeHeading {
             get {
                 return ResourceManager.GetString("DressCodeHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;(a) Two permanent tests will be done: (i) First Terminal (ii) Second Terminal.
+        ///(b) Weekly and other examinations will be according to the prescribed rules of Jami&apos;ah.
+        ///(c) 80% attendance is a must to be eligible for participating in the examination.
+        ///(d) No participation in the examination without the entrance card.
+        ///(e) Must be present at the examination hall Before 10 minutes of starting time.
+        ///(f) Any kind of disciplinary action may be taken including expulsion from the examination due to unfair means.
+        ///(g)  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string ExamScheduleAndRuleOfReadingDetails {
+            get {
+                return ResourceManager.GetString("ExamScheduleAndRuleOfReadingDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Exam schedule and the rules regarding this.
+        /// </summary>
+        public static string ExamScheduleAndRuleOfReadingHeading {
+            get {
+                return ResourceManager.GetString("ExamScheduleAndRuleOfReadingHeading", resourceCulture);
             }
         }
         
@@ -305,6 +349,26 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to (a) Routine of Al-Jamiah As-Salafiyah, Narayanganj
+        ///
+        ///(b) Routine of Al-Jamiah As-Salafiyah, Rajshahi.
+        /// </summary>
+        public static string JamiyahClassRoutineDetails {
+            get {
+                return ResourceManager.GetString("JamiyahClassRoutineDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Class Routine.
+        /// </summary>
+        public static string JamiyahClassRoutineHeading {
+            get {
+                return ResourceManager.GetString("JamiyahClassRoutineHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Studying in the light of its own syllabus determined in the form of advanced syllabus of local and foreign institutions.
         ///Directed by a handful of skilled, experienced, hardworking and dedicated teachers from various universities and universities of the country and abroad.
         ///If you are resident then always supervised by the teachers.
@@ -323,6 +387,27 @@ namespace AppBootstrapSite1 {
         public static string JamiyahLifeHeading {
             get {
                 return ResourceManager.GetString("JamiyahLifeHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (a) Al Jamiah As Salafiah, Narayanganj:
+        ///This institution is situated with a charming environment in the middle point of the Birhatabo-Hatabo village which is almost one kilometer west from the local Beldibazar, associated by the Birab post office, at Rupaganj thana, in Narayanganj district whose distance is about 2.5 kilometer north from Purbachal Ideal City.
+        ///(b) Al Jamiah As Salafiah, Rajshahi:
+        ///This institution is located near the highway of Rajshahi-Naogaon, which is not very far from Rajshahi division [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string LocationDetails {
+            get {
+                return ResourceManager.GetString("LocationDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Location.
+        /// </summary>
+        public static string LocationHeading {
+            get {
+                return ResourceManager.GetString("LocationHeading", resourceCulture);
             }
         }
         
@@ -604,6 +689,149 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to (A) Al Jamiah As Salafiah, Narayanganj:
+        ///(1) Principal: Mr. Hashem Ali
+        ///(2) Vice-Principal: Under the process
+        ///(i) Higher level teachers:
+        ///(3) Mr. Abdul Matin
+        ///(4) Mr. Abdul Alim
+        ///(5) Mr. Abdul Gani
+        ///(6) Mr English Teacher
+        ///(ii) Higher Secondary and Secondary level teachers:
+        ///(7) Mr. Imran Hossain
+        ///(8) Mr. Mahbubur Rahman
+        ///(9) Mr. Shah Alam
+        ///(10) Mr. Abdul Bassir
+        ///(11) Mr. Abdul Qahir
+        ///(12) Mr. A
+        ///(13) Mr. B
+        ///(14) Mr. C
+        ///(15) Mr. D
+        ///(iii) Primary level teachers:
+        ///(16) Mr. Ziaul Haque
+        ///(17) Mr. Shafiqul Isla [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string TeacherAndEmployeeListDetails {
+            get {
+                return ResourceManager.GetString("TeacherAndEmployeeListDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teachers and Employees List.
+        /// </summary>
+        public static string TeacherAndEmployeeListHeading {
+            get {
+                return ResourceManager.GetString("TeacherAndEmployeeListHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (20) Mr. Mosharrof Hossain
+        ///(21) Mr. Mr. Ismail.
+        /// </summary>
+        public static string TeacherHeafzLabelDetails {
+            get {
+                return ResourceManager.GetString("TeacherHeafzLabelDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Teachers of Hafiz Department.
+        /// </summary>
+        public static string TeacherHeafzLabelHeading {
+            get {
+                return ResourceManager.GetString("TeacherHeafzLabelHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (3) Mr. Abdul Matin
+        ///(4) Mr. Abdul Alim
+        ///(5) Mr. Abdul Gani
+        ///(6) Mr English Teacher.
+        /// </summary>
+        public static string TeacherHigherLabelDetails {
+            get {
+                return ResourceManager.GetString("TeacherHigherLabelDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Higher level teachers.
+        /// </summary>
+        public static string TeacherHigherLabelHeading {
+            get {
+                return ResourceManager.GetString("TeacherHigherLabelHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (16) Mr. Ziaul Haque
+        ///(17) Mr. Shafiqul Islam
+        ///(18) Mr. Nurul Islam
+        ///(19) Mr. E.
+        /// </summary>
+        public static string TeacherPrimaryLabelDetails {
+            get {
+                return ResourceManager.GetString("TeacherPrimaryLabelDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Primary level teachers.
+        /// </summary>
+        public static string TeacherPrimaryLabelHeading {
+            get {
+                return ResourceManager.GetString("TeacherPrimaryLabelHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mr. Hashem Ali.
+        /// </summary>
+        public static string TeacherPrincipalDetails {
+            get {
+                return ResourceManager.GetString("TeacherPrincipalDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Principal.
+        /// </summary>
+        public static string TeacherPrincipalHeading {
+            get {
+                return ResourceManager.GetString("TeacherPrincipalHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (7) Mr. Imran Hossain
+        ///(8) Mr. Mahbubur Rahman
+        ///(9) Mr. Shah Alam
+        ///(10) Mr. Abdul Bassir
+        ///(11) Mr. Abdul Qahir
+        ///(12) Mr. A
+        ///(13) Mr. B
+        ///(14) Mr. C
+        ///(15) Mr. D.
+        /// </summary>
+        public static string TeacherSecondaryLabelDetails {
+            get {
+                return ResourceManager.GetString("TeacherSecondaryLabelDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Higher Secondary and Secondary level teachers.
+        /// </summary>
+        public static string TeacherSecondaryLabelHeading {
+            get {
+                return ResourceManager.GetString("TeacherSecondaryLabelHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to There will be a committee with al-Jami&apos;ah as-Salafiyah students. The responsible teachers will be in charge. Where students will be promoting talent development programs. For example, publication of newspapers and magazines, newspapers and so on.
         ///Note that there will be two branches under &apos;Abana&apos;.
         ///Composed of students studying in a Jami&apos;ah.
@@ -621,6 +849,24 @@ namespace AppBootstrapSite1 {
         public static string TeacherStudentComitteHeading {
             get {
                 return ResourceManager.GetString("TeacherStudentComitteHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Under the process.
+        /// </summary>
+        public static string TeacherVicePrincipalDetails {
+            get {
+                return ResourceManager.GetString("TeacherVicePrincipalDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Vice-Principal.
+        /// </summary>
+        public static string TeacherVicePrincipalHeading {
+            get {
+                return ResourceManager.GetString("TeacherVicePrincipalHeading", resourceCulture);
             }
         }
         

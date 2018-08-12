@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppBootstrapSite1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,22 +7,25 @@ using System.Web.Mvc;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class AademicInformationController : Controller
+    public class AademicInformationController : BaseController
     {
         // GET: AademicInformation
         public ActionResult Curriculum()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ClassRoutine()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ExaminationSchedule()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult Primary()

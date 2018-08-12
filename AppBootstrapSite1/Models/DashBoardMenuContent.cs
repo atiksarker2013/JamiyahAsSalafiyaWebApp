@@ -160,5 +160,156 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "LocationHeading", ResourceType = typeof(Resource))]
+        public string LocationHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "LocationDetails", ResourceType = typeof(Resource))]
+        public string LocationDetails
+        {
+            get;
+            set;
+        }
+
+
+        [Display(Name = "TeacherAndEmployeeListHeading", ResourceType = typeof(Resource))]
+        public string TeacherAndEmployeeListHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "TeacherAndEmployeeListDetails", ResourceType = typeof(Resource))]
+        public string TeacherAndEmployeeListDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "TeacherPrincipalHeading", ResourceType = typeof(Resource))]
+        public string TeacherPrincipalHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "TeacherPrincipalDetails", ResourceType = typeof(Resource))]
+        public string TeacherPrincipalDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "TeacherVicePrincipalHeading", ResourceType = typeof(Resource))]
+        public string TeacherVicePrincipalHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "TeacherVicePrincipalDetails", ResourceType = typeof(Resource))]
+        public string TeacherVicePrincipalDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "TeacherHigherLabelHeading", ResourceType = typeof(Resource))]
+        public string TeacherHigherLabelHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "TeacherHigherLabelDetails", ResourceType = typeof(Resource))]
+        public string TeacherHigherLabelDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "TeacherSecondaryLabelHeading", ResourceType = typeof(Resource))]
+        public string TeacherSecondaryLabelHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "TeacherSecondaryLabelDetails", ResourceType = typeof(Resource))]
+        public string TeacherSecondaryLabelDetails
+        {
+            get;
+            set;
+        }
+
+
+        [Display(Name = "TeacherHeafzLabelHeading", ResourceType = typeof(Resource))]
+        public string TeacherHeafzLabelHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "TeacherHeafzLabelDetails", ResourceType = typeof(Resource))]
+        public string TeacherHeafzLabelDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "TeacherPrimaryLabelHeading", ResourceType = typeof(Resource))]
+        public string TeacherPrimaryLabelHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "TeacherPrimaryLabelDetails", ResourceType = typeof(Resource))]
+        public string TeacherPrimaryLabelDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "CurriculumSyllabusHeading", ResourceType = typeof(Resource))]
+        public string CurriculumSyllabusHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "CurriculumSyllabusDetails", ResourceType = typeof(Resource))]
+        public string CurriculumSyllabusDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "JamiyahClassRoutineHeading", ResourceType = typeof(Resource))]
+        public string JamiyahClassRoutineHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "JamiyahClassRoutineDetails", ResourceType = typeof(Resource))]
+        public string JamiyahClassRoutineDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ExamScheduleAndRuleOfReadingHeading", ResourceType = typeof(Resource))]
+        public string ExamScheduleAndRuleOfReadingHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ExamScheduleAndRuleOfReadingDetails", ResourceType = typeof(Resource))]
+        public string ExamScheduleAndRuleOfReadingDetails
+        {
+            get;
+            set;
+        }
+
     }
 }

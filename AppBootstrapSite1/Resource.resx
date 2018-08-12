@@ -200,6 +200,18 @@ Member: Mr. Abdul Aziz.</value>
   <data name="CoursesDetailsHeading" xml:space="preserve">
     <value>Courses</value>
   </data>
+  <data name="CurriculumSyllabusDetails" xml:space="preserve">
+    <value>Syllabus refers to an outline or summery of the specific subject or courses that help a student reach his final destination and Curriculum means all the active activities that a student performs and all the experiences that he gathers under the supervision and instructions of an institution. It starts with goals and ends with achievement. Al Jamiah As Salafiyah has its exclusive Syllabus and curriculum whose details are given below:
+The levels of education of Al Jamiah As Salafiah are 4:
+"1. Ibtaydayi or Primary                                  = 5 years
+ 2. Mutwasasithah or Secondary                  = 5 years
+ 3. Chanabia or Higher Secondary                = 2 years
+4. Faziliyat / Daura or Higher                          = 2 years 
+Total                                                                  = 14 years"</value>
+  </data>
+  <data name="CurriculumSyllabusHeading" xml:space="preserve">
+    <value>Curriculum / Syllabus</value>
+  </data>
   <data name="DailyMeal" xml:space="preserve">
     <value />
   </data>
@@ -212,6 +224,20 @@ Residential Hall Clothing: Any type of lungi and loosely dresses. Huff or flower
   </data>
   <data name="DressCodeHeading" xml:space="preserve">
     <value>Students' clothing</value>
+  </data>
+  <data name="ExamScheduleAndRuleOfReadingDetails" xml:space="preserve">
+    <value>"(a) Two permanent tests will be done: (i) First Terminal (ii) Second Terminal.
+(b) Weekly and other examinations will be according to the prescribed rules of Jami'ah.
+(c) 80% attendance is a must to be eligible for participating in the examination.
+(d) No participation in the examination without the entrance card.
+(e) Must be present at the examination hall Before 10 minutes of starting time.
+(f) Any kind of disciplinary action may be taken including expulsion from the examination due to unfair means.
+(g) In case of adopting unfair means in the examination, the subject matter will be considered invalid.
+(h) In case of failing in one subject, the student will not be allowed to the next grade.
+(i) In case of failure to provide an apology of absence in the examination, appropriate disciplinary action will be taken."</value>
+  </data>
+  <data name="ExamScheduleAndRuleOfReadingHeading" xml:space="preserve">
+    <value>Exam schedule and the rules regarding this</value>
   </data>
   <data name="GalleryDetails" xml:space="preserve">
     <value>Jami'ah's education course is divided into 4 levels
@@ -230,6 +256,14 @@ In this situation, the authority of Markaz appointed him as the Principal in cha
   </data>
   <data name="HistoryOfInstitutionHeading" xml:space="preserve">
     <value>History Of Institution Heading</value>
+  </data>
+  <data name="JamiyahClassRoutineDetails" xml:space="preserve">
+    <value>(a) Routine of Al-Jamiah As-Salafiyah, Narayanganj
+
+(b) Routine of Al-Jamiah As-Salafiyah, Rajshahi</value>
+  </data>
+  <data name="JamiyahClassRoutineHeading" xml:space="preserve">
+    <value>Class Routine</value>
   </data>
   <data name="JamiyahLifeDetails" xml:space="preserve">
     <value>Studying in the light of its own syllabus determined in the form of advanced syllabus of local and foreign institutions.
@@ -256,6 +290,15 @@ The primary treatment system for all students.</value>
   </data>
   <data name="JamiyahLifeHeading" xml:space="preserve">
     <value>Madrasa Characteristics</value>
+  </data>
+  <data name="LocationDetails" xml:space="preserve">
+    <value>(a) Al Jamiah As Salafiah, Narayanganj:
+This institution is situated with a charming environment in the middle point of the Birhatabo-Hatabo village which is almost one kilometer west from the local Beldibazar, associated by the Birab post office, at Rupaganj thana, in Narayanganj district whose distance is about 2.5 kilometer north from Purbachal Ideal City.
+(b) Al Jamiah As Salafiah, Rajshahi:
+This institution is located near the highway of Rajshahi-Naogaon, which is not very far from Rajshahi divisional city and it is very close to the Rajshahi airport of Paba Upazila, Dangipara village. h It has a very charming, natural and lovely environment.</value>
+  </data>
+  <data name="LocationHeading" xml:space="preserve">
+    <value>Location</value>
   </data>
   <data name="MadrashaCharacteristics" xml:space="preserve">
     <value>Studying in the light of its own syllabus determined in the form of advanced syllabus of local and foreign institutions.
@@ -413,6 +456,82 @@ Every student will keep their beds, cells, and environment clean. Water tap, ele
   <data name="SyllabusHeading" xml:space="preserve">
     <value />
   </data>
+  <data name="TeacherAndEmployeeListDetails" xml:space="preserve">
+    <value>(A) Al Jamiah As Salafiah, Narayanganj:
+(1) Principal: Mr. Hashem Ali
+(2) Vice-Principal: Under the process
+(i) Higher level teachers:
+(3) Mr. Abdul Matin
+(4) Mr. Abdul Alim
+(5) Mr. Abdul Gani
+(6) Mr English Teacher
+(ii) Higher Secondary and Secondary level teachers:
+(7) Mr. Imran Hossain
+(8) Mr. Mahbubur Rahman
+(9) Mr. Shah Alam
+(10) Mr. Abdul Bassir
+(11) Mr. Abdul Qahir
+(12) Mr. A
+(13) Mr. B
+(14) Mr. C
+(15) Mr. D
+(iii) Primary level teachers:
+(16) Mr. Ziaul Haque
+(17) Mr. Shafiqul Islam
+(18) Mr. Nurul Islam
+(19) Mr. E
+(iv) Teachers of Hafiz Department:
+(20) Mr. Mosharrof Hossain
+(21) Mr. Mr. Ismail</value>
+  </data>
+  <data name="TeacherAndEmployeeListHeading" xml:space="preserve">
+    <value>Teachers and Employees List</value>
+  </data>
+  <data name="TeacherHeafzLabelDetails" xml:space="preserve">
+    <value>(20) Mr. Mosharrof Hossain
+(21) Mr. Mr. Ismail</value>
+  </data>
+  <data name="TeacherHeafzLabelHeading" xml:space="preserve">
+    <value>Teachers of Hafiz Department</value>
+  </data>
+  <data name="TeacherHigherLabelDetails" xml:space="preserve">
+    <value>(3) Mr. Abdul Matin
+(4) Mr. Abdul Alim
+(5) Mr. Abdul Gani
+(6) Mr English Teacher</value>
+  </data>
+  <data name="TeacherHigherLabelHeading" xml:space="preserve">
+    <value>Higher level teachers</value>
+  </data>
+  <data name="TeacherPrimaryLabelDetails" xml:space="preserve">
+    <value>(16) Mr. Ziaul Haque
+(17) Mr. Shafiqul Islam
+(18) Mr. Nurul Islam
+(19) Mr. E</value>
+  </data>
+  <data name="TeacherPrimaryLabelHeading" xml:space="preserve">
+    <value>Primary level teachers</value>
+  </data>
+  <data name="TeacherPrincipalDetails" xml:space="preserve">
+    <value>Mr. Hashem Ali</value>
+  </data>
+  <data name="TeacherPrincipalHeading" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="TeacherSecondaryLabelDetails" xml:space="preserve">
+    <value>(7) Mr. Imran Hossain
+(8) Mr. Mahbubur Rahman
+(9) Mr. Shah Alam
+(10) Mr. Abdul Bassir
+(11) Mr. Abdul Qahir
+(12) Mr. A
+(13) Mr. B
+(14) Mr. C
+(15) Mr. D</value>
+  </data>
+  <data name="TeacherSecondaryLabelHeading" xml:space="preserve">
+    <value>Higher Secondary and Secondary level teachers</value>
+  </data>
   <data name="TeacherStudentComitte" xml:space="preserve">
     <value>There will be a committee with al-Jami'ah as-Salafiyah students. The responsible teachers will be in charge. Where students will be promoting talent development programs. For example, publication of newspapers and magazines, newspapers and so on.
 Note that there will be two branches under 'Abana'.
@@ -421,6 +540,12 @@ The other is made up of students coming out of Jami'ah. Who are employed at thei
   </data>
   <data name="TeacherStudentComitteHeading" xml:space="preserve">
     <value>Teacher-student committee</value>
+  </data>
+  <data name="TeacherVicePrincipalDetails" xml:space="preserve">
+    <value>Under the process</value>
+  </data>
+  <data name="TeacherVicePrincipalHeading" xml:space="preserve">
+    <value>Vice-Principal</value>
   </data>
   <data name="VicePrincipal" xml:space="preserve">
     <value>Shaikh Muzaffar is Hadith Teacher, Al-Marqazul islami as-Salafi, and Member of Darul iftaa, Rajshahi. also SPEAKER at PEACE TV BANGLA [page run by student]

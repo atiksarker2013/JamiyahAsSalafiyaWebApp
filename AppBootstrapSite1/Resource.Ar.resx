@@ -201,6 +201,19 @@
   <data name="CoursesDetailsHeading" xml:space="preserve">
     <value>الدورات</value>
   </data>
+  <data name="CurriculumSyllabusDetails" xml:space="preserve">
+    <value>المقررة الدراسية هو المواد الدراسية التي يقوم التلاميذ بدراستها ويصلون الي نهايتها بعد العبور عدة مستويات. وأما المنهج هو جميـع النشـاطات الـتي يقـوم بهـا الطلبـة، والخـبرات التي يمرون بها تحت إشراف المدرسة وبتوجيه منها، ابتداء بالأهداف وانتهاء بالتقويم التي هي غاية المنشودة للجامعة السلفية. وللجامع السلفية منهج دراسي معين وتفاصيله كالتالي:
+مقررات كاملة للفصول الدراسية للجامعة السلفية هي أربعة:
+"1. المرحلة الابتدائية  = 5 سنوات
+2. المرحلة المتوسطة  = 5 سنوات
+3. المرحلة الثانوية   = سنتان
+4. الكلية    = سنتان
+مجموع السنوات         = 14 سنة
+"</value>
+  </data>
+  <data name="CurriculumSyllabusHeading" xml:space="preserve">
+    <value>المناهج الدراسية</value>
+  </data>
   <data name="DailyMeal" xml:space="preserve">
     <value />
   </data>
@@ -213,6 +226,24 @@
   </data>
   <data name="DressCodeHeading" xml:space="preserve">
     <value>ملابس الطلاب</value>
+  </data>
+  <data name="ExamScheduleAndRuleOfReadingDetails" xml:space="preserve">
+    <value>"(أ) جداول الجامعة السلفية، روب غنج، نرايون غنج، بنغلاديش:
+(ب) جداول الجامعة السلفية، دانغي بارا، فوبا، راجشاهي، بنغلاديش:
+(3) أنظمة الاختبارات وما يتعلق بها: 
+(أ) تعقد الجامعة السلفية اختبارين في كل سنة دراسية: أ- اختبار الفصل الدراسي الأول، ب- اختبار الفصل الدراسي الثاني.
+(ب) وتجري الجامعة السلفية اختبارات أعمال الفصل/السنة.
+(جـ) يشترط لدخول الطالب في الاختبار أن لا يقل حضوره عن 80%.
+(د) لا يسمح لأحد بالدخول في قاعة الاختبار إلا ومعه بطاقة الدخول.
+(هـ) يلزم لكل طالب أن يحضر قاعة الاختبار قبل بدء الاختبار بعشر دقائق على الأقل.
+(و) يعاقَب الطالب أو يُحرَم من الاختبار إذا لوحظ عليه ما يخل بأنظمة الاختبار من غش وغيره.
+(ز) إذا ثبت غشّ في حق طالب في مادة ما، يعتبر فيها راسباً.
+(حـ) إذا رسب الطالب في مادة ما، يبقى في المستوى الذي رسب فيه ويعيد الدراسة فيه.
+(طـ) يعاقب الطالب عند غيابه عن الاختبار، وذلك إذا لم يتمكن من تقديم العذر المقبول لدى الإدارة.
+"</value>
+  </data>
+  <data name="ExamScheduleAndRuleOfReadingHeading" xml:space="preserve">
+    <value>أنظمة الاختبارات وما يتعلق بها</value>
   </data>
   <data name="GalleryDetails" xml:space="preserve">
     <value />
@@ -229,6 +260,14 @@
   </data>
   <data name="HistoryOfInstitutionHeading" xml:space="preserve">
     <value>تاريخ المؤسسة</value>
+  </data>
+  <data name="JamiyahClassRoutineDetails" xml:space="preserve">
+    <value>(أ) جداول الجامعة السلفية، روب غنج، نرايون غنج، بنغلاديش:
+
+(ب) جداول الجامعة السلفية، دانغي بارا، فوبا، راجشاهي، بنغلاديش:</value>
+  </data>
+  <data name="JamiyahClassRoutineHeading" xml:space="preserve">
+    <value>جداول دراسية</value>
   </data>
   <data name="JamiyahLifeDetails" xml:space="preserve">
     <value>دراسة في ضوء المنهج الخاص بها التي تحدد في شكل منهج متقدم من المؤسسات المحلية والأجنبية.
@@ -255,6 +294,15 @@
   </data>
   <data name="JamiyahLifeHeading" xml:space="preserve">
     <value>خصائص المدرسة</value>
+  </data>
+  <data name="LocationDetails" xml:space="preserve">
+    <value>(أ) موقع الجامعة السلفية، روب غنج، نرايون غنج، بنغلاديش:
+تقع الجامعة السلفية في بيئة طبيعية خلّابة بـ: بيرهتابو-هتابو، بيرابو، روب غنج، نرايون غنج، شمال مدينة "بُوربَاصُول" النموذجية بـ: 2.5 كيلو متراً. وهي بالجانب الغربي للسوق المسمى بـ: "بيلدي بازار". وتبعد الجامعة من السوق المذكور بكيلو متراً تقريباً.
+(ب) موقع الجامعة السلفية، فوبا، راجشاهي، بنغلاديش:
+تقع الجامعة السلفية في بيئة طبيعية خلّابة بـ: دانغي بارا، فوبا، راجشاهي، بالقرب من مطار راجشاهي الأهلي، ومن الشارع العام بين راجشاهي ونوغاون. وهي قريبة من مدينة راجشاهي.</value>
+  </data>
+  <data name="LocationHeading" xml:space="preserve">
+    <value>الموقع:</value>
   </data>
   <data name="MadrashaCharacteristics" xml:space="preserve">
     <value>دراسة في ضوء المنهج الخاص بها التي تحدد في شكل منهج متقدم من المؤسسات المحلية والأجنبية.
@@ -412,6 +460,82 @@
   <data name="SyllabusHeading" xml:space="preserve">
     <value />
   </data>
+  <data name="TeacherAndEmployeeListDetails" xml:space="preserve">
+    <value>(أ) الجامعة السلفية، روب غنج، نرايون غنج، بنغلاديش:
+(1) المدير: هاشم علي.
+(2) نائب المدير: لم يعين بعد.
+(i) أعضاء هيئة التدريس للمرحلة العليا:
+(3) عبد المتين المدني
+(4) عبد العليم بن كوثر المدني
+(5) عبد الغني المدني
+(6) مدرس إنجليزي.
+(ii) أعضاء هيئة التدريس للمرحلة المتوسطة:
+(7) عمران حسين
+(8) محبوب الرحمن
+(9) شاه عالم
+(10) عبد البصير
+(11) عبد القاهر
+(12) …..
+(13) …..
+(14) ….. 
+(15) …..
+(iii) أعضاء هيئة التدريس للمرحلة الابتدائية:
+(16) ضياء الحق
+(17) شفيق الإسلام
+(18ـ) نور الإسلام
+(19) …..
+(iv) أعضاء هيئة التدريس لقسم تحفيظ القرآن الكريم:
+(20) مشرّف حسين
+(21) إسماعيل.</value>
+  </data>
+  <data name="TeacherAndEmployeeListHeading" xml:space="preserve">
+    <value>أعضاء هيئة التدريس:</value>
+  </data>
+  <data name="TeacherHeafzLabelDetails" xml:space="preserve">
+    <value>(20) مشرّف حسين
+(21) إسماعيل.</value>
+  </data>
+  <data name="TeacherHeafzLabelHeading" xml:space="preserve">
+    <value>أعضاء هيئة التدريس لقسم تحفيظ القرآن الكريم</value>
+  </data>
+  <data name="TeacherHigherLabelDetails" xml:space="preserve">
+    <value>(3) عبد المتين المدني
+(4) عبد العليم بن كوثر المدني
+(5) عبد الغني المدني
+(6) مدرس إنجليزي.</value>
+  </data>
+  <data name="TeacherHigherLabelHeading" xml:space="preserve">
+    <value>أعضاء هيئة التدريس للمرحلة العليا</value>
+  </data>
+  <data name="TeacherPrimaryLabelDetails" xml:space="preserve">
+    <value>(16) ضياء الحق
+(17) شفيق الإسلام
+(18ـ) نور الإسلام
+(19) …..</value>
+  </data>
+  <data name="TeacherPrimaryLabelHeading" xml:space="preserve">
+    <value>أعضاء هيئة التدريس للمرحلة الابتدائية</value>
+  </data>
+  <data name="TeacherPrincipalDetails" xml:space="preserve">
+    <value>هاشم علي.</value>
+  </data>
+  <data name="TeacherPrincipalHeading" xml:space="preserve">
+    <value>المدير</value>
+  </data>
+  <data name="TeacherSecondaryLabelDetails" xml:space="preserve">
+    <value>(7) عمران حسين
+(8) محبوب الرحمن
+(9) شاه عالم
+(10) عبد البصير
+(11) عبد القاهر
+(12) …..
+(13) …..
+(14) ….. 
+(15) …..</value>
+  </data>
+  <data name="TeacherSecondaryLabelHeading" xml:space="preserve">
+    <value>أعضاء هيئة التدريس للمرحلة المتوسطة</value>
+  </data>
   <data name="TeacherStudentComitte" xml:space="preserve">
     <value>وستكون هناك لجنة مع طلاب الجامعة السلفية. وسيكون المعلمون المسؤولون مسؤولين. حيث سيقوم الطلاب بتشجيع برامج تنمية المواهب. على سبيل المثال، نشر الصحف والمجلات والصحف وهلم جرا.
 لاحظ أنه سيكون هناك فرعين تحت "أبانا".
@@ -420,6 +544,12 @@
   </data>
   <data name="TeacherStudentComitteHeading" xml:space="preserve">
     <value>لجنة المعلمين والطالب</value>
+  </data>
+  <data name="TeacherVicePrincipalDetails" xml:space="preserve">
+    <value>لم يعين بعد.</value>
+  </data>
+  <data name="TeacherVicePrincipalHeading" xml:space="preserve">
+    <value>نائب المدير</value>
   </data>
   <data name="VicePrincipal" xml:space="preserve">
     <value>الشيخ مظفر هو المعلم الحديث، والمسلسل الإسلامي السلفي، وعضو دارول إفتا، راجشاهي. أيضا سبيكر في بيس تف بنغلا [صفحة يديرها الطالب]
