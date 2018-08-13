@@ -1,8 +1,41 @@
-﻿
+﻿@model AppBootstrapSite1.Models.DashBoardMenuContent 
 @{
     ViewBag.Title = "Secondary";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Secondary</h2>
+<div class="container marketing">
 
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.PrimaryClass6Heading)</span></h6>
+            <p>@Html.LabelFor(model => model.PrimaryClass6Details, new { style = "color:#ffffff" })</p>
+        </div>
+        <div class="col-md-7">
+            <h4 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.PrimaryClass7Heading)</span></h4>
+            <p>@Html.LabelFor(model => model.PrimaryClass7Details, new { style = "color:#ffffff" })</p>
+        </div>
+        <div class="col-md-7">
+            <h4 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.PrimaryClass8Heading)</span></h4>
+            <p>@Html.LabelFor(model => model.PrimaryClass8Details, new { style = "color:#ffffff" })</p>
+        </div>
+        <div class="col-md-7">
+            <h4 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.PrimaryClass9Heading)</span></h4>
+            <p>@Html.LabelFor(model => model.PrimaryClass9Details, new { style = "color:#ffffff" })</p>
+        </div>
+        <div class="col-md-7">
+            <h4 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.PrimaryClass10Heading)</span></h4>
+            <p>@Html.LabelFor(model => model.PrimaryClass10Details, new { style = "color:#ffffff" })</p>
+        </div>
+        @*<div class="col-md-5">
+                <img class="featurette-image img-responsive" src="/Content/abdur-razzak500x500.png" alt="Generic placeholder image">
+            </div>*@
+    </div>
+
+
+</div>

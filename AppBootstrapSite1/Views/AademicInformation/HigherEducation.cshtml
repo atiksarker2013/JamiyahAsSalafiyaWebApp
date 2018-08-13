@@ -1,8 +1,31 @@
-﻿
+﻿@model AppBootstrapSite1.Models.DashBoardMenuContent 
 @{
     ViewBag.Title = "HigherEducation";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>HigherEducation</h2>
+<div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.PrimaryClass13Heading)</span></h6>
+            <p>@Html.LabelFor(model => model.PrimaryClass13Details, new { style = "color:#ffffff" })</p>
+        </div>
+        <div class="col-md-7">
+            <h4 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.PrimaryClass14Heading)</span></h4>
+            <p>@Html.LabelFor(model => model.PrimaryClass12Details, new { style = "color:#ffffff" })</p>
+        </div>
+
+        @*<div class="col-md-5">
+                <img class="featurette-image img-responsive" src="/Content/abdur-razzak500x500.png" alt="Generic placeholder image">
+            </div>*@
+    </div>
+
+
+</div>
 

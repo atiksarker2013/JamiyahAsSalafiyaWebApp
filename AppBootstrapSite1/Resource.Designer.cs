@@ -567,6 +567,381 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran - from the second half of the 12th Para till the 14th Para.
+        ///2. Tarjamatul Qur&apos;an – 21st  and 22nd Para.
+        ///3. Hadeeth memorizing - 50.
+        ///4. Selected books of Bangladesh Madrasha Education Board.
+        ///5. Hadeeth - Mishkatul Masabih (second part).
+        ///6. Mu&apos;allimul Insha (first part).
+        ///Ø Islahul Baiyan.&quot;.
+        /// </summary>
+        public static string PrimaryClass10Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass10Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mutwasittah Khameshah(Class Ten).
+        /// </summary>
+        public static string PrimaryClass10Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass10Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memoriztion of the Quran - From 15th Para to 17th Para.
+        ///2. Hadeeth memorizing - 100.
+        ///3. Tafseer-Tafseer Jalaline (first 10 Para).
+        ///4. Usul-e-Tafsir-Eitqan-Suyuti.
+        ///5. Hadeeth – Sunnan-e- Tirmizi.
+        ///6. Hadeeth – Sunan-e- Ibn Majah.
+        ///7. Usul-e- Hadeeth - Nukhbatul Fikar - Hafiz Ibn Hazar.
+        ///8. Fiqh - Saheeh Fikhus Sunnah - Abu Malik Kamal As-Sayyed (1st volume).
+        ///9. Usul-e-Fiqh-Al-Uchul Min Ilmil Uchul - Saleh al-Uchaymin.
+        ///10. Arabic Literature - (Mukhtarat, 1st Part).
+        ///11. Insha-Mu&apos;allimul Insha (2nd part).
+        ///12. A [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass11Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass11Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chanabia- 1st year.
+        /// </summary>
+        public static string PrimaryClass11Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass11Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran - From 18th Para to 20th Para.
+        ///2. Hadeeth memorizing - 100.
+        ///3. Tafseer-Tafseer-e- Jalaline (11-20 Para).
+        ///4. Usul-e-Tafsir - Mabahich Fi Ulumil Quran - Manna Al-Qattan.
+        ///5. Hadeeth – Sunan-e- Abu Daud.
+        ///6. Hadeeth – Sunan-e- Nasaee.
+        ///7. Usul-e-Hadeeth - Al-Ba&apos;echul Hacheech - Ibn Kaseer.
+        ///8. Fiqh - Saheeh Fikahus Sunnah (second part).
+        ///9. Usul-e-Fiqh-Emtaul Ukul.
+        ///10. Arabic Literature - (Mukhtarat, second part).
+        ///11. Insha- Mu&apos;allimul Insha (3rd volume).
+        ///12. Aqida - Sharhul Aqida At-T [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass12Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass12Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Chanabiya- Last year:.
+        /// </summary>
+        public static string PrimaryClass12Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass12Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran - From 21st Para to 23rd Para.
+        ///2. Hadeeth memorizing - 100.
+        ///3. Tafseer - Ibnu Kaseer, Kashshaf, Maragi, Fathul-Qadir [Selected Part].
+        ///4. Usul-e-Tafseer-Muqaddima Fee  Usulit Tafseer - Ibn Taymiyya.
+        ///5. Hadeeth - Saheeh Bukhari (1st volume).
+        ///6. Saheeh Muslim (Part 1).
+        ///7. Usul-e-Hadeeth – Tadribur Rabi-Suyuti (1st volume).
+        ///8. Ilmur Rijal - Ilmul Rijal-Muhammad Matbaar Az-Zahrani
+        ///9. Fiqh - Saheeh Fikbahus Sunnah (3rd part).
+        ///10. Aqidah-Al-Farqu Bainal Firaq (analysis of Aqidah and b [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass13Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass13Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Faziliyat 1st year / Daura- 1st year.
+        /// </summary>
+        public static string PrimaryClass13Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass13Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran - from 24th Para to 26th Para.
+        ///2. Hadeeth memorizing - 100.
+        ///3. Tafseer - Bawizabi, Qurtubi, Razi (Selected part).
+        ///4. Usul-e-Tafseer-at-Tafseer Waal Mufassirun.
+        ///5. Hadeeth - Saheeh Bukhari (second part).
+        ///6. Saheeh Muslim (Second part).
+        ///7. Usul-e-Hadeeth - &apos;Tadaribur Rabi&apos; - Suyutti, (2nd volume) or, Al-Jarhu wa-t’adil - &apos;&apos; Jawabetul-Zarhi Wat-T&apos;dil-Abdul Aziz Abdul Lateef.
+        ///8. Muwatta Malek
+        ///9. Aqidah - &apos;Ma’arizul Qabool&apos; - Hafez Hakami or Al-Firak Wall Adyan.
+        ///10. Fiqh - Saheeh Fi [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass14Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass14Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Faziliyat last year / daura - the last year.
+        /// </summary>
+        public static string PrimaryClass14Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass14Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Quran and Tajweed - Quaida Taiseerul Qur&apos;an (recitation of Surah Al-Fatiha and Surah Al-Aasr to A-nas, toatal twelve of the Surahs memorizing).
+        /// 2. Learning of Saheeh Hadeethes and pure akida for children.
+        /// 3. Arabic- Ad-Durusul Arabiya, Bangladesh Madrasha Education Board.
+        /// 4. Bengali-Bangladesh Madrasa Education Board.
+        /// 5. English- Bangladesh Madrasa Education Board.
+        /// 6. Mathematics - Bangladesh Madrasa Education Board.
+        /// 7. Masnun Doa Education – Law of Rasul (Sm.) Chapter: Doa
+        ///Ø Islahul Baiyan.&quot;.
+        /// </summary>
+        public static string PrimaryClass1Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass1Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ibtidaiyah Ula (Class One).
+        /// </summary>
+        public static string PrimaryClass1Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass1Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran - 25 surahs from takasur to naba and najrana 29th para.
+        /// 2. Saheeh hadeeth of the small children.
+        /// 3. Pure Akidas Education.
+        /// 4. Arabic- Ad-Durusul Arabiya, Bangladesh Madrasa Education Board.
+        /// 5. Bengali-Bangladesh Madrasa Education Board
+        /// 6. English- Bangladesh Madrasa Education Board
+        /// 7. Mathematics - Bangladesh Madrasa Education Board.
+        /// 8. Masnun Doa Education - Law of Rasul (Sm.). Chapter: Doa.
+        /// Ø Islahul Baiyan.&quot;.
+        /// </summary>
+        public static string PrimaryClass2Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass2Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ibtidaiyah Chaniah (Class Two).
+        /// </summary>
+        public static string PrimaryClass2Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass2Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Quran and Tajbid - Memorization of 29th para.
+        /// 2. Saheeh Hadeeth memorizing-30
+        /// 3. Pure Akidas Education.
+        /// 4. Arabic- Ad-Durusul Arabiya, Bangladesh Madrasa Education Board.
+        /// 5. Insha - Aso Arbi Shiki (1st volume).
+        /// 6. Bengali-Bangladesh Madrasa Education Board
+        /// 7. English- Bangladesh Madrasa Education Board
+        /// 8. Mathematics - Bangladesh Madrasa Education Board.
+        /// 9. Masnun Doa Education - Law of Rasul (Sm.) Chapter: Doa
+        ///  Islahuul Baiyan&quot;.
+        /// </summary>
+        public static string PrimaryClass3Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass3Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ibtidaiyah Chalecha (Class Three).
+        /// </summary>
+        public static string PrimaryClass3Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass3Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran - 28th para.
+        ///2. Saheeh Hadeeth Memorizing - 40
+        ///3. Pure Akidas Education.
+        ///4. Arabic - Ad-Durusul Arabiya, Bangladesh Madrasa Education Board.
+        ///5. Insha - Aso Arbi Shiki (2nd part).
+        ///6. Charf-Mizan and Munsh&apos;aib (Azizul Mubtadi).
+        ///7. Bengali-Bangladesh Madrasa Education Board
+        ///8. English- Bangladesh Madrasa Education Board.
+        ///9. Mathematics - Bangladesh Madrasa Education Board.
+        ///Ø Islahul Bayan- 100&quot;.
+        /// </summary>
+        public static string PrimaryClass4Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass4Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ibtidaiyah Rabaiah (Class Four).
+        /// </summary>
+        public static string PrimaryClass4Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass4Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran - 27th Para.
+        ///2. Hadeeth memorizing - 50.
+        ///3. Arabic - Ad-Durusul Arabiya, Bangladesh Madrasa Education Board.
+        ///4. Insha - Durulus Lugatil Araabiyah Ligairin Na-Tikina Beha (1st volume) and Dishari (Selected part).
+        ///5. Charf- Meezan, and Munsh&apos;aib + Saphwatul Fisheries.
+        ///6. Bengali-Bangladesh Madrasa Education Board
+        ///7. English- Bangladesh Madrasa Education Board
+        ///8. Mathematics - Bangladesh Madrasa Education Board.
+        ///9. Bangladesh and Global Studies - Bangladesh Madrasa Education Board [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass5Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass5Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ibtidaiyah Kahmesah (Class Five).
+        /// </summary>
+        public static string PrimaryClass5Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass5Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1.Memorization of the Quran - I-3rd  Para.
+        ///2. Tarjama of the Qur&apos;an- (30th Para).
+        ///3. Hadeeth memorise-50.
+        ///4. Akida - Mukararu Ma&apos;adil Haramain Lis-Chffis-Sadis (for class six).
+        ///5. Arabic Literature - Bangladesh Madrasa Education Board.
+        ///6. Insha-Durusul Lugatil Arabiya Ligirin Na-Tikina Biha (Part II) and Dishari (Selected Part).
+        ///7. Nahu-Aminoon Nahu.
+        ///8. Charf-Azizut Talibin.
+        ///9. Bengali Literature – Bangladesh Madrasa Education Board.
+        ///10. English 1st- Bangladesh Madrasa Education Board.
+        ///11. English 2nd- Sel [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass6Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass6Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mutwasittah Ula (Class Six).
+        /// </summary>
+        public static string PrimaryClass6Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass6Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran-4th to 6th para.
+        ///2. Tarjamatul of the Quran (27th, 28th, and 29th para).
+        ///3. Memorization of Hadeeth from Blugul Maram - 50.
+        ///4. Hadeeth - Blugul Maram Min Adilatil Ahakam (two-thirds of the book).
+        ///5. Aqida - Kitabut Tawhid.
+        ///6. Arabic Literature - Bangladesh Madrasa Education Board
+        ///7. Insha-Esho Arabi Shikhi (3rd part).
+        ///8. Nahu- Sharhu Miyati Amel (Aminun Nahu review).
+        ///9. Charf-Ilmuch Chigah (Ajijut Tablebin Review).
+        ///10. Bengali-Bangladesh Madrasa Education Board.
+        ///11. English 1st [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass7Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass7Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mutwasittah Chaniah (Class Seven).
+        /// </summary>
+        public static string PrimaryClass7Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass7Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of the Quran - From the 7th Para to the first half of the 9th Para.
+        ///2. Tarjamah of the Quran (26th Para).
+        ///3. 50 Hadeeth Memorizing.
+        ///4. Hadeeth – Bulugul Maram Min Adillatil Ahkam (the last one-third).
+        ///5. Arabic 1st Part - Bangladesh Madrasa Education Board.
+        ///6. Arabic 2nd Part- Bangladesh Madrasa Education Board.
+        ///7. Insha – Durusul Lugatil Araabiyahah Ligairin Na-Tikina Biha (3rd volume) and Dishari.
+        ///8. English 1st Part- Bangladesh Madrasa Education Board.
+        ///9. English 2nd Part - Selected by t [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass8Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass8Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mutwasittah Chalichah (Class Eight).
+        /// </summary>
+        public static string PrimaryClass8Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass8Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;1. Memorization of theQuran - From the later half of the 9th Para to the first half of the 12th para.
+        ///2. Tarjamatul Quran – 23rd, 24th, and 25th  Para.
+        ///2. Hadeeth memorizing - 50.
+        ///3. Hadeeth - Mishkatul Masabih (Part 1).
+        ///4. Usul-e-Hadeeth-Taiseeru Mustablahil Hadeeth, Dr. Mahmood At-Tahhan.
+        ///5. Akida - Al-Aqidatul Waseetiyah. Origin: Ibn Taymiyya, Explanation: Shaiekh Saleh al-Usaimeen (Part 1).
+        ///6. Arabic Literature - Bangladesh Madrasa Education Board.
+        ///7. Nahu - Hedayatun Nahu.
+        ///8. Insha - Durusul Lugatil A [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string PrimaryClass9Details {
+            get {
+                return ResourceManager.GetString("PrimaryClass9Details", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Mutwasittah Rabiah (Class Nine).
+        /// </summary>
+        public static string PrimaryClass9Heading {
+            get {
+                return ResourceManager.GetString("PrimaryClass9Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Born: Sheikh Abdur Razzak Bin Yusuf was born in a religious family of Hajirtala village under Maunga box under Devinagar upazila of Chapainawabganj district of northern Bangladesh.
         ///
         ///Studying: After studying Maktab in the field of education, he read from Nawabganj Nawabganj Madrasa, one of the books of Hadith, Mishkat Sharif. Then he went to India hoping for higher education and finished Daura Hadith from Darul Ulum Maunathwangan in Uttar Pradesh. He ended the two-day tradition of Dora. Then he returned to [rest of string was truncated]&quot;;.

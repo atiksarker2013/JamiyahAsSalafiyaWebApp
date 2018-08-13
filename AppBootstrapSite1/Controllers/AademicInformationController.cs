@@ -30,22 +30,26 @@ namespace AppBootstrapSite1.Controllers
 
         public ActionResult Primary()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult Secondary()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult HigherSecondary()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult HigherEducation()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
     }
 }

@@ -311,5 +311,201 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "PrimaryClass1Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass1Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass1Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass1Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass2Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass2Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass2Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass2Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass3Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass3Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass3Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass3Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass4Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass4Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass4Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass4Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass5Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass5Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass5Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass5Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass6Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass6Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass6Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass6Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass7Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass7Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass7Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass7Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass8Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass8Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass8Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass8Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass9Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass9Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass9Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass9Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass10Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass10Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass10Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass10Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass11Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass11Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass11Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass11Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass12Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass12Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass12Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass12Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass13Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass13Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass13Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass13Details
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass14Heading", ResourceType = typeof(Resource))]
+        public string PrimaryClass14Heading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "PrimaryClass14Details", ResourceType = typeof(Resource))]
+        public string PrimaryClass14Details
+        {
+            get;
+            set;
+        }
+
     }
 }
