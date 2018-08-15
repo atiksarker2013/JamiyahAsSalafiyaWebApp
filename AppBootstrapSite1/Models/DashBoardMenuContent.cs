@@ -507,5 +507,173 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "DirectorIdentityHeading", ResourceType = typeof(Resource))]
+        public string DirectorIdentityHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityBirthHeading", ResourceType = typeof(Resource))]
+        public string DirectorIdentityBirthHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityBirthDetails", ResourceType = typeof(Resource))]
+        public string DirectorIdentityBirthDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityEducationHeading", ResourceType = typeof(Resource))]
+        public string DirectorIdentityEducationHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityEducationDetails", ResourceType = typeof(Resource))]
+        public string DirectorIdentityEducationDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityServingInIslamHeading", ResourceType = typeof(Resource))]
+        public string DirectorIdentityServingInIslamHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityServingInIslamDetails", ResourceType = typeof(Resource))]
+        public string DirectorIdentityServingInIslamDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityServingInIslamDetails2", ResourceType = typeof(Resource))]
+        public string DirectorIdentityServingInIslamDetails2
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityWorkingLifeHeading", ResourceType = typeof(Resource))]
+        public string DirectorIdentityWorkingLifeHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorIdentityWorkingLifeDetails", ResourceType = typeof(Resource))]
+        public string DirectorIdentityWorkingLifeDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorAdviceHeading", ResourceType = typeof(Resource))]
+        public string DirectorAdviceHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DirectorAdviceDetails", ResourceType = typeof(Resource))]
+        public string DirectorAdviceDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionProcessHeading", ResourceType = typeof(Resource))]
+        public string AdmissionProcessHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionProcessDetails", ResourceType = typeof(Resource))]
+        public string AdmissionProcessDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionDownloadFormHeading", ResourceType = typeof(Resource))]
+        public string AdmissionDownloadFormHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionDownloadFormDetails", ResourceType = typeof(Resource))]
+        public string AdmissionDownloadFormDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionRulesHeading", ResourceType = typeof(Resource))]
+        public string AdmissionRulesHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionRulesDetails", ResourceType = typeof(Resource))]
+        public string AdmissionRulesDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionHifzDepartmentHeading", ResourceType = typeof(Resource))]
+        public string AdmissionHifzDepartmentHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionHifzDepartmentDepartment", ResourceType = typeof(Resource))]
+        public string AdmissionHifzDepartmentDepartment
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionSanabiyahHeading", ResourceType = typeof(Resource))]
+        public string AdmissionSanabiyahHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionSanabiyahDetails", ResourceType = typeof(Resource))]
+        public string AdmissionSanabiyahDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionNoteHeading", ResourceType = typeof(Resource))]
+        public string AdmissionNoteHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "AdmissionNoteDetails", ResourceType = typeof(Resource))]
+        public string AdmissionNoteDetails
+        {
+            get;
+            set;
+        }
+
     }
 }

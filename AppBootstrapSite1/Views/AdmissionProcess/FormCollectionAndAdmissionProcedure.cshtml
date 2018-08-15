@@ -1,0 +1,31 @@
+﻿@model AppBootstrapSite1.Models.DashBoardMenuContent 
+@{
+    ViewBag.Title = "FormCollectionAndAdmissionProcedure";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.AdmissionProcessHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.AdmissionProcessDetails, new { style = "color:#ffffff" })</p>
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.AdmissionDownloadFormHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.AdmissionDownloadFormDetails, new { style = "color:#ffffff" })</p>
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.AdmissionRulesHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.AdmissionRulesDetails, new { style = "color:#ffffff" })</p>
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.AdmissionHifzDepartmentHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.AdmissionHifzDepartmentDepartment, new { style = "color:#ffffff" })</p>
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.AdmissionSanabiyahHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.AdmissionSanabiyahDetails, new { style = "color:#ffffff" })</p>
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.AdmissionNoteHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.AdmissionNoteDetails, new { style = "color:#ffffff" })</p>
+
+</div>
+

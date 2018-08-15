@@ -103,11 +103,131 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        public static string AdmissionDownloadFormDetails {
+            get {
+                return ResourceManager.GetString("AdmissionDownloadFormDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (a) Admission Form:.
+        /// </summary>
+        public static string AdmissionDownloadFormHeading {
+            get {
+                return ResourceManager.GetString("AdmissionDownloadFormHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Admission.
         /// </summary>
         public static string AdmissionHeading {
             get {
                 return ResourceManager.GetString("AdmissionHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;(1) Birth Certificate
+        ///(2) 2 copies of recent passport size photographs.
+        ///(3) Photocopy of- father / guardian&apos;s national ID / passport
+        ///(4) clearance&quot;.
+        /// </summary>
+        public static string AdmissionHifzDepartmentDepartment {
+            get {
+                return ResourceManager.GetString("AdmissionHifzDepartmentDepartment", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (i) Hifz Department and from class one to class nine:.
+        /// </summary>
+        public static string AdmissionHifzDepartmentHeading {
+            get {
+                return ResourceManager.GetString("AdmissionHifzDepartmentHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;	If admission related documents such as birth certificate, photograph and national identity card of the parent/guardian etc. are not submitted at the time of admission, the admission will be cancelled after 15 days and the applicant will have to be re-admitted with full admission fee.
+        ///	With the admission fees, the student must pay his first month’s consumption, i.e. monthly fees, management fees and boarding fees. It is to be noted that there is no admission without the payment of the fees of admission.
+        /// [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string AdmissionNoteDetails {
+            get {
+                return ResourceManager.GetString("AdmissionNoteDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Note:.
+        /// </summary>
+        public static string AdmissionNoteHeading {
+            get {
+                return ResourceManager.GetString("AdmissionNoteHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al Jamiah has specific rules and regulations of admission which are given.
+        /// </summary>
+        public static string AdmissionProcessDetails {
+            get {
+                return ResourceManager.GetString("AdmissionProcessDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Admission Process.
+        /// </summary>
+        public static string AdmissionProcessHeading {
+            get {
+                return ResourceManager.GetString("AdmissionProcessHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;(a) If any student passes the admission test on January 1, will have to be admitted within January 2 to January 6.
+        ///(b) The documents mentioned below should be attached to the admission form.&quot;.
+        /// </summary>
+        public static string AdmissionRulesDetails {
+            get {
+                return ResourceManager.GetString("AdmissionRulesDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (2) Admission rules:.
+        /// </summary>
+        public static string AdmissionRulesHeading {
+            get {
+                return ResourceManager.GetString("AdmissionRulesHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;(1) Mark Sheet
+        ///(2) Testimonial.
+        ///(3) Birth certificate.
+        ///(4) Citizen Charter Card.
+        ///(5) 2 copies of recent passport size photographs.
+        ///(6) Photocopy of - father / guardian&apos;s national ID / passport.
+        ///(7) clearance.&quot;.
+        /// </summary>
+        public static string AdmissionSanabiyahDetails {
+            get {
+                return ResourceManager.GetString("AdmissionSanabiyahDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (ii) For the Chanawiah and Kulliyyaah:.
+        /// </summary>
+        public static string AdmissionSanabiyahHeading {
+            get {
+                return ResourceManager.GetString("AdmissionSanabiyahHeading", resourceCulture);
             }
         }
         
@@ -262,6 +382,114 @@ namespace AppBootstrapSite1 {
         public static string DailyMealHeading {
             get {
                 return ResourceManager.GetString("DailyMealHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to He always invites people to welfare and success by adopting the rules of Islam. The qualities like loving people, serving mankind and altruism was noticed in him since his childhood. After being matured he is seen to be doing humanitarian services. If someone was in danger or someone asked for help, he used to rush away to rescue him / help him out from the danger. Serving teachers in his student life, maintaining good relationship with classmates, helping students were his main addictions. He had carried m [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string DirectorAdviceDetails {
+            get {
+                return ResourceManager.GetString("DirectorAdviceDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Director speech.
+        /// </summary>
+        public static string DirectorAdviceHeading {
+            get {
+                return ResourceManager.GetString("DirectorAdviceHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Shaykh Abdur Razzaq Bin Yusuf was born in a righteous family of Mawla Baksh in Hajitla village under Devinagar union of Nawabganj Sadar Upazila in Chapainawabganj district which is on the north of Bangladesh. His exact date of birth is unknown. But according to his mother, he was born in the late 1960&apos;s. According to the certificates, his date of birth is 1964 AD..
+        /// </summary>
+        public static string DirectorIdentityBirthDetails {
+            get {
+                return ResourceManager.GetString("DirectorIdentityBirthDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Date of birth and place:.
+        /// </summary>
+        public static string DirectorIdentityBirthHeading {
+            get {
+                return ResourceManager.GetString("DirectorIdentityBirthHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to At the age of eight, his educational life begins in a local Maktab. He was admitted into Nachol Islamia Madrasa for higher education with Jalal Uddin (Tufani), an intelligent student, in July 1975. There he studied till 1982. At this time, he finished studying one of the books of the hadeeth, Mishkat Sharif. After that, for higher education, he was admitted into Mamba’ul Uloom Madrasah, at Khanpur, Maldah, West Bengal, India in 1983. He studied there till 1984. Then in 1985, after studying for one year in B [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string DirectorIdentityEducationDetails {
+            get {
+                return ResourceManager.GetString("DirectorIdentityEducationDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Educational life:.
+        /// </summary>
+        public static string DirectorIdentityEducationHeading {
+            get {
+                return ResourceManager.GetString("DirectorIdentityEducationHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Director&apos;s Identity.
+        /// </summary>
+        public static string DirectorIdentityHeading {
+            get {
+                return ResourceManager.GetString("DirectorIdentityHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to From the very beginning of his student life he had an excellent habit of delivering Islamic speeches, besides conducting Darash, he also made people aware of Islam through his speech. He is now recognized as a well-known Islamic thinker among Bangla speaking scholars. He is a remarkable member of speech and He used to regularly deliver his speeches and lectures in  the Talk show of Dr. Zakir Naik&apos;s Peace TV. He has so far participated in Islamic programs in various countries including Saudi Arabia, Dubai, I [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string DirectorIdentityServingInIslamDetails {
+            get {
+                return ResourceManager.GetString("DirectorIdentityServingInIslamDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to His contribution to the field of writing is not less. So far, he has written about ten books. Such as the ‘Aeen-e-Rasul, Doua Chapter, the Tauzihul Quran etc. Many students, who are taught by his hands, are now offering services to Islam all over the country. Among them, Shaykh Muzaffer bin Mohsin, Shaykh Imamuddin Bin Abdul Bassir, Shaykh Abdul Matin, Shaykh Abdul Gani, Shaykh Abdul Alim Madani and many others are remarkable. Besides, many people from different parts of the world have come back from their  [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string DirectorIdentityServingInIslamDetails2 {
+            get {
+                return ResourceManager.GetString("DirectorIdentityServingInIslamDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Serving of Islam(Din-e-khidamat):.
+        /// </summary>
+        public static string DirectorIdentityServingInIslamHeading {
+            get {
+                return ResourceManager.GetString("DirectorIdentityServingInIslamHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In May 1988, he started his career joining Gazipur Islamia Madrasah, at Dhulian, Murshidabad, West Bengal, in India as Muhaddis. Then in 20th August 1988, on Wednesday, he joined Al Marakazul Islami Madrsa, in Jannatpur, Gobindaganj, Gaibandha. Later, on 1st September 1997, he joined Al-Marqajul Islami As Salafi, Nawdapara, Paba, Rajshahi as Muhaddis. In 2009, when he was appointed as Acting Principal by the Makraj, he made a great contribution to the development of the education system, boarding system and [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string DirectorIdentityWorkingLifeDetails {
+            get {
+                return ResourceManager.GetString("DirectorIdentityWorkingLifeDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Work Life:.
+        /// </summary>
+        public static string DirectorIdentityWorkingLifeHeading {
+            get {
+                return ResourceManager.GetString("DirectorIdentityWorkingLifeHeading", resourceCulture);
             }
         }
         

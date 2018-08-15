@@ -1,8 +1,32 @@
-﻿
+﻿@model AppBootstrapSite1.Models.DashBoardMenuContent 
 @{
     ViewBag.Title = "DirectorIdentity";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>DirectorIdentity</h2>
+<div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.DirectorIdentityHeading)</span></h6>
+     
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.DirectorIdentityBirthHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.DirectorIdentityBirthDetails, new { style = "color:#ffffff" })</p>
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.DirectorIdentityEducationHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.DirectorIdentityEducationDetails, new { style = "color:#ffffff" })</p>
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.DirectorIdentityWorkingLifeHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.DirectorIdentityWorkingLifeDetails, new { style = "color:#ffffff" })</p>
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.DirectorIdentityServingInIslamHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.DirectorIdentityServingInIslamDetails, new { style = "color:#ffffff" })</p>
+    <p>@Html.LabelFor(model => model.DirectorIdentityServingInIslamDetails2, new { style = "color:#ffffff" })</p>
+
+    
+
+    
+
+
+</div>
 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppBootstrapSite1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,12 +7,13 @@ using System.Web.Mvc;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class AdmissionProcessController : Controller
+    public class AdmissionProcessController : BaseController
     {
         // GET: AdmissionProcess
-        public ActionResult Index()
+        public ActionResult FormCollectionAndAdmissionProcedure()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
     }
 }

@@ -137,8 +137,58 @@
   <data name="AcademicExamHeading" xml:space="preserve">
     <value>পরীক্ষার নির্দেশিকা</value>
   </data>
+  <data name="AdmissionDownloadFormDetails" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AdmissionDownloadFormHeading" xml:space="preserve">
+    <value>(ক) ভর্তির আবেদন ফরম:</value>
+  </data>
   <data name="AdmissionHeading" xml:space="preserve">
     <value>ভর্তি-প্রক্রিয়া</value>
+  </data>
+  <data name="AdmissionHifzDepartmentDepartment" xml:space="preserve">
+    <value>"(১) জন্ম নিবন্ধন পত্র। 
+(২) সদ্য তোলা পাসপোর্ট সাইজের ২ কপি ছবি।
+(৩) পিতা/অভিভাবকের জাতীয় পরিচয়পত্র/পাসপোর্ট-এর ফটোকপি।
+(৪) ছাড়পত্র।"</value>
+  </data>
+  <data name="AdmissionHifzDepartmentHeading" xml:space="preserve">
+    <value>(i) হিফয বিভাগ ও প্রথম শ্রেণি হতে নবম শ্রেণি পর্যন্তঃ</value>
+  </data>
+  <data name="AdmissionNoteDetails" xml:space="preserve">
+    <value>"	ভর্তি সংক্রান্ত কাগজ পত্র (বিশেষ করে জন্ম নিবন্ধনপত্র, ছবি ও পিতা/অভিভাবকের জাতীয় পরিচয়পত্র) ভর্তির সময়ে জমা দেওয়া না থাকলে ভর্তির ১৫ দিন পর ভর্তি বাতিল হয়ে যাবে এবং সে ক্ষেত্রে পূর্ণ ভর্তি ফি দিয়ে পুনরায় ভর্তি হতে হবে।
+	ভর্তি ফি:এর সাথে প্রথম মাসের খরচ (মাসিক বেতন, ব্যবস্থাপনা ফি ও বোডিং ফি) প্রদান করতে হবে। উল্লেখ্য, ভর্তি ফি বাকি রেখে ভর্তি করানো হয় না।
+	ত্রুটিপূর্ণ ও অসম্পূর্ণ তথ্য সংবলিত ফরম বাতিল বলে গণ্য হবে।
+	বহিষ্কৃত বা ভর্তি বাতিলকৃত কোন ছাত্রকে পুনরায় ভর্তি নেওয়া হবে না।
+	কোন ছাত্র ভর্তি বাতিল করে প্রতিষ্ঠান থেকে চলে গেলে তাকে ভর্তি ফি, বোর্ডিং ফি, ব্যবস্থাপনা ফি, মাসিক বেতন ও অন্যান্য ফি থেকে কিছুই ফেরত দেওয়া হবে না।"</value>
+  </data>
+  <data name="AdmissionNoteHeading" xml:space="preserve">
+    <value>বিশেষ দ্রষ্টব্য:</value>
+  </data>
+  <data name="AdmissionProcessDetails" xml:space="preserve">
+    <value>আল-জামি’আহ্- এর নির্দিষ্ট ভর্তি প্রক্রিয়া রয়েছে, যার বিবরণী নিম্নে উল্লেখ করা হলো:</value>
+  </data>
+  <data name="AdmissionProcessHeading" xml:space="preserve">
+    <value>ভর্তি প্রক্রিয়া</value>
+  </data>
+  <data name="AdmissionRulesDetails" xml:space="preserve">
+    <value>"(ক)১ জানুয়ারি ভর্তি পরীক্ষায় অংশগ্রহণ করে কৃতকার্য হলে ২ জানুয়ারি থেকে ৬ জানুয়ারির মধ্যে ভর্তি হতে হবে। 
+(খ) ভর্তি ফরম-এর সাথে নিম্নে উল্লিখিত কাগজগুলো সংযুক্ত করতে হবে।"\</value>
+  </data>
+  <data name="AdmissionRulesHeading" xml:space="preserve">
+    <value>(২) ভর্তির নিয়মাবলী:</value>
+  </data>
+  <data name="AdmissionSanabiyahDetails" xml:space="preserve">
+    <value>"(১) নম্বর পত্র।
+(২) প্রসংশা পত্র।
+(৩) জন্মনিবন্ধন পত্র।
+(৪) নাগরিক সনদ পত্র।
+(৫) সদ্য তোলা পাসপোর্ট সাইজের ২ কপি ছবি।
+(৬) পিতা/অভিভাবকের জাতীয় পরিচয়পত্র/পাসপোর্ট-এর ফটোকপি।
+(৭) ছাড়পত্র।"</value>
+  </data>
+  <data name="AdmissionSanabiyahHeading" xml:space="preserve">
+    <value>(ii) ছানাবিয়্যাহ ও কুল্লিয়্যাহ শ্রেণির জন্যঃ</value>
   </data>
   <data name="AdmissionSubtitle" xml:space="preserve">
     <value />
@@ -221,6 +271,43 @@
   </data>
   <data name="DailyMealHeading" xml:space="preserve">
     <value>খাদ্য তালিকা</value>
+  </data>
+  <data name="DirectorAdviceDetails" xml:space="preserve">
+    <value>তিনি মানুষকে সর্বদা কল্যানের পথে দাওয়াত দেন। জনদরদ, মানবসেবা, পরোপকার ইত্যাদি গুণাবলি ছোটবলো থেকেই তার মধ্যে পরিলক্ষিত হয়। বুদ্ধি হওয়ার পর থেকে তাঁকে মানুষের খেদমত করতে দেখা যায়। কোথাও কেউ বিপদে পড়লে বা কেউ কোন সাহায্য চাইলে তিনি ছুটে যেতেন, তাকে উদ্ধার/সাহায্য করতেন। ছাত্র জীবনে শিক্ষকদের সেবা করা, সহপাঠীদের সাথে সুসম্পর্ক বজায় রাখা, ছাত্রদের সাহায্য করা ছিল তাঁর নেশা। তিনি মাওলানা শিশ মোহাম্মদ ও মাওলানা আতাউল্লাহ এর ১৯৭৬ খ্রিস্টাব্দ থেকে ১৯৮২ খ্রিস্টাব্দ পর্যন্ত একটানা ৮ বছর খাবার বহন করেছেন। এই সময়ের মধ্যে কারও সাথে তাঁর দ্বন্দ হয় নি। এই সময়ে তিনি প্রায় মাগরিব ও ইশার সালাতে ইন্দারা থেকে মুছাল্লীদের পানি উঠিয়ে দিতেন। তিনি মানুষকে বেশি ভাল বাসতেন/বাসেন বলেই মানুষ তাঁকে এত বেশি ভালবাসে। তাই তিনি বলেন, মানুষকে বেশি বেশি ভালবাস, তোমার সাথে যে মন্দ আচরণ করে, তুমি তার সাথে ভাল আচরণ কর, যে তোমাকে দূরে ঠেলে দেয় তাকে তুমি কাছে টেনে নাও তাহলে তুমি আল্লাহর ভালবাসা পাবে, আল্লাহর সাহায্য পাবে। কেননা আল্লাহর রাসুল (স) বলেন, ‘যে মানুষের প্রতি দয়া করে না আল্লাহ তার প্রতি দয়া করেন না।’</value>
+  </data>
+  <data name="DirectorAdviceHeading" xml:space="preserve">
+    <value>তাঁর বাণী</value>
+  </data>
+  <data name="DirectorIdentityBirthDetails" xml:space="preserve">
+    <value>Shaykh Abdur Razzaq Bin Yusuf was born in a righteous family of Mawla Baksh in Hajitla village under Devinagar union of Nawabganj Sadar Upazila in Chapainawabganj district which is on the north of Bangladesh. His exact date of birth is unknown. But according to his mother, he was born in the late 1960's. According to the certificates, his date of birth is 1964 AD.</value>
+  </data>
+  <data name="DirectorIdentityBirthHeading" xml:space="preserve">
+    <value>Date of birth and place:</value>
+  </data>
+  <data name="DirectorIdentityEducationDetails" xml:space="preserve">
+    <value>At the age of eight, his educational life begins in a local Maktab. He was admitted into Nachol Islamia Madrasa for higher education with Jalal Uddin (Tufani), an intelligent student, in July 1975. There he studied till 1982. At this time, he finished studying one of the books of the hadeeth, Mishkat Sharif. After that, for higher education, he was admitted into Mamba’ul Uloom Madrasah, at Khanpur, Maldah, West Bengal, India in 1983. He studied there till 1984. Then in 1985, after studying for one year in Baluaghat Islamia Madrasa, he again got admitted into Mamba’ul Uloom Madrasa and completed Daura Hadeeths stage. After the completion of Daura Hadeeth, he stayed with Maulana Matiur Rahman and his classmate Abdus Subhan in the month of Ramadan in Budhia, Babupur, Maldah in order to go to Uttar Pradesh to get a higher education. In the middle of 1985, he got admission with them in Madrasatul Masakin, Bahadurpur, Azamgarh and studied there till mid-1986. Then, in 1986, in the city of Mazharul Uloom, City, Banaras, he studied till mid-1987, and from there he got admitted into Darul Uloom Maonathwangan, in Azamgarh and completed Daura Hadeeth again in May 1998. He completed Alim in 1983 and Fazil in 1985 from Calcutta Madrasa Education Board. Later, he successfully passed in Hadeeth from Madrasa Education Board of Bangladesh in 1992. And finally, he achieved first division by studying Tafsir in Kamil in 1994.</value>
+  </data>
+  <data name="DirectorIdentityEducationHeading" xml:space="preserve">
+    <value>Educational life:</value>
+  </data>
+  <data name="DirectorIdentityHeading" xml:space="preserve">
+    <value>Director's Identity</value>
+  </data>
+  <data name="DirectorIdentityServingInIslamDetails" xml:space="preserve">
+    <value>From the very beginning of his student life he had an excellent habit of delivering Islamic speeches, besides conducting Darash, he also made people aware of Islam through his speech. He is now recognized as a well-known Islamic thinker among Bangla speaking scholars. He is a remarkable member of speech and He used to regularly deliver his speeches and lectures in  the Talk show of Dr. Zakir Naik's Peace TV. He has so far participated in Islamic programs in various countries including Saudi Arabia, Dubai, India, and the Maldives. The interesting feature of his statement is that he recites the Arabic Ebarat of Hadeeth from his memory and makes a simple translation. He has memorized so many Hadeeths that people become astonished at his continuous recitation and translation from Hadith. In his two to three-hour speech on certain subjects (topic), there is no place other than Hadeeth and the verses from the Quran. He gives an informative statement to the Muslims regardless of the Majhab and Maslak. Consequently, each of his statements becomes one of the Darshes of Hadeeths.</value>
+  </data>
+  <data name="DirectorIdentityServingInIslamDetails2" xml:space="preserve">
+    <value>"His contribution to the field of writing is not less. So far, he has written about ten books. Such as the ‘Aeen-e-Rasul, Doua Chapter, the Tauzihul Quran etc. Many students, who are taught by his hands, are now offering services to Islam all over the country. Among them, Shaykh Muzaffer bin Mohsin, Shaykh Imamuddin Bin Abdul Bassir, Shaykh Abdul Matin, Shaykh Abdul Gani, Shaykh Abdul Alim Madani and many others are remarkable. Besides, many people from different parts of the world have come back from their sinful ways and repented of their offensive activities and many such young people gave up wearing pants below the ankle and kept the Sunnati beard after listening to his speech. After this, he focused on establishing the religious educational institution to create Islamic scholars and researchers. He has established a number of religious educational institutions, such as al-Jamiah As-Salafiyah, Narayanganj; Al-Jamiah As-Salafiyah, Dangipara, Rajshahi; Women Salafiyah Madrasah, Rajshahi; Al-Madrasatus Salafiyah, Bogra and Birkusta Darul Hadeeth Salafiyah Madrasah, Bogra. He also supports many organizations so that they can be developed. For example, Al-Makarajul Islami As-Salafi, Rajshahi. We pray that, “May Allah bless and make Shaykh live-long. Amin! Summa Ameen‼
+"</value>
+  </data>
+  <data name="DirectorIdentityServingInIslamHeading" xml:space="preserve">
+    <value>Serving of Islam(Din-e-khidamat):</value>
+  </data>
+  <data name="DirectorIdentityWorkingLifeDetails" xml:space="preserve">
+    <value>In May 1988, he started his career joining Gazipur Islamia Madrasah, at Dhulian, Murshidabad, West Bengal, in India as Muhaddis. Then in 20th August 1988, on Wednesday, he joined Al Marakazul Islami Madrsa, in Jannatpur, Gobindaganj, Gaibandha. Later, on 1st September 1997, he joined Al-Marqajul Islami As Salafi, Nawdapara, Paba, Rajshahi as Muhaddis. In 2009, when he was appointed as Acting Principal by the Makraj, he made a great contribution to the development of the education system, boarding system and to the standardization of food of Makhraj and to the infrastructural development of the building within a very short time after taking the responsibility. As a result, Makhraj authority appointed him as the Principal of the institution permanently. After taking the responsibility of the Principal, he emphasized on the standardisation of education and relevant activities. On the very year, the students of Makraj got great success in PSC, JDC, SSC, and HSC examinations. As a result, Makraj became one of the supreme institutions of Bangladesh. He really has this remarkable contribution in improving the Madrasa during his tenure of 18 years, from 1st September 1997 to 17 December 2015. Moreover, he served as a member of Fatwa Board of monthly At-Tahrik magazine from 1997 to 2015, for 15 years. Currently, he is performing the duty of writing 'Fatwa' in monthly Al-'Etisam-e' magazine.</value>
+  </data>
+  <data name="DirectorIdentityWorkingLifeHeading" xml:space="preserve">
+    <value>Work Life:</value>
   </data>
   <data name="DressCode" xml:space="preserve">
     <value>শ্রেণী কক্ষের পোশাকঃ জামি’আহর নির্ধারিত পাঞ্জাবী ও পাজামা । সুতার সাদা টুপি ।
