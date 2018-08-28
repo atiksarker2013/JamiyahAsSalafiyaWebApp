@@ -1,0 +1,27 @@
+﻿@model AppBootstrapSite1.Models.DashBoardMenuContent 
+@{
+    ViewBag.Title = "ClassAndHoliDaySchedule";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.ClassAndHolidayScheduleHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.ClassAndHolidayScheduleDetails, new { style = "color:#ffffff" })</p>
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.ClassAndHolidayScheduleKitabHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.ClassAndHolidayScheduleKitabDetails, new { style = "color:#ffffff" })</p>
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.ClassAndHolidayScheduleHifzHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.ClassAndHolidayScheduleHifzDetails, new { style = "color:#ffffff" })</p>
+
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.ClassAndHolidayScheduleAnualHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.ClassAndHolidayScheduleAnualDetails, new { style = "color:#ffffff" })</p>
+
+    z
+
+</div>
+

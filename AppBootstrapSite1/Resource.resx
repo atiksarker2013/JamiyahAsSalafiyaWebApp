@@ -238,6 +238,44 @@ Member: Mr. Abdul Aziz.</value>
   <data name="ChairmanHeading" xml:space="preserve">
     <value />
   </data>
+  <data name="ClassAndHolidayScheduleAnualDetails" xml:space="preserve">
+    <value>" 21st February: International Mother Language Day.
+ National Children's Day on 17th March.
+ Independence Day on 26th March.
+ Ramadan and Eid-ul-Fitr leave on May 15, from Tuesday 21 June until Thursday, total 38 days.
+ August 15: National Mourning Day.
+ Eidul Azha’s holiday from August 20 to August 30, total 11 days till Thursday.
+ Victory Day on December 16.
+"</value>
+  </data>
+  <data name="ClassAndHolidayScheduleAnualHeading" xml:space="preserve">
+    <value>Annual leave:</value>
+  </data>
+  <data name="ClassAndHolidayScheduleDetails" xml:space="preserve">
+    <value>There are separate schedules for the classes and holidays of Jamiah.</value>
+  </data>
+  <data name="ClassAndHolidayScheduleHeading" xml:space="preserve">
+    <value>Class and Holiday Schedule</value>
+  </data>
+  <data name="ClassAndHolidayScheduleHifzDetails" xml:space="preserve">
+    <value>" 1 hour prior to the Azan of Fazr till the Azan of Fazr.
+ After the prayer of Fazr to the time of breakfast.
+ From 8am to 10pm
+ After the prayer of Asr till the time of sports.
+ From the prayer of Maghrib to Esha.
+"</value>
+  </data>
+  <data name="ClassAndHolidayScheduleHifzHeading" xml:space="preserve">
+    <value>Hifz Department:</value>
+  </data>
+  <data name="ClassAndHolidayScheduleKitabDetails" xml:space="preserve">
+    <value>" Every student of Kitab section must attend the main classes at 8.00 am and stay till 12.45 pm.
+ Additional classes (Quran and Tajweed education– for Children; and English and Arabic Conversation- for Elders) will be held after the prayer of Asr till the sports time.
+"</value>
+  </data>
+  <data name="ClassAndHolidayScheduleKitabHeading" xml:space="preserve">
+    <value>Kitab section:</value>
+  </data>
   <data name="ClassRoutine" xml:space="preserve">
     <value />
   </data>
@@ -267,6 +305,33 @@ Total                                                                  = 14 year
   </data>
   <data name="DailyMealHeading" xml:space="preserve">
     <value>Food list</value>
+  </data>
+  <data name="DeciplineDetails" xml:space="preserve">
+    <value>Al-Jamiah As-Salafiah has specific rules and regulations. Students have to obey all the rules and regulations.</value>
+  </data>
+  <data name="DeciplineDetails2" xml:space="preserve">
+    <value>"(a) All students will abide by these rules.
+(b) All students of 'Al-Jamiah' will perform salah in Jamaat.
+(c) No student can use any electronics device like Mobile, Tab, Computer, MP3, MP4, Radio, Television and Mobile watch etc. These are strictly prohibited.
+(d) No account can be kept in social media like Facebook, Twitter, What's app, You Tube etc.)
+(e) If any student escapes or takes a leave from the responsible teacher and does not come back in time, the authority of this institution will not bear any liability for him or her.
+(f) No student can roam outside after evening and the authority will not take any responsibility when he or she stay outside of the institution. 
+(g) If there is any evidence of consuming drugs against any student, he or she will be expelled from 'Al-Jamiah.
+(h) No one can participate in any type of program without the permission of the responsible teacher.
+(i) No student can involve in political parties or in any other organization. If proven, the authority will take actions according to the rules.
+(j) No student is allowed to go to the market without any important reason. The gate of Al-Jamiah will remain open from Asr to Maghrib. Then the student will do the necessary works. Besides, if he or she needs to go outside in other time, he or she will have to seek permission from the responsible teacher.
+(k) Every student will have to keep the card of 'Al-Jamiah' or 'Identity Card'.
+(l) No student can keep money more than the basic needs. A 'Student’s Account' will be opened for the students to deposit extra money.
+(m) No guests (known or unknown) of the students of Al-Jamiah are allowed to stay in the Hostel without the permission of the responsible teacher. 
+(n) Every student will have to keep his clothes, beds, and rooms clean.  Water tap, fountain, electric bulb, fan, switch and other accessories of Al-Jami'ah will have to be used with care by the students.
+(o) No student is allowed to use the iron, heater, water heater etc.
+(p) During class, no student can stay in the room or loiter at the balcony.
+(q) No student can be involved with private tuitions.
+(r) Every student will have to arrange dinning materials like dish, jug, plate, pot, bowl, glass and bedding according to the session by himself or herself.
+"</value>
+  </data>
+  <data name="DeciplineHeading" xml:space="preserve">
+    <value>Rules and Regulations</value>
   </data>
   <data name="DirectorAdviceDetails" xml:space="preserve">
     <value>He always invites people to welfare and success by adopting the rules of Islam. The qualities like loving people, serving mankind and altruism was noticed in him since his childhood. After being matured he is seen to be doing humanitarian services. If someone was in danger or someone asked for help, he used to rush away to rescue him / help him out from the danger. Serving teachers in his student life, maintaining good relationship with classmates, helping students were his main addictions. He had carried meals for 8 long years for Maulana Shish Mohammad and Maulana Ataullah from 1976 to 1982. In this period, he had no conflict with anyone. At this time, he used to lift water for the Musallis from the well during Magrib and Esha Salah. He loves people very much from his heart and the people also love him very much. So, he says,” Love everybody, even if one misbehaves with you, treat him well. If anyone ignores you, you should embrace him to your heart. Then you will get the blessings of Allah, you will get help from Allah. Because Allah's Messenger Rasul (Sm.) says, ' Who does not show kindness to human, Allah also does not show mercy to them.'</value>
@@ -324,6 +389,15 @@ Residential Hall Clothing: Any type of lungi and loosely dresses. Huff or flower
   </data>
   <data name="ExamScheduleAndRuleOfReadingHeading" xml:space="preserve">
     <value>Exam schedule and the rules regarding this</value>
+  </data>
+  <data name="FineHeading" xml:space="preserve">
+    <value>Fine</value>
+  </data>
+  <data name="FineHeadingDetails1" xml:space="preserve">
+    <value>(a) If any student of this institution violates the rules of law/discipline or fails to pay the fees at the appointed time or if fails to fulfill any obligation given by the institution, he will have to pay fines, according to the rules of Al-Jamiya.</value>
+  </data>
+  <data name="FineHeadingDetails2" xml:space="preserve">
+    <value>(b) If any student fails to reach the institution on the scheduled time of the holidays, he or she will have to pay a fine of Tk 200 per day. If any student is not present at Anjuman or not be able to attend the mosque for studying Hadeeth, Quran and for delivering his speech on his scheduled time, the student will have to pay Tk 100 for his absence.</value>
   </data>
   <data name="GalleryDetails" xml:space="preserve">
     <value>Jami'ah's education course is divided into 4 levels
@@ -736,6 +810,18 @@ We do the Dua, Allah blesses Shaikh and gives good light. Amin! Ammun!</value>
   <data name="ResultHeading" xml:space="preserve">
     <value />
   </data>
+  <data name="SequesnceOfAdmissionDetails" xml:space="preserve">
+    <value>"» Form distribution   : From 1 December to 31 December.
+» Acceptation of forms  : From 1 December to 31 December.
+» Admission test (oral)  : 1st January, from 8am to 9pm
+»Results of admission test  : January 1, After the Salah of Asr.
+» Admission (new and old)  : 2 January to 6 January.
+» Class starts    : January 7.
+"</value>
+  </data>
+  <data name="SequesnceOfAdmissionHeading" xml:space="preserve">
+    <value>Sequences of admission:</value>
+  </data>
   <data name="StudentLists" xml:space="preserve">
     <value />
   </data>
@@ -883,6 +969,21 @@ The other is made up of students coming out of Jami'ah. Who are employed at thei
   </data>
   <data name="TeacherVicePrincipalHeading" xml:space="preserve">
     <value>Vice-Principal</value>
+  </data>
+  <data name="UniformClassDetails" xml:space="preserve">
+    <value>Al-Jamiah’s - Selected blue Punjabi and white Pajamas and white hat of cotton (cap maid of threads).</value>
+  </data>
+  <data name="UniformClassHeading" xml:space="preserve">
+    <value>(a) Classroom’s Dress:</value>
+  </data>
+  <data name="UniformHeading" xml:space="preserve">
+    <value>Uniform</value>
+  </data>
+  <data name="UniformHostelDetails" xml:space="preserve">
+    <value>Any type of lungi or loose dress. Half-sleeved or full-sleeved t-shirt. Any indecent dress according to Islam, society or authentic conscience is forbidden.</value>
+  </data>
+  <data name="UniformHostelHeading" xml:space="preserve">
+    <value>(b) Residential Hall’s Dress:</value>
   </data>
   <data name="VicePrincipal" xml:space="preserve">
     <value>Shaikh Muzaffar is Hadith Teacher, Al-Marqazul islami as-Salafi, and Member of Darul iftaa, Rajshahi. also SPEAKER at PEACE TV BANGLA [page run by student]

@@ -675,5 +675,151 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "SequesnceOfAdmissionHeading", ResourceType = typeof(Resource))]
+        public string SequesnceOfAdmissionHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "SequesnceOfAdmissionDetails", ResourceType = typeof(Resource))]
+        public string SequesnceOfAdmissionDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DeciplineHeading", ResourceType = typeof(Resource))]
+        public string DeciplineHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DeciplineDetails", ResourceType = typeof(Resource))]
+        public string DeciplineDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DeciplineDetails2", ResourceType = typeof(Resource))]
+        public string DeciplineDetails2
+        {
+            get;
+            set;
+        }
+
+
+
+        [Display(Name = "ClassAndHolidayScheduleHeading", ResourceType = typeof(Resource))]
+        public string ClassAndHolidayScheduleHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ClassAndHolidayScheduleDetails", ResourceType = typeof(Resource))]
+        public string ClassAndHolidayScheduleDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ClassAndHolidayScheduleKitabHeading", ResourceType = typeof(Resource))]
+        public string ClassAndHolidayScheduleKitabHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ClassAndHolidayScheduleKitabDetails", ResourceType = typeof(Resource))]
+        public string ClassAndHolidayScheduleKitabDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ClassAndHolidayScheduleHifzHeading", ResourceType = typeof(Resource))]
+        public string ClassAndHolidayScheduleHifzHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ClassAndHolidayScheduleHifzDetails", ResourceType = typeof(Resource))]
+        public string ClassAndHolidayScheduleHifzDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ClassAndHolidayScheduleAnualHeading", ResourceType = typeof(Resource))]
+        public string ClassAndHolidayScheduleAnualHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "ClassAndHolidayScheduleAnualDetails", ResourceType = typeof(Resource))]
+        public string ClassAndHolidayScheduleAnualDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "UniformHeading", ResourceType = typeof(Resource))]
+        public string UniformHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "UniformClassHeading", ResourceType = typeof(Resource))]
+        public string UniformClassHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "UniformClassDetails", ResourceType = typeof(Resource))]
+        public string UniformClassDetails
+        {
+            get;
+            set;
+        }
+        [Display(Name = "UniformHostelHeading", ResourceType = typeof(Resource))]
+        public string UniformHostelHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "UniformHostelDetails", ResourceType = typeof(Resource))]
+        public string UniformHostelDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "FineHeading", ResourceType = typeof(Resource))]
+        public string FineHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "FineHeadingDetails1", ResourceType = typeof(Resource))]
+        public string FineHeadingDetails1
+        {
+            get;
+            set;
+        }
+        [Display(Name = "FineHeadingDetails2", ResourceType = typeof(Resource))]
+        public string FineHeadingDetails2
+        {
+            get;
+            set;
+        }
+
     }
 }

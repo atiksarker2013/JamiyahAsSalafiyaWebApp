@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppBootstrapSite1.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -6,22 +7,25 @@ using System.Web.Mvc;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class RulesAndRegulationController : Controller
+    public class RulesAndRegulationController : BaseController
     {
         // GET: RulesAndRegulation
         public ActionResult Discipline()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ClassAndHoliDaySchedule()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult Uniform()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ListOfExam()
@@ -42,7 +46,8 @@ namespace AppBootstrapSite1.Controllers
 
         public ActionResult Fine()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
 

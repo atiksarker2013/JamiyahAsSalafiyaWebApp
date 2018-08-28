@@ -312,6 +312,92 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &quot; 21st February: International Mother Language Day.
+        /// National Children&apos;s Day on 17th March.
+        /// Independence Day on 26th March.
+        /// Ramadan and Eid-ul-Fitr leave on May 15, from Tuesday 21 June until Thursday, total 38 days.
+        /// August 15: National Mourning Day.
+        /// Eidul Azha’s holiday from August 20 to August 30, total 11 days till Thursday.
+        /// Victory Day on December 16.
+        ///&quot;.
+        /// </summary>
+        public static string ClassAndHolidayScheduleAnualDetails {
+            get {
+                return ResourceManager.GetString("ClassAndHolidayScheduleAnualDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Annual leave:.
+        /// </summary>
+        public static string ClassAndHolidayScheduleAnualHeading {
+            get {
+                return ResourceManager.GetString("ClassAndHolidayScheduleAnualHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There are separate schedules for the classes and holidays of Jamiah..
+        /// </summary>
+        public static string ClassAndHolidayScheduleDetails {
+            get {
+                return ResourceManager.GetString("ClassAndHolidayScheduleDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Class and Holiday Schedule.
+        /// </summary>
+        public static string ClassAndHolidayScheduleHeading {
+            get {
+                return ResourceManager.GetString("ClassAndHolidayScheduleHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot; 1 hour prior to the Azan of Fazr till the Azan of Fazr.
+        /// After the prayer of Fazr to the time of breakfast.
+        /// From 8am to 10pm
+        /// After the prayer of Asr till the time of sports.
+        /// From the prayer of Maghrib to Esha.
+        ///&quot;.
+        /// </summary>
+        public static string ClassAndHolidayScheduleHifzDetails {
+            get {
+                return ResourceManager.GetString("ClassAndHolidayScheduleHifzDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hifz Department:.
+        /// </summary>
+        public static string ClassAndHolidayScheduleHifzHeading {
+            get {
+                return ResourceManager.GetString("ClassAndHolidayScheduleHifzHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot; Every student of Kitab section must attend the main classes at 8.00 am and stay till 12.45 pm.
+        /// Additional classes (Quran and Tajweed education– for Children; and English and Arabic Conversation- for Elders) will be held after the prayer of Asr till the sports time.
+        ///&quot;.
+        /// </summary>
+        public static string ClassAndHolidayScheduleKitabDetails {
+            get {
+                return ResourceManager.GetString("ClassAndHolidayScheduleKitabDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Kitab section:.
+        /// </summary>
+        public static string ClassAndHolidayScheduleKitabHeading {
+            get {
+                return ResourceManager.GetString("ClassAndHolidayScheduleKitabHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string ClassRoutine {
@@ -382,6 +468,37 @@ namespace AppBootstrapSite1 {
         public static string DailyMealHeading {
             get {
                 return ResourceManager.GetString("DailyMealHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al-Jamiah As-Salafiah has specific rules and regulations. Students have to obey all the rules and regulations..
+        /// </summary>
+        public static string DeciplineDetails {
+            get {
+                return ResourceManager.GetString("DeciplineDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to &quot;(a) All students will abide by these rules.
+        ///(b) All students of &apos;Al-Jamiah&apos; will perform salah in Jamaat.
+        ///(c) No student can use any electronics device like Mobile, Tab, Computer, MP3, MP4, Radio, Television and Mobile watch etc. These are strictly prohibited.
+        ///(d) No account can be kept in social media like Facebook, Twitter, What&apos;s app, You Tube etc.)
+        ///(e) If any student escapes or takes a leave from the responsible teacher and does not come back in time, the authority of this institution will not bear any [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string DeciplineDetails2 {
+            get {
+                return ResourceManager.GetString("DeciplineDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Rules and Regulations.
+        /// </summary>
+        public static string DeciplineHeading {
+            get {
+                return ResourceManager.GetString("DeciplineHeading", resourceCulture);
             }
         }
         
@@ -533,6 +650,33 @@ namespace AppBootstrapSite1 {
         public static string ExamScheduleAndRuleOfReadingHeading {
             get {
                 return ResourceManager.GetString("ExamScheduleAndRuleOfReadingHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Fine.
+        /// </summary>
+        public static string FineHeading {
+            get {
+                return ResourceManager.GetString("FineHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (a) If any student of this institution violates the rules of law/discipline or fails to pay the fees at the appointed time or if fails to fulfill any obligation given by the institution, he will have to pay fines, according to the rules of Al-Jamiya..
+        /// </summary>
+        public static string FineHeadingDetails1 {
+            get {
+                return ResourceManager.GetString("FineHeadingDetails1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (b) If any student fails to reach the institution on the scheduled time of the holidays, he or she will have to pay a fine of Tk 200 per day. If any student is not present at Anjuman or not be able to attend the mosque for studying Hadeeth, Quran and for delivering his speech on his scheduled time, the student will have to pay Tk 100 for his absence..
+        /// </summary>
+        public static string FineHeadingDetails2 {
+            get {
+                return ResourceManager.GetString("FineHeadingDetails2", resourceCulture);
             }
         }
         
@@ -1208,6 +1352,30 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to &quot;» Form distribution   : From 1 December to 31 December.
+        ///» Acceptation of forms  : From 1 December to 31 December.
+        ///» Admission test (oral)  : 1st January, from 8am to 9pm
+        ///»Results of admission test  : January 1, After the Salah of Asr.
+        ///» Admission (new and old)  : 2 January to 6 January.
+        ///» Class starts    : January 7.
+        ///&quot;.
+        /// </summary>
+        public static string SequesnceOfAdmissionDetails {
+            get {
+                return ResourceManager.GetString("SequesnceOfAdmissionDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sequences of admission:.
+        /// </summary>
+        public static string SequesnceOfAdmissionHeading {
+            get {
+                return ResourceManager.GetString("SequesnceOfAdmissionHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string StudentLists {
@@ -1470,6 +1638,51 @@ namespace AppBootstrapSite1 {
         public static string TeacherVicePrincipalHeading {
             get {
                 return ResourceManager.GetString("TeacherVicePrincipalHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al-Jamiah’s - Selected blue Punjabi and white Pajamas and white hat of cotton (cap maid of threads)..
+        /// </summary>
+        public static string UniformClassDetails {
+            get {
+                return ResourceManager.GetString("UniformClassDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (a) Classroom’s Dress:.
+        /// </summary>
+        public static string UniformClassHeading {
+            get {
+                return ResourceManager.GetString("UniformClassHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Uniform.
+        /// </summary>
+        public static string UniformHeading {
+            get {
+                return ResourceManager.GetString("UniformHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Any type of lungi or loose dress. Half-sleeved or full-sleeved t-shirt. Any indecent dress according to Islam, society or authentic conscience is forbidden..
+        /// </summary>
+        public static string UniformHostelDetails {
+            get {
+                return ResourceManager.GetString("UniformHostelDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (b) Residential Hall’s Dress:.
+        /// </summary>
+        public static string UniformHostelHeading {
+            get {
+                return ResourceManager.GetString("UniformHostelHeading", resourceCulture);
             }
         }
         

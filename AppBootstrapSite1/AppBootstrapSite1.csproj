@@ -427,7 +427,6 @@
     <Folder Include="flags\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Views\Menu\" />
-    <Folder Include="Views\RulesAndRegulation\" />
     <Folder Include="Views\StudentsIdentity\" />
   </ItemGroup>
   <ItemGroup>
@@ -743,6 +742,21 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\AdmissionProcess\FormCollectionAndAdmissionProcedure.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AdmissionProcess\ContiniousProcessOfAdmission.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\RulesAndRegulation\Discipline.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\RulesAndRegulation\ClassAndHoliDaySchedule.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\RulesAndRegulation\Uniform.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\RulesAndRegulation\Fine.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

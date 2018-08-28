@@ -15,5 +15,11 @@ namespace AppBootstrapSite1.Controllers
             DashBoardMenuContent model = new DashBoardMenuContent();
             return View(model);
         }
+
+        public ActionResult ContiniousProcessOfAdmission()
+        {
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
+        }
     }
 }

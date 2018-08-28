@@ -1,0 +1,20 @@
+﻿ 
+
+@model AppBootstrapSite1.Models.DashBoardMenuContent
+@{
+    ViewBag.Title = "Fine";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container marketing">
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.FineHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.FineHeadingDetails1, new { style = "color:#ffffff" })</p>
+    <p>@Html.LabelFor(model => model.FineHeadingDetails2, new { style = "color:#ffffff" })</p>
+</div>
+
+
+
+
+
