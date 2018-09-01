@@ -821,5 +821,122 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "StudentPresenceAndAbsenceHeading", ResourceType = typeof(Resource))]
+        public string StudentPresenceAndAbsenceHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentPresenceAndAbsenceDetails", ResourceType = typeof(Resource))]
+        public string StudentPresenceAndAbsenceDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "StudentResultReportHeading", ResourceType = typeof(Resource))]
+        public string StudentResultReportHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentResultReportDetails", ResourceType = typeof(Resource))]
+        public string StudentResultReportDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "StudentIdAndPasswordHeading", ResourceType = typeof(Resource))]
+        public string StudentIdAndPasswordHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentIdAndPasswordDetails", ResourceType = typeof(Resource))]
+        public string StudentIdAndPasswordDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "StudentIdApplicationForLeaveHeading", ResourceType = typeof(Resource))]
+        public string StudentIdApplicationForLeaveHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentIdApplicationForLeaveDetails", ResourceType = typeof(Resource))]
+        public string StudentIdApplicationForLeaveDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "StudentIdApplicationForRenewIDHeading", ResourceType = typeof(Resource))]
+        public string StudentIdApplicationForRenewIDHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentIdApplicationForRenewIDDetails", ResourceType = typeof(Resource))]
+        public string StudentIdApplicationForRenewIDDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "StudentIDResetApplicationHeading", ResourceType = typeof(Resource))]
+        public string StudentIDResetApplicationHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentIDResetApplicationDetails", ResourceType = typeof(Resource))]
+        public string StudentIDResetApplicationDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "StudentIDResetApplicationReevaluateResultHeading", ResourceType = typeof(Resource))]
+        public string StudentIDResetApplicationReevaluateResultHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentIDResetApplicationReevaluateResultDetails", ResourceType = typeof(Resource))]
+        public string StudentIDResetApplicationReevaluateResultDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "StudentApplicationForNameAndDOBCorrectionHeading", ResourceType = typeof(Resource))]
+        public string StudentApplicationForNameAndDOBCorrectionHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentApplicationForNameAndDOBCorrectionDetails", ResourceType = typeof(Resource))]
+        public string StudentApplicationForNameAndDOBCorrectionDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "StudentVotingForFoodHeading", ResourceType = typeof(Resource))]
+        public string StudentVotingForFoodHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "StudentVotingForFoodDetails", ResourceType = typeof(Resource))]
+        public string StudentVotingForFoodDetails
+        {
+            get;
+            set;
+        }
+
     }
 }

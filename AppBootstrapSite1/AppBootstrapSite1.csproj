@@ -22,6 +22,7 @@
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
     <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -427,7 +428,6 @@
     <Folder Include="flags\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Views\Menu\" />
-    <Folder Include="Views\StudentsIdentity\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -757,6 +757,30 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\RulesAndRegulation\Fine.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StudentsIdentity\PresentAndAbsence.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StudentsIdentity\StudentIdentityAndPassword.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StudentsIdentity\ApplicationForLeaveOfAbsent.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StudentsIdentity\ApplicationForRenuwalIDCard.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StudentsIdentity\ApplicationForResettlement.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StudentsIdentity\ApplicationForRecheckAnswerSheet.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StudentsIdentity\ApplicationForCorrectionNameAndDateOfBirth.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\StudentsIdentity\VottingForFoodAndOther.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AppBootstrapSite1.Models;
 
 namespace AppBootstrapSite1.Controllers
 {
@@ -11,42 +12,50 @@ namespace AppBootstrapSite1.Controllers
         // GET: StudentsIdentity
         public ActionResult PresentAndAbsence()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult StudentIdentityAndPassword()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ApplicationForLeaveOfAbsent()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ApplicationForRenuwalIDCard()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ApplicationForResettlement()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ApplicationForRecheckAnswerSheet()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult ApplicationForCorrectionNameAndDateOfBirth()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult VottingForFoodAndOther()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
 

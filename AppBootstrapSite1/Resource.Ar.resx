@@ -827,11 +827,53 @@
   <data name="SequesnceOfAdmissionHeading" xml:space="preserve">
     <value>إجراءات متتالية لاختبار الدخول</value>
   </data>
+  <data name="StudentApplicationForNameAndDOBCorrectionDetails" xml:space="preserve">
+    <value>اسم الطالب وسنة ميلاده أمر مهم للغاية، فلا ينبغي له أن يخطئ فيهما، بل يجب عليه الحذر والحيطة عند تسجيلهما. ومع ذلك لو وقع خطأ فيهما يمكن له تعديلهما بدفع غرامة مالية معينة.</value>
+  </data>
+  <data name="StudentApplicationForNameAndDOBCorrectionHeading" xml:space="preserve">
+    <value>تعديل الاسم وسنة الميلاد</value>
+  </data>
+  <data name="StudentIdAndPasswordDetails" xml:space="preserve">
+    <value>كل طالب يكون لديه اسم المستخدم وكلمة السر، يتم من خلاله إعلانات تهمه، كـ: نتائج الاختبارات.</value>
+  </data>
+  <data name="StudentIdAndPasswordHeading" xml:space="preserve">
+    <value>اسم المستخدم وكلمة السر</value>
+  </data>
+  <data name="StudentIdApplicationForLeaveDetails" xml:space="preserve">
+    <value>لا يحق لطالب أن يأخذ إجازة أكثر من يوم  في كل شهر. فلا يسمح له بالذهاب إلى البيت كل خميس، إلا إذا طلب وليه الإجازة لأمر طارئ كالأمراض.</value>
+  </data>
+  <data name="StudentIdApplicationForLeaveHeading" xml:space="preserve">
+    <value>طلب الإجازة</value>
+  </data>
+  <data name="StudentIdApplicationForRenewIDDetails" xml:space="preserve">
+    <value>في نهاية كل سنة يجب على الطالب تجديد بطاقته الجامعية بمئة تاكا. وإن لم يجدد بطاقته قد يواجه مشكلة في مسيرته الأكاديمية، كحرمانه من تناول الوجبات في مطعم الجامعة، واستعارة الكتب من المكتبة، وأخذ الإجازة.</value>
+  </data>
+  <data name="StudentIdApplicationForRenewIDHeading" xml:space="preserve">
+    <value>طلب تجديد بطاقة الطالب</value>
+  </data>
+  <data name="StudentIDResetApplicationDetails" xml:space="preserve">
+    <value>إذا وجد خطأ في البطاقة أو مست الحاجة إلى إضافة معلومة جديدة أو حذفها أو تغييرها أو ترتيبها، أو واجه الطالب مشكلة في تسجيل الدخول أو مشاكل أخرى تقنية، يجب عليه طلب تعديلها. وعليه تقديم طلب التعديل في الوقت المحدد بدفع عشرين تاكا. فإن لم يقدم الطلب في الوقت المحدد لا يمكن تعديل بطاقته إلا بعد دفع الغرامة.</value>
+  </data>
+  <data name="StudentIDResetApplicationHeading" xml:space="preserve">
+    <value>طلب تعديل البطاقة</value>
+  </data>
+  <data name="StudentIDResetApplicationReevaluateResultDetails" xml:space="preserve">
+    <value>إذا لم يرض الطالب بنتائجه في الاختبارات فإنه يجوز له تقديم طلب لإعادة تصحيح أوراق الإجابة بشرط أن يكون التقديم في مدة أقصاها خمسة عشر يوماً من انتهاء الاختبار. وبعد التصحيح قد تزيد درجاته وقد تنقص.</value>
+  </data>
+  <data name="StudentIDResetApplicationReevaluateResultHeading" xml:space="preserve">
+    <value>طلب إعادة تصحيح أوراق الإجابة</value>
+  </data>
   <data name="StudentLists" xml:space="preserve">
     <value />
   </data>
   <data name="StudentListsHeading" xml:space="preserve">
     <value>قائمة الطلاب</value>
+  </data>
+  <data name="StudentPresenceAndAbsenceDetails" xml:space="preserve">
+    <value>يتم تحضير الطلاب بشكل يومي، فإن تجاوزت مدة غيابه على 20% يحرم من الدخول في الاختبار.</value>
+  </data>
+  <data name="StudentPresenceAndAbsenceHeading" xml:space="preserve">
+    <value>الحضور/الغياب</value>
   </data>
   <data name="StudentRegulation" xml:space="preserve">
     <value>جميع الطلاب سوف تلتزم قواعد الجماعة.
@@ -877,6 +919,18 @@
   </data>
   <data name="StudentResidentialConventionHeading" xml:space="preserve">
     <value>الاتفاقيات الطلابية السكنية</value>
+  </data>
+  <data name="StudentResultReportDetails" xml:space="preserve">
+    <value>يأتي بيانها</value>
+  </data>
+  <data name="StudentResultReportHeading" xml:space="preserve">
+    <value>تفاصيل النتائج</value>
+  </data>
+  <data name="StudentVotingForFoodDetails" xml:space="preserve">
+    <value>الأغذية الصحية أحوج ما يكون لصحة الجسم والنفس ونشاطاتهما. ولذا تتعهد إدارة الجامعة بتقديم الأطعمة الصحية المفيدة، وتتخذ قرارات مناسبة لتحسين جودة الطعام على ضوء آراء ومقترحات الطلاب وأوليائهم والمدرسين.</value>
+  </data>
+  <data name="StudentVotingForFoodHeading" xml:space="preserve">
+    <value>استقبال آراء الطلاب ومقترحاتهم لتحسين جودة الطعام وغيرها من الخدمات</value>
   </data>
   <data name="Syllabus" xml:space="preserve">
     <value />

@@ -822,11 +822,53 @@ We do the Dua, Allah blesses Shaikh and gives good light. Amin! Ammun!</value>
   <data name="SequesnceOfAdmissionHeading" xml:space="preserve">
     <value>Sequences of admission:</value>
   </data>
+  <data name="StudentApplicationForNameAndDOBCorrectionDetails" xml:space="preserve">
+    <value>Correction of the name and date of birth is a difficult and complicated process. For this reason, the name and date of birth should be written very carefully, so that it may not go wrong. If there is a mistake or problem in the name of the student or in the date of birth and if the application is requested to be corrected, then the name and date of birth can be corrected by paying a specific fee.</value>
+  </data>
+  <data name="StudentApplicationForNameAndDOBCorrectionHeading" xml:space="preserve">
+    <value>Application for the correction of name and date of birth</value>
+  </data>
+  <data name="StudentIdAndPasswordDetails" xml:space="preserve">
+    <value>Each student will have different IDs and passwords, which will identify him or her. all information including the report card, exam results, any urgent notice or important message that related to him will be provided through his ID.</value>
+  </data>
+  <data name="StudentIdAndPasswordHeading" xml:space="preserve">
+    <value>Student ID and password</value>
+  </data>
+  <data name="StudentIdApplicationForLeaveDetails" xml:space="preserve">
+    <value>No student will be able to take more than 1 day leave in a month. On every Thursday he or she cannot go on vacation. However, on the basis of the guardian's application or based on a specialist doctor's prescription, necessary holidays could be given.</value>
+  </data>
+  <data name="StudentIdApplicationForLeaveHeading" xml:space="preserve">
+    <value>Application for leave:</value>
+  </data>
+  <data name="StudentIdApplicationForRenewIDDetails" xml:space="preserve">
+    <value>At the end of the year, every student will have to renew the ID card. For renewal fee of polymer ID card, he will have to pay 100 takas. If any student’s ID card is not renewed, he or she will have to face some difficulties and will be deprived of some facilities like taking food from the boarding, having books from the library, going out or taking leaves and so on.</value>
+  </data>
+  <data name="StudentIdApplicationForRenewIDHeading" xml:space="preserve">
+    <value>Application for renewal of ID card</value>
+  </data>
+  <data name="StudentIDResetApplicationDetails" xml:space="preserve">
+    <value>If any defect or technical problem or log in-sign in problem arises or any correction is needed like addition, deletion or modification, then the application for the ID reset will have to be submitted. application for ID reset and payment of fixed amount for it must be within the specified time. If any student does not apply in time or follow the specific procedures, he or she can reset the ID at any time by giving fines, according to the rules of the institution.</value>
+  </data>
+  <data name="StudentIDResetApplicationHeading" xml:space="preserve">
+    <value>ID Reset application</value>
+  </data>
+  <data name="StudentIDResetApplicationReevaluateResultDetails" xml:space="preserve">
+    <value>If the numbers obtained in the term / annual examination seems to be less than expected or not satisfactory to the examinee, then the answer script can be re-evaluated. Within 15 days of the test ended, the answer script can be re-evaluated with the application and the number can be less / more after re-evaluation.</value>
+  </data>
+  <data name="StudentIDResetApplicationReevaluateResultHeading" xml:space="preserve">
+    <value>Application for revaluation of answer script</value>
+  </data>
   <data name="StudentLists" xml:space="preserve">
     <value />
   </data>
   <data name="StudentListsHeading" xml:space="preserve">
     <value>Students List</value>
+  </data>
+  <data name="StudentPresenceAndAbsenceDetails" xml:space="preserve">
+    <value>Everyday attendance will be counted. If any student’s attendance rate is less than 80%, he or she will be considered ineligible to participate for the term / annual examination.</value>
+  </data>
+  <data name="StudentPresenceAndAbsenceHeading" xml:space="preserve">
+    <value>Presence / Absence</value>
   </data>
   <data name="StudentRegulation" xml:space="preserve">
     <value>All students will adhere to the rules of Jami'ah.
@@ -872,6 +914,18 @@ Every student will keep their beds, cells, and environment clean. Water tap, ele
   </data>
   <data name="StudentResidentialConventionHeading" xml:space="preserve">
     <value>Student Residential Conventions</value>
+  </data>
+  <data name="StudentResultReportDetails" xml:space="preserve">
+    <value>Under processing</value>
+  </data>
+  <data name="StudentResultReportHeading" xml:space="preserve">
+    <value>Results Report</value>
+  </data>
+  <data name="StudentVotingForFoodDetails" xml:space="preserve">
+    <value>For sound body and mind, we need healthy and nutritious food. Al Jamiah As Salafiah Authority is committed to provide quality foods. In order to upgrade food quality, appropriate steps will be taken by considering the opinion of the students, teachers and guardians.</value>
+  </data>
+  <data name="StudentVotingForFoodHeading" xml:space="preserve">
+    <value>Voting and opinion of students for the improvement of food / other matters</value>
   </data>
   <data name="Syllabus" xml:space="preserve">
     <value />

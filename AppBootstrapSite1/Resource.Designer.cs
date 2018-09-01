@@ -19,7 +19,7 @@ namespace AppBootstrapSite1 {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resource {
@@ -1376,6 +1376,114 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Correction of the name and date of birth is a difficult and complicated process. For this reason, the name and date of birth should be written very carefully, so that it may not go wrong. If there is a mistake or problem in the name of the student or in the date of birth and if the application is requested to be corrected, then the name and date of birth can be corrected by paying a specific fee..
+        /// </summary>
+        public static string StudentApplicationForNameAndDOBCorrectionDetails {
+            get {
+                return ResourceManager.GetString("StudentApplicationForNameAndDOBCorrectionDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Application for the correction of name and date of birth.
+        /// </summary>
+        public static string StudentApplicationForNameAndDOBCorrectionHeading {
+            get {
+                return ResourceManager.GetString("StudentApplicationForNameAndDOBCorrectionHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Each student will have different IDs and passwords, which will identify him or her. all information including the report card, exam results, any urgent notice or important message that related to him will be provided through his ID..
+        /// </summary>
+        public static string StudentIdAndPasswordDetails {
+            get {
+                return ResourceManager.GetString("StudentIdAndPasswordDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Student ID and password.
+        /// </summary>
+        public static string StudentIdAndPasswordHeading {
+            get {
+                return ResourceManager.GetString("StudentIdAndPasswordHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to No student will be able to take more than 1 day leave in a month. On every Thursday he or she cannot go on vacation. However, on the basis of the guardian&apos;s application or based on a specialist doctor&apos;s prescription, necessary holidays could be given..
+        /// </summary>
+        public static string StudentIdApplicationForLeaveDetails {
+            get {
+                return ResourceManager.GetString("StudentIdApplicationForLeaveDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Application for leave:.
+        /// </summary>
+        public static string StudentIdApplicationForLeaveHeading {
+            get {
+                return ResourceManager.GetString("StudentIdApplicationForLeaveHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to At the end of the year, every student will have to renew the ID card. For renewal fee of polymer ID card, he will have to pay 100 takas. If any student’s ID card is not renewed, he or she will have to face some difficulties and will be deprived of some facilities like taking food from the boarding, having books from the library, going out or taking leaves and so on..
+        /// </summary>
+        public static string StudentIdApplicationForRenewIDDetails {
+            get {
+                return ResourceManager.GetString("StudentIdApplicationForRenewIDDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Application for renewal of ID card.
+        /// </summary>
+        public static string StudentIdApplicationForRenewIDHeading {
+            get {
+                return ResourceManager.GetString("StudentIdApplicationForRenewIDHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If any defect or technical problem or log in-sign in problem arises or any correction is needed like addition, deletion or modification, then the application for the ID reset will have to be submitted. application for ID reset and payment of fixed amount for it must be within the specified time. If any student does not apply in time or follow the specific procedures, he or she can reset the ID at any time by giving fines, according to the rules of the institution..
+        /// </summary>
+        public static string StudentIDResetApplicationDetails {
+            get {
+                return ResourceManager.GetString("StudentIDResetApplicationDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ID Reset application.
+        /// </summary>
+        public static string StudentIDResetApplicationHeading {
+            get {
+                return ResourceManager.GetString("StudentIDResetApplicationHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to If the numbers obtained in the term / annual examination seems to be less than expected or not satisfactory to the examinee, then the answer script can be re-evaluated. Within 15 days of the test ended, the answer script can be re-evaluated with the application and the number can be less / more after re-evaluation..
+        /// </summary>
+        public static string StudentIDResetApplicationReevaluateResultDetails {
+            get {
+                return ResourceManager.GetString("StudentIDResetApplicationReevaluateResultDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Application for revaluation of answer script.
+        /// </summary>
+        public static string StudentIDResetApplicationReevaluateResultHeading {
+            get {
+                return ResourceManager.GetString("StudentIDResetApplicationReevaluateResultHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string StudentLists {
@@ -1390,6 +1498,24 @@ namespace AppBootstrapSite1 {
         public static string StudentListsHeading {
             get {
                 return ResourceManager.GetString("StudentListsHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Everyday attendance will be counted. If any student’s attendance rate is less than 80%, he or she will be considered ineligible to participate for the term / annual examination..
+        /// </summary>
+        public static string StudentPresenceAndAbsenceDetails {
+            get {
+                return ResourceManager.GetString("StudentPresenceAndAbsenceDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Presence / Absence.
+        /// </summary>
+        public static string StudentPresenceAndAbsenceHeading {
+            get {
+                return ResourceManager.GetString("StudentPresenceAndAbsenceHeading", resourceCulture);
             }
         }
         
@@ -1438,6 +1564,42 @@ namespace AppBootstrapSite1 {
         public static string StudentResidentialConventionHeading {
             get {
                 return ResourceManager.GetString("StudentResidentialConventionHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Under processing.
+        /// </summary>
+        public static string StudentResultReportDetails {
+            get {
+                return ResourceManager.GetString("StudentResultReportDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Results Report.
+        /// </summary>
+        public static string StudentResultReportHeading {
+            get {
+                return ResourceManager.GetString("StudentResultReportHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to For sound body and mind, we need healthy and nutritious food. Al Jamiah As Salafiah Authority is committed to provide quality foods. In order to upgrade food quality, appropriate steps will be taken by considering the opinion of the students, teachers and guardians..
+        /// </summary>
+        public static string StudentVotingForFoodDetails {
+            get {
+                return ResourceManager.GetString("StudentVotingForFoodDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Voting and opinion of students for the improvement of food / other matters.
+        /// </summary>
+        public static string StudentVotingForFoodHeading {
+            get {
+                return ResourceManager.GetString("StudentVotingForFoodHeading", resourceCulture);
             }
         }
         

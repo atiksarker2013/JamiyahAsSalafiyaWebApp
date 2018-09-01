@@ -834,11 +834,53 @@
   <data name="SequesnceOfAdmissionHeading" xml:space="preserve">
     <value>ভর্তির ধারাবাহিক প্রক্রিয়া:</value>
   </data>
+  <data name="StudentApplicationForNameAndDOBCorrectionDetails" xml:space="preserve">
+    <value>নাম ও জন্ম সাল সংশোধন একটি কঠিন ও জটিল প্রক্রিয়া। এই জন্য নাম ও জন্ম সাল লেখার সময় অত্যন্ত সতর্কতার সাথে লিখতে হবে, যাতে ভুল না হয়। কোন শিক্ষার্থীর নাম বা জন্ম সালে ভুল বা সমস্যা থাকলে এবং সংশোধনের জন্য আবেদন করলে নির্দিষ্ট ফি পরিশোধ করে নাম ও জন্ম সাল সংশোধন করা যাবে।</value>
+  </data>
+  <data name="StudentApplicationForNameAndDOBCorrectionHeading" xml:space="preserve">
+    <value>নাম ও জন্ম সাল সংশোধন করার আবেদন</value>
+  </data>
+  <data name="StudentIdAndPasswordDetails" xml:space="preserve">
+    <value>প্রত্যেক শিক্ষার্থীর ভিন্ন ভিন্ন আইডি ও পাসওয়ার্ড থাকবে, যা দিয়ে তাকে সনাক্ত করা হবে। তার জন্য নির্ধারিত আইডিতে রিপোর্ট কার্ড সাময়িক ও বার্ষিক পরীক্ষার ফলাফল, যরূরী প্রয়োজনীয় নোটিশ বা গুরুত্বপূর্ণ কোন খবর জানানো হবে।</value>
+  </data>
+  <data name="StudentIdAndPasswordHeading" xml:space="preserve">
+    <value>শিক্ষার্থীর আইডি ও পাসওয়ার্ড</value>
+  </data>
+  <data name="StudentIdApplicationForLeaveDetails" xml:space="preserve">
+    <value>কোন শিক্ষার্থী মাসে ১ দিনের বেশি ছুটি নিতে পারবে না। প্রতি বৃহস্পতিবার ছুটিতে যেতে পারবে না। তবে অভিভাবকের আবেদন বা বিশেষজ্ঞ চিকিৎসকের ব্যবস্থাপত্র সাপেক্ষে প্রয়োজনীয় ছুটি দেওয়া যেতে পারে।</value>
+  </data>
+  <data name="StudentIdApplicationForLeaveHeading" xml:space="preserve">
+    <value>ছুটির আবেদন</value>
+  </data>
+  <data name="StudentIdApplicationForRenewIDDetails" xml:space="preserve">
+    <value>বছর শেষে প্রত্যেক শিক্ষার্থীকে আইডি কার্ড নবায়ন করতে হবে। পলিমার আইডি কাডের নবায়ন ফি বাবদ তাকে ১০০ টাকা দিতে হবে। কোন শিক্ষার্থী‍ আইডি কার্ড নবায়ন না করলে নানা সমস্যার সম্মুখীন হবে। বোর্ডিং এ খাবার নেওয়া, গ্রন্থাগার থেকে বই উঠানো, বাইরে যাওয়া বা ছুটি নেওয়া ইত্যাদি সুবিধা থেকে বঞ্চিত হবে।</value>
+  </data>
+  <data name="StudentIdApplicationForRenewIDHeading" xml:space="preserve">
+    <value>আইডি কার্ড নবায়ন করার আবেদন</value>
+  </data>
+  <data name="StudentIDResetApplicationDetails" xml:space="preserve">
+    <value>আইডিতে ভুল থাকলে বা লগইন/সাইন ইন করতে সমস্যা হলে বা প্রযুক্তিগত কোন সমস্যা দেখা দিলে বা কোন তথ্য সংযোজন, বিয়োজন, পরিমার্জনের প্রয়োজন হলে আইডি রিসেটের আবেদন করতে হবে। নির্দিষ্ট ফি পরিশোধ করে নির্দিষ্ট সময়ের মধ্যে আইডি রিসেট বা পুন:স্থাপনের আবেদন করতে হবে। নির্দিষ্ট সময়ে না করলে বা যথাযথ প্রক্রিয়া অনুসরণ না করলে‍ নির্দিষ্টি জরিমানা পরিশোধ করে আইডি রিসেট করা যাবে।</value>
+  </data>
+  <data name="StudentIDResetApplicationHeading" xml:space="preserve">
+    <value>রিসেট করার আবেদন</value>
+  </data>
+  <data name="StudentIDResetApplicationReevaluateResultDetails" xml:space="preserve">
+    <value>সাময়িক/বার্ষিক পরীক্ষায় প্রাপ্ত নম্বর কম মনে হলে বা প্রাপ্ত নম্বরে শিক্ষার্থী সন্তুষ্ট না হলে সংশ্লিষ্ট উত্তরপত্র পুন:মূল্যায়নের আবদেন করা যাবে। কোন টার্মের পরীক্ষা শেষ হওয়ার ১৫ দিনের মধ্যে আবেদন সাপেক্ষে উত্তর পত্র পুনঃমূল্যায়ন করা যাবে এবং সে আলোকে প্রাপ্ত নম্বর কম/বেশি হতে পারে।</value>
+  </data>
+  <data name="StudentIDResetApplicationReevaluateResultHeading" xml:space="preserve">
+    <value>উত্তরপত্র পুনঃমূল্যায়নের আবেদন</value>
+  </data>
   <data name="StudentLists" xml:space="preserve">
     <value />
   </data>
   <data name="StudentListsHeading" xml:space="preserve">
     <value>শিক্ষার্থী তালিকা</value>
+  </data>
+  <data name="StudentPresenceAndAbsenceDetails" xml:space="preserve">
+    <value>প্রতিদিন উপস্থিতির হার গণনা করা হবে। উপস্থিতির হার ৮০% এর কম হলে সাময়িক/বার্ষিক পরীক্ষায় অংশ গ্রহণের অযোগ্য বলে বিবেচিত হবে।</value>
+  </data>
+  <data name="StudentPresenceAndAbsenceHeading" xml:space="preserve">
+    <value>উপস্থিতি/অনুপস্থিতি</value>
   </data>
   <data name="StudentRegulation" xml:space="preserve">
     <value>সমস্ত ছাত্র ‘জামি‘আহ্’-এর নিয়ম মেনে চলবে।
@@ -884,6 +926,18 @@
   </data>
   <data name="StudentResidentialConventionHeading" xml:space="preserve">
     <value>শিক্ষার্থীদের আবাসিক নিয়মাবলী</value>
+  </data>
+  <data name="StudentResultReportDetails" xml:space="preserve">
+    <value>প্রক্রিয়াধীন</value>
+  </data>
+  <data name="StudentResultReportHeading" xml:space="preserve">
+    <value>ফলাফল বিবরণী</value>
+  </data>
+  <data name="StudentVotingForFoodDetails" xml:space="preserve">
+    <value>দেহ ও মনের সুস্থতার জন্য পুষ্টিকর খাবার প্রয়োজন। মান সম্পন্ন খাবার পরিবেশনে আল-জামি’আহ্ আস-সালাফিয়্যাহ্ কর্তৃপক্ষ অঙ্গীকারাবদ্ধ। খাবারের মান বৃদ্ধির জন্য শিক্ষর্থী, শিক্ষক ও অভিভাবকদের মতামত/ভোটের আলোকে মান উন্নয়ন/ধরে রাখার প্রয়োজনীয় পদক্ষেপ গ্রহণ করা হবে।</value>
+  </data>
+  <data name="StudentVotingForFoodHeading" xml:space="preserve">
+    <value>খাবার/অন্য বিষয়ের মানোন্নয়নে শিক্ষার্থীর ভোটগ্রহণ ও মতামত প্রদান</value>
   </data>
   <data name="Syllabus" xml:space="preserve">
     <value />
