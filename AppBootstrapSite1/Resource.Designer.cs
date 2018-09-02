@@ -416,6 +416,132 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Anjuman is the main source of co-curricular activities. It is the medium to develop the talent, sentimentality, creativity, and personality of a student. It works as a facilitator for the development of the students’ competence, and merit. Therefore, Al-Jamiah As-Salafiah has continued the activities of weekly Anjuman or Islahul Bayan for the students of primary, secondary and high secondary for practicing to deliver the speech in Bengali, English, and in Arabic. As a result, most of the students of this in [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string CoCurriculamAnjumanDetails {
+            get {
+                return ResourceManager.GetString("CoCurriculamAnjumanDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Anjuman.
+        /// </summary>
+        public static string CoCurriculamAnjumanHeading {
+            get {
+                return ResourceManager.GetString("CoCurriculamAnjumanHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al-Jamiah authorities organize a debate competition each month to achieve the merit, general knowledge and intelligence of the students of this institution. This debate is being contested on Akida, Fikbhi, Masayel, and the intimate subjects of everyday life..
+        /// </summary>
+        public static string CoCurriculamDebatingClubDetails {
+            get {
+                return ResourceManager.GetString("CoCurriculamDebatingClubDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Debating Club.
+        /// </summary>
+        public static string CoCurriculamDebatingClubHeading {
+            get {
+                return ResourceManager.GetString("CoCurriculamDebatingClubHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al-Jamiah As-Salafiah gives special importance to Islam&apos;s general knowledge. So, Islamic Quiz Club has been formed to promote, spread the common knowledge in Islam. A general quiz contest is held after three months respectively for the study and expansion of the general knowledge of the students of this institution. In this quiz competition, special emphasis is given on national and international issues..
+        /// </summary>
+        public static string CoCurriculamGeneralQuizClubDetails {
+            get {
+                return ResourceManager.GetString("CoCurriculamGeneralQuizClubDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to General Quiz Club.
+        /// </summary>
+        public static string CoCurriculamGeneralQuizClubHeading {
+            get {
+                return ResourceManager.GetString("CoCurriculamGeneralQuizClubHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Islamic songs act as a source of inspiration and awakening to Islam. Islamic Music Club is formed by some of the students of Al Jamiah As Salafiah who have the excellent voice for attracting common people to the Islamic ideology and creating their interest in Islamic discipline. And the artists of this club perform their Islamic songs during the annual Islamic Conference and other institutional events..
+        /// </summary>
+        public static string CoCurriculamIslamicMusicClubDetails {
+            get {
+                return ResourceManager.GetString("CoCurriculamIslamicMusicClubDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Islamic Music Club.
+        /// </summary>
+        public static string CoCurriculamIslamicMusicClubHeading {
+            get {
+                return ResourceManager.GetString("CoCurriculamIslamicMusicClubHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al Jamiah As Salafiah gives great importance to the spread of the knowledge and basic sense of Islam among the students. For this reason, the Islamic Quiz Club is formed. An Islamic Quiz Competition is held every month for the students. In this competition, the questions are related to the Quran, Hadeeths, Akidah, Fiqh, the history of Islam and so on..
+        /// </summary>
+        public static string CoCurriculamIslamicQuizClubDetails {
+            get {
+                return ResourceManager.GetString("CoCurriculamIslamicQuizClubDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Islamic Quiz Club.
+        /// </summary>
+        public static string CoCurriculamIslamicQuizClubHeading {
+            get {
+                return ResourceManager.GetString("CoCurriculamIslamicQuizClubHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The second source of Islam is Al-hadeeth. Al-Jamiah has formed a separate forum for the study, research and the spread of the hadeeths. Its name is the Study and Research Association of Hadeeth. As a result, the knowledge, the skills and the experience of the students in the areas of translation, research, interpretation, and presentation of Hadeeths are increasing day by day..
+        /// </summary>
+        public static string CoCurriculamStudyOfHadithAndResearchFourmDetails {
+            get {
+                return ResourceManager.GetString("CoCurriculamStudyOfHadithAndResearchFourmDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Study and Researching Association of Hadeeth.
+        /// </summary>
+        public static string CoCurriculamStudyOfHadithAndResearchFourmHeading {
+            get {
+                return ResourceManager.GetString("CoCurriculamStudyOfHadithAndResearchFourmHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al-Jamiaah As Salafiyah gives great importance to the study, practice, and research of the Quran. Al-Quran research forum has been formed here to teach students the correct Quran recitation, correct pronunciation, pure translation and accurate explanation. As a result, the knowledge, skills, and experience of the students are increasing in the study and in the interpretation of the Quran..
+        /// </summary>
+        public static string CoCurriculamStudyOfQuranAndResearchFourmDetails {
+            get {
+                return ResourceManager.GetString("CoCurriculamStudyOfQuranAndResearchFourmDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Study of the Quran and research forum.
+        /// </summary>
+        public static string CoCurriculamStudyOfQuranAndResearchFourmHeading {
+            get {
+                return ResourceManager.GetString("CoCurriculamStudyOfQuranAndResearchFourmHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string CoursesDetails {

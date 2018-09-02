@@ -3,46 +3,54 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AppBootstrapSite1.Models;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class CoCurricularActivitiesController : Controller
+    public class CoCurricularActivitiesController : BaseController
     {
         // GET: CoCurricularActivities
         public ActionResult TrainingForDeliveringSpeech()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult QuranStudyAndResearchFourm()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
 
         public ActionResult HadithStudyAndResearchFourm()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult DebatingClub()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult IslamicQuizClub()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult GeneralQuizClub()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult IslamicSongClub()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
     }
 }

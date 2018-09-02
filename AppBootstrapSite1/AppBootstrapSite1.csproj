@@ -426,7 +426,6 @@
     <Folder Include="Content\datatables\" />
     <Folder Include="Content\starters\" />
     <Folder Include="flags\" />
-    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Views\Menu\" />
   </ItemGroup>
   <ItemGroup>
@@ -781,6 +780,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\StudentsIdentity\VottingForFoodAndOther.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\jamiyah - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

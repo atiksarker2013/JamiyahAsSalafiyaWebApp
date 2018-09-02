@@ -1065,4 +1065,46 @@ Al Jamiah As Salafia is a modern and standard Islamic institution founded and di
   <data name="WelcomeHeading" xml:space="preserve">
     <value>Welcome Message</value>
   </data>
+  <data name="CoCurriculamAnjumanDetails" xml:space="preserve">
+    <value>Anjuman is the main source of co-curricular activities. It is the medium to develop the talent, sentimentality, creativity, and personality of a student. It works as a facilitator for the development of the students’ competence, and merit. Therefore, Al-Jamiah As-Salafiah has continued the activities of weekly Anjuman or Islahul Bayan for the students of primary, secondary and high secondary for practicing to deliver the speech in Bengali, English, and in Arabic. As a result, most of the students of this institution can deliver their Islamic speech in Arabic, English, and in Bengali in public places.</value>
+  </data>
+  <data name="CoCurriculamAnjumanHeading" xml:space="preserve">
+    <value>Anjuman</value>
+  </data>
+  <data name="CoCurriculamDebatingClubDetails" xml:space="preserve">
+    <value>Al-Jamiah authorities organize a debate competition each month to achieve the merit, general knowledge and intelligence of the students of this institution. This debate is being contested on Akida, Fikbhi, Masayel, and the intimate subjects of everyday life.</value>
+  </data>
+  <data name="CoCurriculamDebatingClubHeading" xml:space="preserve">
+    <value>Debating Club</value>
+  </data>
+  <data name="CoCurriculamGeneralQuizClubDetails" xml:space="preserve">
+    <value>Al-Jamiah As-Salafiah gives special importance to Islam's general knowledge. So, Islamic Quiz Club has been formed to promote, spread the common knowledge in Islam. A general quiz contest is held after three months respectively for the study and expansion of the general knowledge of the students of this institution. In this quiz competition, special emphasis is given on national and international issues.</value>
+  </data>
+  <data name="CoCurriculamGeneralQuizClubHeading" xml:space="preserve">
+    <value>General Quiz Club</value>
+  </data>
+  <data name="CoCurriculamIslamicMusicClubDetails" xml:space="preserve">
+    <value>Islamic songs act as a source of inspiration and awakening to Islam. Islamic Music Club is formed by some of the students of Al Jamiah As Salafiah who have the excellent voice for attracting common people to the Islamic ideology and creating their interest in Islamic discipline. And the artists of this club perform their Islamic songs during the annual Islamic Conference and other institutional events.</value>
+  </data>
+  <data name="CoCurriculamIslamicMusicClubHeading" xml:space="preserve">
+    <value>Islamic Music Club</value>
+  </data>
+  <data name="CoCurriculamIslamicQuizClubDetails" xml:space="preserve">
+    <value>Al Jamiah As Salafiah gives great importance to the spread of the knowledge and basic sense of Islam among the students. For this reason, the Islamic Quiz Club is formed. An Islamic Quiz Competition is held every month for the students. In this competition, the questions are related to the Quran, Hadeeths, Akidah, Fiqh, the history of Islam and so on.</value>
+  </data>
+  <data name="CoCurriculamIslamicQuizClubHeading" xml:space="preserve">
+    <value>Islamic Quiz Club</value>
+  </data>
+  <data name="CoCurriculamStudyOfHadithAndResearchFourmDetails" xml:space="preserve">
+    <value>The second source of Islam is Al-hadeeth. Al-Jamiah has formed a separate forum for the study, research and the spread of the hadeeths. Its name is the Study and Research Association of Hadeeth. As a result, the knowledge, the skills and the experience of the students in the areas of translation, research, interpretation, and presentation of Hadeeths are increasing day by day.</value>
+  </data>
+  <data name="CoCurriculamStudyOfHadithAndResearchFourmHeading" xml:space="preserve">
+    <value>Study and Researching Association of Hadeeth</value>
+  </data>
+  <data name="CoCurriculamStudyOfQuranAndResearchFourmDetails" xml:space="preserve">
+    <value>Al-Jamiaah As Salafiyah gives great importance to the study, practice, and research of the Quran. Al-Quran research forum has been formed here to teach students the correct Quran recitation, correct pronunciation, pure translation and accurate explanation. As a result, the knowledge, skills, and experience of the students are increasing in the study and in the interpretation of the Quran.</value>
+  </data>
+  <data name="CoCurriculamStudyOfQuranAndResearchFourmHeading" xml:space="preserve">
+    <value>Study of the Quran and research forum</value>
+  </data>
 </root>

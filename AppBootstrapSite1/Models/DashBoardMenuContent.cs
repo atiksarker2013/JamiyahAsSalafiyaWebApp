@@ -938,5 +938,98 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "CoCurriculamAnjumanHeading", ResourceType = typeof(Resource))]
+        public string CoCurriculamAnjumanHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "CoCurriculamAnjumanDetails", ResourceType = typeof(Resource))]
+        public string CoCurriculamAnjumanDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "CoCurriculamStudyOfQuranAndResearchFourmHeading", ResourceType = typeof(Resource))]
+        public string CoCurriculamStudyOfQuranAndResearchFourmHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "CoCurriculamStudyOfQuranAndResearchFourmDetails", ResourceType = typeof(Resource))]
+        public string CoCurriculamStudyOfQuranAndResearchFourmDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "CoCurriculamStudyOfHadithAndResearchFourmHeading", ResourceType = typeof(Resource))]
+        public string CoCurriculamStudyOfHadithAndResearchFourmHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "CoCurriculamStudyOfHadithAndResearchFourmDetails", ResourceType = typeof(Resource))]
+        public string CoCurriculamStudyOfHadithAndResearchFourmDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "CoCurriculamDebatingClubHeading", ResourceType = typeof(Resource))]
+        public string CoCurriculamDebatingClubHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "CoCurriculamDebatingClubDetails", ResourceType = typeof(Resource))]
+        public string CoCurriculamDebatingClubDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "CoCurriculamIslamicQuizClubHeading", ResourceType = typeof(Resource))]
+        public string CoCurriculamIslamicQuizClubHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "CoCurriculamIslamicQuizClubDetails", ResourceType = typeof(Resource))]
+        public string CoCurriculamIslamicQuizClubDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "CoCurriculamGeneralQuizClubHeading", ResourceType = typeof(Resource))]
+        public string CoCurriculamGeneralQuizClubHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "CoCurriculamGeneralQuizClubDetails", ResourceType = typeof(Resource))]
+        public string CoCurriculamGeneralQuizClubDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "CoCurriculamIslamicMusicClubHeading", ResourceType = typeof(Resource))]
+        public string CoCurriculamIslamicMusicClubHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "CoCurriculamIslamicMusicClubDetails", ResourceType = typeof(Resource))]
+        public string CoCurriculamIslamicMusicClubDetails
+        {
+            get;
+            set;
+        }
+
+         
+
     }
 }

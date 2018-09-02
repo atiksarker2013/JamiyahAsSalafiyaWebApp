@@ -7,7 +7,7 @@ using AppBootstrapSite1.Models;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class StudentsIdentityController : Controller
+    public class StudentsIdentityController : BaseController
     {
         // GET: StudentsIdentity
         public ActionResult PresentAndAbsence()

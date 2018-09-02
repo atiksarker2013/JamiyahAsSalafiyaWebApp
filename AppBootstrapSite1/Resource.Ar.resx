@@ -1069,4 +1069,47 @@
   <data name="WelcomeHeading" xml:space="preserve">
     <value>رسالة ترحيب</value>
   </data>
+  <data name="CoCurriculamAnjumanDetails" xml:space="preserve">
+    <value>من الأنشطة اللاصفية البارزة برنامج تعليم الخطابة، وهو وسيلة هامة لتنمية ذكاء الطالب وموهبته وابتكاره ومهارته وشخصيته. ولهذا تنظم إدارة الجامعة برنامج تعليم الخطابة الأسبوعي، حيث يكلَّف فيه كل طالب بإلقاء الكلمات في مواضيع مختلفة بالبنغالية والعربية والإنكليزية حسب الجدول. فلهذا كله يقدر أغلب طلابها على حسن إلقاء الكلمات باللغات المذكورة.</value>
+  </data>
+  <data name="CoCurriculamAnjumanHeading" xml:space="preserve">
+    <value>برنامج خاص لتعليم الخطابة</value>
+  </data>
+  <data name="CoCurriculamDebatingClubDetails" xml:space="preserve">
+    <value>ينظم هذا النادي مناظرة شهرية حول المسائل العقدية والفقهية والأمور المتعلقة بحياة الناس اليومية لتنمية المواهب وسرعة البديهة والمعلومات العامة لدى الطلاب.</value>
+  </data>
+  <data name="CoCurriculamDebatingClubHeading" xml:space="preserve">
+    <value>نادي المناظرة والمناقشة</value>
+  </data>
+  <data name="CoCurriculamGeneralQuizClubDetails" xml:space="preserve">
+    <value>تهتم الجامعة بالمعلومات العامة أيضاً. ولهذا كوّنت نادي المسابقة للمعلومات العامة. وينظم هذا النادي مسابقة مفتوحة للمعلومات العامة بعد كل شهر أو ثلاثة أشهر، يُهتم فيها بالمعلومات الوطنية والعالمية.</value>
+  </data>
+  <data name="CoCurriculamGeneralQuizClubHeading" xml:space="preserve">
+    <value>نادي المسابقة للمعلومات العامة</value>
+  </data>
+  <data name="CoCurriculamIslamicMusicClubDetails" xml:space="preserve">
+    <value>"(7) نادي النشيد الإسلامي:
+النشيد الإسلامي يؤدي إلى الرغبة والتشجيع علي الإسلام. فوضعت الجامعة نادي النشيد الإسلامي برياسة طائفة من الطلاب الموصوفون بالنغمات الرائعة، لحث الناس على الشرعية الإسلامية. ويغني هذا النادي بالصوت العذب في الاجتماع الديني السنوي والمحافل الأخرى. "</value>
+  </data>
+  <data name="CoCurriculamIslamicMusicClubHeading" xml:space="preserve">
+    <value>نادي النشيد الإسلامي</value>
+  </data>
+  <data name="CoCurriculamIslamicQuizClubDetails" xml:space="preserve">
+    <value>الجامعة السلفية تهتم اهتماماً بالغاً بنشر المعلومات الإسلامية بين الطلاب. فأنشأت نادي المسابقة للمعلومات الإسلامية. وهذا النادي يقيم مسابقة إسلامية شهرية بين الطلاب حيث تطرح أسئلة حول الموضوعات العامة من القرآن الكريم والحديث الشريف والعقيدة والفقه والتاريخ الإسلامي وعلم الأديان المقارن.</value>
+  </data>
+  <data name="CoCurriculamIslamicQuizClubHeading" xml:space="preserve">
+    <value>نادي المسابقة للمعلومات الإسلامية</value>
+  </data>
+  <data name="CoCurriculamStudyOfHadithAndResearchFourmDetails" xml:space="preserve">
+    <value>كما أنها تهتم بدراسة الحديث الشريف، ولهذا كوّنت نادي دراسة الحديث النبوي، يدرّس فيه فقه الحديث وعلومه. فيُرى لدى الطلاب تقدم ملحوظ في هذا الفن.</value>
+  </data>
+  <data name="CoCurriculamStudyOfHadithAndResearchFourmHeading" xml:space="preserve">
+    <value>نادي دراسة الحديث النبوي</value>
+  </data>
+  <data name="CoCurriculamStudyOfQuranAndResearchFourmDetails" xml:space="preserve">
+    <value>الجامعة السلفية تهتم اهتماماً بالغاً بدراسة القرآن الكريم. فكوّنت نادي دراسة القرآن الكريم الذي يعنى بتصحيح تلاوة القرآن الكريم وتعليم ترجمة معانيه وتفسيره. فيزداد الطلاب علماً  في دراسة القرآن الكريم وترجمة معانيه وتفسيره.</value>
+  </data>
+  <data name="CoCurriculamStudyOfQuranAndResearchFourmHeading" xml:space="preserve">
+    <value>نادي دراسة القرآن الكريم</value>
+  </data>
 </root>
