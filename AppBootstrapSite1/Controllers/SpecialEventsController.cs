@@ -3,40 +3,47 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AppBootstrapSite1.Models;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class SpecialEventsController : Controller
+    public class SpecialEventsController : BaseController
     {
         // GET: SpecialEvents
         public ActionResult TrainingAndSeminar()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult GamesAndSports()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult Picnic()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult Farewell()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
-        public ActionResult FestivalReception()
-        {
-            return View();
-        }
+        //public ActionResult FestivalReception()
+        //{
+        //    DashBoardMenuContent model = new DashBoardMenuContent();
+        //    return View(model);
+        //}
 
         public ActionResult QuranMahfil()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
     }
 }

@@ -950,6 +950,60 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Teachers, office assistants, employees&apos; recruitment notice are published..
+        /// </summary>
+        public static string NoticeBoardForJobCircularDetails {
+            get {
+                return ResourceManager.GetString("NoticeBoardForJobCircularDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Recruitment notice.
+        /// </summary>
+        public static string NoticeBoardForJobCircularHeading {
+            get {
+                return ResourceManager.GetString("NoticeBoardForJobCircularHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Unusual things of the institution are given on tender notice through advertisement..
+        /// </summary>
+        public static string NoticeBoardForJobTenderDetails {
+            get {
+                return ResourceManager.GetString("NoticeBoardForJobTenderDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Tender notice.
+        /// </summary>
+        public static string NoticeBoardForJobTenderHeading {
+            get {
+                return ResourceManager.GetString("NoticeBoardForJobTenderHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Any instruction, order or notice for the student is provided..
+        /// </summary>
+        public static string NoticeBoardForStudentDetails {
+            get {
+                return ResourceManager.GetString("NoticeBoardForStudentDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Notice for Students.
+        /// </summary>
+        public static string NoticeBoardForStudentHeading {
+            get {
+                return ResourceManager.GetString("NoticeBoardForStudentHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to .
         /// </summary>
         public static string NoticeDetails {
@@ -1498,6 +1552,96 @@ namespace AppBootstrapSite1 {
         public static string SequesnceOfAdmissionHeading {
             get {
                 return ResourceManager.GetString("SequesnceOfAdmissionHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to In order to invite many people, who are engrossed in darkness encircled in error and confusion, to the shadows of Islam and to teach the correct aqida, al-Jami&apos;ah has consistently been performing yearly Waj Mahfil/Islamic Conference. Every year, the elite Ulama(knowledgeable persons of Islam)   of the country are invited to the conference. And this conference is presided over by &quot;Sheikh Abdur Razzaq bin Yusuf, founder director of Al-Jami&apos;ah as-Salafiyah.&quot;.
+        /// </summary>
+        public static string SpecialEventAnuwalWazTafseerDetails {
+            get {
+                return ResourceManager.GetString("SpecialEventAnuwalWazTafseerDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Annual Waj or Tafsirul Quran Mahfil or Islamic Conference.
+        /// </summary>
+        public static string SpecialEventAnuwalWazTafseerHeading {
+            get {
+                return ResourceManager.GetString("SpecialEventAnuwalWazTafseerHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al-Jami&apos;ah&apos;s Curriculum is modern, complete and comprehensive. Students are admitted here every year to achieve a standard and modern education. The Jamiah authorities help them to enjoy their proper rituals and assist in providing comprehensive support to the organization&apos;s environment. And in the continuation of the year, the students of this particular class wait for their departure from the knowledgeable ground of Al-Jamiah after being fulfilled with divine knowledge. Authorities of this institution cor [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string SpecialEventFresherReceptionAndFairwellDetails {
+            get {
+                return ResourceManager.GetString("SpecialEventFresherReceptionAndFairwellDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Freshers Reception and Farewell.
+        /// </summary>
+        public static string SpecialEventFresherReceptionAndFairwellHeading {
+            get {
+                return ResourceManager.GetString("SpecialEventFresherReceptionAndFairwellHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to There is no substitution for sports and physical exercise for human development. There is a huge open playground in front of Jamiah - where students spend at least one hour each day on sports and athletics. The institution also organizes annual sports competition. By awarding prizes among the winners in a proper evaluation, the institution also encourages the students..
+        /// </summary>
+        public static string SpecialEventSportsDetails {
+            get {
+                return ResourceManager.GetString("SpecialEventSportsDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Sports.
+        /// </summary>
+        public static string SpecialEventSportsHeading {
+            get {
+                return ResourceManager.GetString("SpecialEventSportsHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Study tour is an important part of educational life. Knowledge of various historical places of the country works as an aid to the life-oriented use of book-based knowledge. So Jamiah authorities organize a study tour every year at the historic places of the country. Moreover, the teachers also organize picnic occasionally with the students, which work as a facilitator in creating sincerity among teachers and students..
+        /// </summary>
+        public static string SpecialEventStudyTourDetails {
+            get {
+                return ResourceManager.GetString("SpecialEventStudyTourDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Study Tour and Excursion.
+        /// </summary>
+        public static string SpecialEventStudyTourHeading {
+            get {
+                return ResourceManager.GetString("SpecialEventStudyTourHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The quality of any educational institution depends on trained, skilled, dedicated and meritorious teachers. For this purpose, the Jamiah authorities arrange trainings for teachers conducted by the country&apos;s experienced instructors consistently every year. In order to maintain institutional education, simultaneous classes and seminars are organized for a specific period of time. It is helpful in exchanging interpersonal skills, experience and sincerity among the teachers. Moreover, the authorities give incen [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string SpecialEventTrainingAndSeminerDetails {
+            get {
+                return ResourceManager.GetString("SpecialEventTrainingAndSeminerDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Training and seminars.
+        /// </summary>
+        public static string SpecialEventTrainingAndSeminerHeading {
+            get {
+                return ResourceManager.GetString("SpecialEventTrainingAndSeminerHeading", resourceCulture);
             }
         }
         

@@ -1029,7 +1029,112 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
-         
+        [Display(Name = "SpecialEventTrainingAndSeminerHeading", ResourceType = typeof(Resource))]
+        public string SpecialEventTrainingAndSeminerHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "SpecialEventTrainingAndSeminerDetails", ResourceType = typeof(Resource))]
+        public string SpecialEventTrainingAndSeminerDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "SpecialEventSportsHeading", ResourceType = typeof(Resource))]
+        public string SpecialEventSportsHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "SpecialEventSportsDetails", ResourceType = typeof(Resource))]
+        public string SpecialEventSportsDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "SpecialEventStudyTourHeading", ResourceType = typeof(Resource))]
+        public string SpecialEventStudyTourHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "SpecialEventStudyTourDetails", ResourceType = typeof(Resource))]
+        public string SpecialEventStudyTourDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "SpecialEventFresherReceptionAndFairwellHeading", ResourceType = typeof(Resource))]
+        public string SpecialEventFresherReceptionAndFairwellHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "SpecialEventFresherReceptionAndFairwellDetails", ResourceType = typeof(Resource))]
+        public string SpecialEventFresherReceptionAndFairwellDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "SpecialEventAnuwalWazTafseerHeading", ResourceType = typeof(Resource))]
+        public string SpecialEventAnuwalWazTafseerHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "SpecialEventAnuwalWazTafseerDetails", ResourceType = typeof(Resource))]
+        public string SpecialEventAnuwalWazTafseerDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NoticeBoardForStudentHeading", ResourceType = typeof(Resource))]
+        public string NoticeBoardForStudentHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "NoticeBoardForStudentDetails", ResourceType = typeof(Resource))]
+        public string NoticeBoardForStudentDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NoticeBoardForJobCircularHeading", ResourceType = typeof(Resource))]
+        public string NoticeBoardForJobCircularHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "NoticeBoardForJobCircularDetails", ResourceType = typeof(Resource))]
+        public string NoticeBoardForJobCircularDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NoticeBoardForJobTenderHeading", ResourceType = typeof(Resource))]
+        public string NoticeBoardForJobTenderHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "NoticeBoardForJobTenderDetails", ResourceType = typeof(Resource))]
+        public string NoticeBoardForJobTenderDetails
+        {
+            get;
+            set;
+        }
+
+
+
 
     }
 }

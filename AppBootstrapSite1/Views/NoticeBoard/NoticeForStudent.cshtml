@@ -1,8 +1,20 @@
 ﻿
+
+@model AppBootstrapSite1.Models.DashBoardMenuContent
 @{
     ViewBag.Title = "NoticeForStudent";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>NoticeForStudent</h2>
+<div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.NoticeBoardForStudentHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.NoticeBoardForStudentDetails, new { style = "color:#ffffff" })</p>
+
+</div>
+ 
+
 

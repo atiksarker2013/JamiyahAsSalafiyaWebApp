@@ -1112,4 +1112,52 @@
   <data name="CoCurriculamStudyOfQuranAndResearchFourmHeading" xml:space="preserve">
     <value>نادي دراسة القرآن الكريم</value>
   </data>
+  <data name="SpecialEventAnuwalWazTafseerDetails" xml:space="preserve">
+    <value>إن إدارة الجامعة السلفية تنظم المؤتمر الإسلامي السنوي لدعوة الناس المستغرقين في ظلام الجهل والضلال، المتحيّرين في الشبهات والشكوك إلى ظلال الإسلام. ويُدعى في هذا المؤتمر العلماء المشهورون البارزون من أنحاء البلد. ويترأّس المؤتمر المشرف العام والمؤسس للجامعة السلفية الشيخ عبد الرزاق بن يوسف -حفظه الله تعالى.</value>
+  </data>
+  <data name="SpecialEventAnuwalWazTafseerHeading" xml:space="preserve">
+    <value>المؤتمر الإسلامي السنوي</value>
+  </data>
+  <data name="SpecialEventFresherReceptionAndFairwellDetails" xml:space="preserve">
+    <value>منهج الجامعة ومقرراتها الدراسية منهج حديث شامل متناسق. ولذا يلتحق الطلاب الكُثر بهذه الجامعة كل عام لينالوا العلم الديني والدنيوي يواكب العصر. وإدارة الجامعة تستقبلهم وتساعدهم على أن يتكيفوا مع بيئة الجامعة، كما أنها تودّع الخريجين في كل عام، بعد أن ارتوت قلوبهم العطشى من هذا المنهل الصافي ونوّروا قلوبهم بنور العلم. وتكرّمهم متمنين لهم الخير والفلاح في حياتهم المستقبلية.</value>
+  </data>
+  <data name="SpecialEventFresherReceptionAndFairwellHeading" xml:space="preserve">
+    <value>استقبال الجدد وحفل التخرّج</value>
+  </data>
+  <data name="SpecialEventSportsDetails" xml:space="preserve">
+    <value>لنمو الجسم والعقل لا بديل للرياضة البدنية. أمام الجامعة ملعب كبير واسع، يلعب فيه الطلاب ويمارس الرياضة ساعة كل يوم. وأيضاً الجامعة تقيم المباراة السنوية وتقدم الجوائز للفائزين.</value>
+  </data>
+  <data name="SpecialEventSportsHeading" xml:space="preserve">
+    <value>الألعاب والرياضة</value>
+  </data>
+  <data name="SpecialEventStudyTourDetails" xml:space="preserve">
+    <value>الجولة العلمية جزء هام من حياة الطلاب. اكتساب المعلومات الواسعة بزيارة المعالم والمشاهد التاريخية يضيف رصيداً علمياً حياً إلى الدراسة الأكاديمية. فلذا تقوم إدارة الجامعة بتنظيم الجولة العلمية إلى المعالم التاريخية والمناظر الطبيعية الخلابة. وبالإضافة إلى ذلك يخرج المعلمون أحياناً مع الطلاب للنزهات الترفيهية مما يقوّي العلاقة والود بين المعلمين والمتعلمين.</value>
+  </data>
+  <data name="SpecialEventStudyTourHeading" xml:space="preserve">
+    <value>جولة علمية</value>
+  </data>
+  <data name="SpecialEventTrainingAndSeminerDetails" xml:space="preserve">
+    <value>جودة أي معهد تعليمي تتوقف على المعلّمين المدرَبين الماهرين المخلصين الأذكياء. ولتحقيق هذا الهدف تُنظم إدارة الجامعة ورشة تدريب المعلمين في كل سنة، وذلك بالمدربين الماهرين المجربين المحنكين الأكفاء. وتعقد الإدارة برنامج التدريب على البيداغوجيا والحصص الدراسية التمثيلية للحفاظ غلى معايير التعليم المرجوة. وهذا يزيد التوادّ وتبادل الخبرات والمهارات والتجارب بين المدرسين. والجامعة تحفّز المعلمين المخلصين بالمكافآت المادية والمعنوية.</value>
+  </data>
+  <data name="SpecialEventTrainingAndSeminerHeading" xml:space="preserve">
+    <value>التدريب والندوات</value>
+  </data>
+  <data name="NoticeBoardForJobCircularDetails" xml:space="preserve">
+    <value>تنشر تعميمات الوظائف للمعلم والمساعد المكتبي والعامل.</value>
+  </data>
+  <data name="NoticeBoardForJobCircularHeading" xml:space="preserve">
+    <value>تعميمات الوظائف</value>
+  </data>
+  <data name="NoticeBoardForJobTenderDetails" xml:space="preserve">
+    <value>تلصق باللوحة إعلامات المناقصة لبيع الأشياء غير المستعملة.</value>
+  </data>
+  <data name="NoticeBoardForJobTenderHeading" xml:space="preserve">
+    <value>إعلامات المناقصة</value>
+  </data>
+  <data name="NoticeBoardForStudentDetails" xml:space="preserve">
+    <value>يُؤتى الطلاب الإرشادات والأوامر والتعليمات.</value>
+  </data>
+  <data name="NoticeBoardForStudentHeading" xml:space="preserve">
+    <value>إشعار للطلاب</value>
+  </data>
 </root>

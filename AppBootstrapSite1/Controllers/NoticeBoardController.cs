@@ -3,25 +3,29 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using AppBootstrapSite1.Models;
 
 namespace AppBootstrapSite1.Controllers
 {
-    public class NoticeBoardController : Controller
+    public class NoticeBoardController : BaseController
     {
         // GET: NoticeBoard
         public ActionResult NoticeForStudent()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult AdvertisementForAppointment()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
 
         public ActionResult TenderNotice()
         {
-            return View();
+            DashBoardMenuContent model = new DashBoardMenuContent();
+            return View(model);
         }
     }
 }

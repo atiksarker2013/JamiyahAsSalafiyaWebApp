@@ -1,8 +1,18 @@
 ﻿
+@model AppBootstrapSite1.Models.DashBoardMenuContent
 @{
     ViewBag.Title = "QuranMahfil";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>QuranMahfil</h2>
+<div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.SpecialEventAnuwalWazTafseerHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.SpecialEventAnuwalWazTafseerDetails, new { style = "color:#ffffff" })</p>
+
+</div>
+
 

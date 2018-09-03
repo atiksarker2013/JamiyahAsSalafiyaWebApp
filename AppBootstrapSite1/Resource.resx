@@ -1107,4 +1107,52 @@ Al Jamiah As Salafia is a modern and standard Islamic institution founded and di
   <data name="CoCurriculamStudyOfQuranAndResearchFourmHeading" xml:space="preserve">
     <value>Study of the Quran and research forum</value>
   </data>
+  <data name="SpecialEventAnuwalWazTafseerDetails" xml:space="preserve">
+    <value>In order to invite many people, who are engrossed in darkness encircled in error and confusion, to the shadows of Islam and to teach the correct aqida, al-Jami'ah has consistently been performing yearly Waj Mahfil/Islamic Conference. Every year, the elite Ulama(knowledgeable persons of Islam)   of the country are invited to the conference. And this conference is presided over by "Sheikh Abdur Razzaq bin Yusuf, founder director of Al-Jami'ah as-Salafiyah."</value>
+  </data>
+  <data name="SpecialEventAnuwalWazTafseerHeading" xml:space="preserve">
+    <value>Annual Waj or Tafsirul Quran Mahfil or Islamic Conference</value>
+  </data>
+  <data name="SpecialEventFresherReceptionAndFairwellDetails" xml:space="preserve">
+    <value>Al-Jami'ah's Curriculum is modern, complete and comprehensive. Students are admitted here every year to achieve a standard and modern education. The Jamiah authorities help them to enjoy their proper rituals and assist in providing comprehensive support to the organization's environment. And in the continuation of the year, the students of this particular class wait for their departure from the knowledgeable ground of Al-Jamiah after being fulfilled with divine knowledge. Authorities of this institution cordially bade them farewell with the proper hope in their success and bright future.</value>
+  </data>
+  <data name="SpecialEventFresherReceptionAndFairwellHeading" xml:space="preserve">
+    <value>Freshers Reception and Farewell</value>
+  </data>
+  <data name="SpecialEventSportsDetails" xml:space="preserve">
+    <value>There is no substitution for sports and physical exercise for human development. There is a huge open playground in front of Jamiah - where students spend at least one hour each day on sports and athletics. The institution also organizes annual sports competition. By awarding prizes among the winners in a proper evaluation, the institution also encourages the students.</value>
+  </data>
+  <data name="SpecialEventSportsHeading" xml:space="preserve">
+    <value>Sports</value>
+  </data>
+  <data name="SpecialEventStudyTourDetails" xml:space="preserve">
+    <value>Study tour is an important part of educational life. Knowledge of various historical places of the country works as an aid to the life-oriented use of book-based knowledge. So Jamiah authorities organize a study tour every year at the historic places of the country. Moreover, the teachers also organize picnic occasionally with the students, which work as a facilitator in creating sincerity among teachers and students.</value>
+  </data>
+  <data name="SpecialEventStudyTourHeading" xml:space="preserve">
+    <value>Study Tour and Excursion</value>
+  </data>
+  <data name="SpecialEventTrainingAndSeminerDetails" xml:space="preserve">
+    <value>The quality of any educational institution depends on trained, skilled, dedicated and meritorious teachers. For this purpose, the Jamiah authorities arrange trainings for teachers conducted by the country's experienced instructors consistently every year. In order to maintain institutional education, simultaneous classes and seminars are organized for a specific period of time. It is helpful in exchanging interpersonal skills, experience and sincerity among the teachers. Moreover, the authorities give incentives to sincere and responsible teachers.</value>
+  </data>
+  <data name="SpecialEventTrainingAndSeminerHeading" xml:space="preserve">
+    <value>Training and seminars</value>
+  </data>
+  <data name="NoticeBoardForJobCircularDetails" xml:space="preserve">
+    <value>Teachers, office assistants, employees' recruitment notice are published.</value>
+  </data>
+  <data name="NoticeBoardForJobCircularHeading" xml:space="preserve">
+    <value>Recruitment notice</value>
+  </data>
+  <data name="NoticeBoardForJobTenderDetails" xml:space="preserve">
+    <value>Unusual things of the institution are given on tender notice through advertisement.</value>
+  </data>
+  <data name="NoticeBoardForJobTenderHeading" xml:space="preserve">
+    <value>Tender notice</value>
+  </data>
+  <data name="NoticeBoardForStudentDetails" xml:space="preserve">
+    <value>Any instruction, order or notice for the student is provided.</value>
+  </data>
+  <data name="NoticeBoardForStudentHeading" xml:space="preserve">
+    <value>Notice for Students</value>
+  </data>
 </root>
