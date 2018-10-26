@@ -782,6 +782,7 @@
     <Content Include="Views\StudentsIdentity\VottingForFoodAndOther.cshtml" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Properties\PublishProfiles\jamiyah - Web Deploy.pubxml" />
   </ItemGroup>
   <PropertyGroup>
