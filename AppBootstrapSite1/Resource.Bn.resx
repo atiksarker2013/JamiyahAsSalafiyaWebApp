@@ -1173,4 +1173,28 @@
   <data name="NoticeBoardForStudentHeading" xml:space="preserve">
     <value>শিক্ষার্থীদের জন্য বিজ্ঞপ্তি</value>
   </data>
+  <data name="DailyMonthlyNewspaperDetails" xml:space="preserve">
+    <value>দৈনিক পত্রিকা, মাসিক পত্রিকা/মাগাজিন, সাময়িকী ইত্যাদি পত্রিকার ব্যবস্থা আল-জামি’আহ্ কর্তৃপক্ষ করে থাকে, যাতে শিক্ষার্থীর জ্ঞান শুধু পাঠ্যপুস্তকের মধ্যে সীমাবদ্ধ না থাকে। ব্যক্তি, পরিবার, সমাজ, রাষ্ট্র তথা জাতীয় ও আন্তর্জাতিক গুরুত্বপূর্ণ খবর জানতে পারে। উন্মুক্ত জ্ঞান চর্চার মাধ্যমে নিজের মেধা, মননশীলতা ও বুদ্ধিবৃত্তিক চেতনার বিকাশ ঘটাতে পারে।</value>
+  </data>
+  <data name="DailyMonthlyNewspaperHeading" xml:space="preserve">
+    <value>দৈনিক/মাসিক পত্রিকা</value>
+  </data>
+  <data name="InternetBrowsingDetails" xml:space="preserve">
+    <value>আল-জামি’আহ্য় স্থাপন করা হয়েছে ব্রডব্যান্ড ইন্টারনেট সংযোগ। ইন্টারনেট ব্রাউজিং করে একজন শিক্ষার্থী যেকোনো ওয়েবপেইজে অবস্থিত কোনো ওয়েবসাইটের লেখা, ছবি ও অন্যান্য তথ্যের অনুসন্ধান, ডাউনলোড কিংবা দেখতে পারবে। এখান থেকে তারা পাঠ্যপুস্তক অধ্যয়ন, গবেষণা, বক্তব্য প্রস্তুত ইত্যাদি বিষয়ে সাহায্য নিতে পারবে।</value>
+  </data>
+  <data name="InternetBrowsingHeading" xml:space="preserve">
+    <value>ইন্টারনেট ব্রাউজিং</value>
+  </data>
+  <data name="LibraryBookDetails" xml:space="preserve">
+    <value>কুরআন, তাফসীর, উছূলে তাফসীর, হাদীছ, উছূলে হাদীছ, ফিকহ্, উসূলে ফিকহ, আরবি সাহিত্য, ব্যাকরণ, কবিতা, নাটক, উপন্যাস, ও ইসলামের বিষয়ভিত্তিক কিতাব দিয়ে গ্রন্থাগার সাজানো আছে, যাতে করে জ্ঞানপিপাসু ছাত্ররা বিভিন্ন বিষয়ের জ্ঞান এখান থেকে আহরণ করতে এবং কাজে লাগাতে পারে।</value>
+  </data>
+  <data name="LibraryBookHeading" xml:space="preserve">
+    <value>পাঠাগারের বই</value>
+  </data>
+  <data name="PrimaryTreatmentDetails" xml:space="preserve">
+    <value>প্রয়োজনীয় যরূরী প্রাথমিক চিকিৎসার ব্যবস্থা আল-জামি’আহ্ কর্তৃপক্ষ করে থাকে। আর প্রয়োজন সাপেক্ষে কর্তৃপক্ষ হাসপাতালে ভর্তির ব্যবস্থা করে থাকে।</value>
+  </data>
+  <data name="PrimaryTreatmentHeading" xml:space="preserve">
+    <value>প্রাথমিক চিকিৎসা</value>
+  </data>
 </root>

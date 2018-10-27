@@ -1,8 +1,22 @@
 ﻿
+
+@model AppBootstrapSite1.Models.DashBoardMenuContent
 @{
     ViewBag.Title = "PrimaryTreatment";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>PrimaryTreatment</h2>
+<div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+    <hr class="featurette-divider">
+    <h6 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.PrimaryTreatmentHeading)</span></h6>
+    <p>@Html.LabelFor(model => model.PrimaryTreatmentDetails, new { style = "color:#ffffff" })</p>
+
+</div>
+
+
+
+
 

@@ -598,6 +598,24 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Al-Jamiah arranges the daily newspaper, monthly magazine, yearly magazine and so on so that the knowledge of the student does not remain limited to textbooks only. The students may know the news of people, family, society, state, national and international affairs. By practicing wide knowledge, the students can develop their merit, sentimentality and intellectual consciousness..
+        /// </summary>
+        public static string DailyMonthlyNewspaperDetails {
+            get {
+                return ResourceManager.GetString("DailyMonthlyNewspaperDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Daily / Monthly Newspaper.
+        /// </summary>
+        public static string DailyMonthlyNewspaperHeading {
+            get {
+                return ResourceManager.GetString("DailyMonthlyNewspaperHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Al-Jamiah As-Salafiah has specific rules and regulations. Students have to obey all the rules and regulations..
         /// </summary>
         public static string DeciplineDetails {
@@ -847,6 +865,24 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Al-Jamiah has  installed  Broadband Internet connection. By browsing the Internet, a student will be able to search, download or view the contents of any website, pictures and other information on any webpage. From here, they will be able to get help in the study of textbooks, research, making statements and so on..
+        /// </summary>
+        public static string InternetBrowsingDetails {
+            get {
+                return ResourceManager.GetString("InternetBrowsingDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Internet Browsing.
+        /// </summary>
+        public static string InternetBrowsingHeading {
+            get {
+                return ResourceManager.GetString("InternetBrowsingHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to (a) Routine of Al-Jamiah As-Salafiyah, Narayanganj
         ///
         ///(b) Routine of Al-Jamiah As-Salafiyah, Rajshahi.
@@ -885,6 +921,24 @@ namespace AppBootstrapSite1 {
         public static string JamiyahLifeHeading {
             get {
                 return ResourceManager.GetString("JamiyahLifeHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The library is arranged with the Quran, Tafseer, Usul-e-Tafsir, Hadeeth, Usul-e-hadeeth, Fiqh, Usul-e-Fiqh, Arabic literature, grammar, poetry, drama, novel, and the subject-based books of Islam so that the knowledge seeking students can get knowledge of different things from here and can make a proper use of it..
+        /// </summary>
+        public static string LibraryBookDetails {
+            get {
+                return ResourceManager.GetString("LibraryBookDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Library Books.
+        /// </summary>
+        public static string LibraryBookHeading {
+            get {
+                return ResourceManager.GetString("LibraryBookHeading", resourceCulture);
             }
         }
         
@@ -1490,6 +1544,24 @@ namespace AppBootstrapSite1 {
         public static string PrimaryClass9Heading {
             get {
                 return ResourceManager.GetString("PrimaryClass9Heading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Al-Jamiah provides the arrangements of necessary medical treatment. And the authorities also have arrangements to get admission to the hospital for the serious patients/students..
+        /// </summary>
+        public static string PrimaryTreatmentDetails {
+            get {
+                return ResourceManager.GetString("PrimaryTreatmentDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to First aid.
+        /// </summary>
+        public static string PrimaryTreatmentHeading {
+            get {
+                return ResourceManager.GetString("PrimaryTreatmentHeading", resourceCulture);
             }
         }
         

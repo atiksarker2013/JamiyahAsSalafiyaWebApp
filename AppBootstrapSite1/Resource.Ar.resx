@@ -1160,4 +1160,28 @@
   <data name="NoticeBoardForStudentHeading" xml:space="preserve">
     <value>إشعار للطلاب</value>
   </data>
+  <data name="DailyMonthlyNewspaperDetails" xml:space="preserve">
+    <value>الجامعة توفّر فرص قراءة الصحف والمجلات والجرائد والدوريات للطلاب كي لا تكون معلوماتهم محصورة في المقررات الدراسية، ولكي يطلعوا على الأخبار الوطنية والدولية الهامة. وهذه المعلومات تسهم في سعة ذكائهم وعقولهم ومواهبهم وإدراكاتهم الفكرية.</value>
+  </data>
+  <data name="DailyMonthlyNewspaperHeading" xml:space="preserve">
+    <value>الصحف اليومية والمجلات الشهرية</value>
+  </data>
+  <data name="InternetBrowsingDetails" xml:space="preserve">
+    <value>قد وضعت إدارة الجامعة برودباند إنترنت لمعلميها وطلابها ليستخدموها في أغراضهم التعليمية والدراسية.</value>
+  </data>
+  <data name="InternetBrowsingHeading" xml:space="preserve">
+    <value>خدمة تصفّح الإنترنت</value>
+  </data>
+  <data name="LibraryBookDetails" xml:space="preserve">
+    <value>المكتبة العامة للجامعة مزوّدة بالكتب والمؤلفات المختلفة في القرآن الكريم وعلومه، والحديث الشريف وعلومه، والعقيدة والفرق والأديان، والفقه وأصوله، والأدب العربي وفنونه، وقواعد اللغة ليتحصل الطلاب على المعلومات ويستفيدوا منها.</value>
+  </data>
+  <data name="LibraryBookHeading" xml:space="preserve">
+    <value>المكتبة العامّة</value>
+  </data>
+  <data name="PrimaryTreatmentDetails" xml:space="preserve">
+    <value>تقوم إدارة الجامعة بالإسعافات الأولية لطلابها، وترسلهم إلى المستشفيات إذا مست الحاجة إلى ذلك.</value>
+  </data>
+  <data name="PrimaryTreatmentHeading" xml:space="preserve">
+    <value>الإسعافات الأولية</value>
+  </data>
 </root>

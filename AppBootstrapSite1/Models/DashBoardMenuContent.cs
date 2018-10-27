@@ -1134,6 +1134,59 @@ namespace AppBootstrapSite1.Models
         }
 
 
+        [Display(Name = "PrimaryTreatmentHeading", ResourceType = typeof(Resource))]
+        public string PrimaryTreatmentHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "PrimaryTreatmentDetails", ResourceType = typeof(Resource))]
+        public string PrimaryTreatmentDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "DailyMonthlyNewspaperHeading", ResourceType = typeof(Resource))]
+        public string DailyMonthlyNewspaperHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "DailyMonthlyNewspaperDetails", ResourceType = typeof(Resource))]
+        public string DailyMonthlyNewspaperDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "InternetBrowsingHeading", ResourceType = typeof(Resource))]
+        public string InternetBrowsingHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "InternetBrowsingDetails", ResourceType = typeof(Resource))]
+        public string InternetBrowsingDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "LibraryBookHeading", ResourceType = typeof(Resource))]
+        public string LibraryBookHeading
+        {
+            get;
+            set;
+        }
+        [Display(Name = "LibraryBookDetails", ResourceType = typeof(Resource))]
+        public string LibraryBookDetails
+        {
+            get;
+            set;
+        }
+
+
 
 
     }
