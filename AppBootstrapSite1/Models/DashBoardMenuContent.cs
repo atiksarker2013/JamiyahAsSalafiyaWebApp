@@ -1186,8 +1186,83 @@ namespace AppBootstrapSite1.Models
             set;
         }
 
+        [Display(Name = "MonthlyIteshamCharacterHeading", ResourceType = typeof(Resource))]
+        public string MonthlyIteshamCharacterHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "MonthlyIteshamCharacterDetails", ResourceType = typeof(Resource))]
+        public string MonthlyIteshamCharacterDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "MonthlyIteshamCharacterDetails2", ResourceType = typeof(Resource))]
+        public string MonthlyIteshamCharacterDetails2
+        {
+            get;
+            set;
+        }
 
 
+        [Display(Name = "MonthlyIteshamCharacterSpecificationHeading", ResourceType = typeof(Resource))]
+        public string MonthlyIteshamCharacterSpecificationHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "MonthlyIteshamCharacterSpecificationDetails", ResourceType = typeof(Resource))]
+        public string MonthlyIteshamCharacterSpecificationDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NibrasIntroductionHeading", ResourceType = typeof(Resource))]
+        public string NibrasIntroductionHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NibrasIntroductionDetails", ResourceType = typeof(Resource))]
+        public string NibrasIntroductionDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NibrasActivityHeading", ResourceType = typeof(Resource))]
+        public string NibrasActivityHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NibrasActivityDetails", ResourceType = typeof(Resource))]
+        public string NibrasActivityDetails
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NibrasIncomesourceHeading", ResourceType = typeof(Resource))]
+        public string NibrasIncomesourceHeading
+        {
+            get;
+            set;
+        }
+
+        [Display(Name = "NibrasIncomesourceDetails", ResourceType = typeof(Resource))]
+        public string NibrasIncomesourceDetails
+        {
+            get;
+            set;
+        }
 
     }
 }

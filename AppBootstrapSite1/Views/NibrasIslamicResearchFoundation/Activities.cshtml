@@ -1,8 +1,33 @@
-﻿
+﻿@*@{
+        ViewBag.Title = "Activities";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <h2>Activities</h2>*@
+
+@model AppBootstrapSite1.Models.DashBoardMenuContent
 @{
     ViewBag.Title = "Activities";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Activities</h2>
+<div class="container marketing">
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+        <div class="col-md-7">
+            <h2 class="featurette-heading"><span class="text-muted">@Html.LabelFor(model => model.NibrasActivityHeading)</span></h2>
+            <p>@Html.LabelFor(model => model.NibrasActivityDetails, new { style = "color:#ffffff" })</p>
+        </div>
+        @*<div class="col-md-5">
+                <img class="featurette-image img-responsive" src="/Content/abdur-razzak500x500.png" alt="Generic placeholder image">
+            </div>*@
+    </div>
+
+
+</div>
 

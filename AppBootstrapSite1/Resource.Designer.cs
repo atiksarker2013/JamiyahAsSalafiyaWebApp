@@ -1004,6 +1004,126 @@ namespace AppBootstrapSite1 {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Monthly&apos; al-&apos;Itisam&apos; is a unique message to cling to the Quran and Sunnah. This is the unique mouthpiece of al-Jamiah as-Salafiah, Narayanganj and Rajshahi. The main goal of the monthly al-&apos;I’tisam&apos; is to bring the correct words of the holy Quran and saheeh hadeethes to mankind and to show the right path of religion to the apostate people by following the way of Chalaf.Its journey began from November 2016. Important sections of the monthly al-&apos;I’tisam&apos; are the Darse Quran, Darse Hadeeth, Sahabaye keram, the [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string MonthlyIteshamCharacterDetails {
+            get {
+                return ResourceManager.GetString("MonthlyIteshamCharacterDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The editorship of the Magazine are as follows: 
+        ///&quot;Chief Editor:			Shaykh Abdur Razzaq bin Yusuf&quot;
+        ///&quot;Editor:				Dr. Muzaffar Bin Mohsin&quot;
+        ///&quot;Assistant Editor: 		Abdul Alim Ibn Kawser Madani&quot;
+        ///Assistant Editor:  Dr. Imamuddin Bin Abdul Basir
+        ///Assistant Editor:  Abdur Rashid.
+        /// </summary>
+        public static string MonthlyIteshamCharacterDetails2 {
+            get {
+                return ResourceManager.GetString("MonthlyIteshamCharacterDetails2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Introduction.
+        /// </summary>
+        public static string MonthlyIteshamCharacterHeading {
+            get {
+                return ResourceManager.GetString("MonthlyIteshamCharacterHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (a) Spread  Tauhid and Pure Akida.
+        ///(b) According to Salaf-e-Salhheen&apos;s idiology, the neutral explanation of the Holy Qur&apos;an and saheeh hadeeth is given.
+        ///(c) Establishment of the principles and ideals of Salaf-e-Salhheen&apos;s.
+        ///(d) The invitation of solidarity and unity of the Muslim Ummah.
+        ///(e) The invitation of leading Islamic life (&apos;Jama&apos;ati Jindagi&apos;) avoiding the constraints of bigotry.
+        ///(f) Research and reform-oriented important writings publication.
+        ///(g) At least 50 answers are given based on the questions. .
+        /// </summary>
+        public static string MonthlyIteshamCharacterSpecificationDetails {
+            get {
+                return ResourceManager.GetString("MonthlyIteshamCharacterSpecificationDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Characteristics.
+        /// </summary>
+        public static string MonthlyIteshamCharacterSpecificationHeading {
+            get {
+                return ResourceManager.GetString("MonthlyIteshamCharacterSpecificationHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (a) For the purpose of establishing Islam, various steps are taken to spread the words of the holy Quran and saheeh hadeethes.
+        ///(b) Developing a well-established institution for creating qualified writers, researchers, translators, orators, and journalists.
+        ///(c) Publication of books by own writers or researcher.
+        ///(d) Establishment of the mosque at various points of the country and arranging libraries and primary education with mosques.
+        ///(e) The translation of many books in various languages into Bengali by Sala [rest of string was truncated]&quot;;.
+        /// </summary>
+        public static string NibrasActivityDetails {
+            get {
+                return ResourceManager.GetString("NibrasActivityDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Activities.
+        /// </summary>
+        public static string NibrasActivityHeading {
+            get {
+                return ResourceManager.GetString("NibrasActivityHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to (1) Zakat 
+        ///(2) Chadqah 
+        ///(3) Magazine/Newspaper 
+        ///(4) Orphan’s Fund 
+        ///(5) Special donation 
+        ///(6) Lifetime member fee of Al-Jamiah as-Salafiah 
+        ///(7) Other fees..
+        /// </summary>
+        public static string NibrasIncomesourceDetails {
+            get {
+                return ResourceManager.GetString("NibrasIncomesourceDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Nibrash Islamic Research Foundation&apos;s source of income.
+        /// </summary>
+        public static string NibrasIncomesourceHeading {
+            get {
+                return ResourceManager.GetString("NibrasIncomesourceHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This is a non-political, non-profitable private charity organization. The company is registered with the Registrar of Joint Stock Companies and Pharmaceuticals for social welfare. Reg No-S-12288/2016. The head office of the company is located in Birhatabab-Hatab, Birab, Rupganj, Narayanganj, Bangladesh..
+        /// </summary>
+        public static string NibrasIntroductionDetails {
+            get {
+                return ResourceManager.GetString("NibrasIntroductionDetails", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Description.
+        /// </summary>
+        public static string NibrasIntroductionHeading {
+            get {
+                return ResourceManager.GetString("NibrasIntroductionHeading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Teachers, office assistants, employees&apos; recruitment notice are published..
         /// </summary>
         public static string NoticeBoardForJobCircularDetails {
